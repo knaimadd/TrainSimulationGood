@@ -1,0 +1,8 @@
+NODE_COLOR = 'blue'
+EDGE_COLOR = 'grey'
+TRAIN_COLOR = 'red'
+ROUTE_COLOR = 'grey'
+FONT_COLOR = "black"
+TRAVEL_COLOR = "green"
+FRAMES = 200
+DELAY = 1000
