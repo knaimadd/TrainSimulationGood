@@ -57,13 +57,23 @@ class TrainSimulation:
         return [prev_station,next_station]
 
     def occupy_edge(self, train_number):
-        self.occupied_edges[train_number] = self.occupied_edge(train_number)
+        e = self.occupied_edge(train_number)
+        if self.is_edge(e):
+            self.occupied_edges[train_number] = e
+        else:
+            self.occupied_edges[train_number] = None
+    
+    def not_on_edge(self, train_number):
+        self.occupied_edges[train_number] = None
 
     def is_arrived(self, train_number):
         return self.current_steps[train_number] == self.total_times[train_number]
     
     def get_current_position(self, train_number):
         return self.step_positions[train_number][self.current_steps[train_number]]
+    
+    def is_edge(self, v):
+        return v[0] != v[1]
 
     def step(self):
         for i in range(len(self.trains)):
@@ -124,7 +134,7 @@ class TrainSimulationAnimation:
                 prev_stop_id = self.trains_id[i]['stop_id'][prev_stop_index]
                 next_stop_id = self.trains_id[i]['stop_id'][next_stop_index]
                 x_move = self.stops_x[next_stop_id]-self.stops_x[prev_stop_id]
-                print(x_move)
+                #print(x_move)
                 y_move = self.stops_y[next_stop_id]-self.stops_y[prev_stop_id]
                 self.trains_x[i][step] = self.stops_x[prev_stop_id]+(self.positions[i][step]-prev_stop_index)*x_move
                 self.trains_y[i][step] = self.stops_y[prev_stop_id]+(self.positions[i][step]-prev_stop_index)*y_move
@@ -155,12 +165,18 @@ def replace_spaces(file):
     file.columns = file.columns.str.replace(' ', '')
     return file
 def save_anim(animation: FuncAnimation) -> None:
-    animation.save('outputs/anim3.gif', writer='imagemagick', fps=5,dpi=200)
+    animation.save('outputs/anim3.gif', writer='imagemagick', fps=24,dpi=200)
+def multiply(file, n):
+    file['Travel Time'] = n*file['Travel Time']
 
 if __name__ == '__main__':
+    n = 5
     X = pd.read_csv('traces/AF.csv')
+    multiply(X, n)
     Y = pd.read_csv('traces/BG.csv')
+    multiply(Y, n)
     Z = pd.read_csv('traces/CH.csv')
+    multiply(Z, n)
     A = TrainSimulation([X, Y, Z])
     A.simulation()
     sim_positions = A.positions
