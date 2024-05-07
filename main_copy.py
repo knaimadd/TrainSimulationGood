@@ -133,16 +133,21 @@ class TrainSimulationAnimation:
                 next_stop_index = np.ceil(self.positions[i][step])
                 prev_stop_id = self.trains_id[i]['stop_id'][prev_stop_index]
                 next_stop_id = self.trains_id[i]['stop_id'][next_stop_index]
-                x_move = self.stops_x[next_stop_id]-self.stops_x[prev_stop_id]
-                #print(x_move)
-                y_move = self.stops_y[next_stop_id]-self.stops_y[prev_stop_id]
-                self.trains_x[i][step] = self.stops_x[prev_stop_id]+(self.positions[i][step]-prev_stop_index)*x_move
-                self.trains_y[i][step] = self.stops_y[prev_stop_id]+(self.positions[i][step]-prev_stop_index)*y_move
+                prev_stop_xy = self.stops[self.stops['stop_id']==prev_stop_id][['stop_lon','stop_lat']].iloc[0]
+                next_stop_xy = self.stops[self.stops['stop_id']==next_stop_id][['stop_lon','stop_lat']].iloc[0]
+                #x_move = self.stops_x[next_stop_id]-self.stops_x[prev_stop_id]
+                x_move = next_stop_xy[0]-prev_stop_xy[0]
+                y_move = next_stop_xy[1]-prev_stop_xy[1]
+                #y_move = self.stops_y[next_stop_id]-self.stops_y[prev_stop_id]
+                #self.trains_x[i][step] = self.stops_x[prev_stop_id]+(self.positions[i][step]-prev_stop_index)*x_move
+                #self.trains_y[i][step] = self.stops_y[prev_stop_id]+(self.positions[i][step]-prev_stop_index)*y_move
+                self.trains_x[i][step] = prev_stop_xy[0]+(self.positions[i][step]-prev_stop_index)*x_move
+                self.trains_y[i][step] = prev_stop_xy[1]+(self.positions[i][step]-prev_stop_index)*y_move
 
 
     def draw_stops(self,ax):
         ax.clear()
-        ax.plot(self.stops_x,self.stops_y,'o')
+        ax.plot(self.stops_x,self.stops_y,'.')
         #plt.plot(stops_x,stops_y,'o')
 
     def draw_train_positions(self,step_number,ax):
@@ -170,18 +175,21 @@ def multiply(file, n):
     file['Travel Time'] = n*file['Travel Time']
 
 if __name__ == '__main__':
-    n = 5
+    n = 1
     X = pd.read_csv('traces/AF.csv')
+    X = pd.read_csv('traces/katowice_poznan.csv')
     multiply(X, n)
     Y = pd.read_csv('traces/BG.csv')
+    Y = pd.read_csv('traces/wroclaw_warsaw2.csv')
     multiply(Y, n)
     Z = pd.read_csv('traces/CH.csv')
     multiply(Z, n)
-    A = TrainSimulation([X, Y, Z])
+    #A = TrainSimulation([X, Y, Z])
+    A = TrainSimulation([X,Y,Y,Y,Y])
     A.simulation()
     sim_positions = A.positions
 
-    B = TrainSimulationAnimation([X,Y,Z], sim_positions, pd.read_csv('inputs/stops0.txt'))
+    B = TrainSimulationAnimation([X,Y,Y,Y,Y], sim_positions, pd.read_csv('inputs/stops.txt'))
     save_anim(B.animate())
 
 
