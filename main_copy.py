@@ -17,6 +17,7 @@ from constants import *
 
 
 def multiply_time(file, n):
+    print(file['Travel Time'])
     file.loc[:(len(file['Travel Time'])-2), 'Travel Time'] = n*file.loc[:(len(file['Travel Time'])-2), 'Travel Time']
     return file
 
@@ -48,13 +49,24 @@ class TrainSimulation:
         self.step_positions = self.create_step_positions()
         self.positions = [[0] for i in range(len(self.trains))]
         self.occupied_edges = np.array([None]*len(self.trains))
-        self.current_steps = [0]*len(self.trains)
+        self.current_steps = np.zeros(len(self.trains), dtype=int)
         self.capacities = self.get_capacities()
+        # Statystyki
+        self.delay = [[0] for i in range(len(self.trains))]
+        self.delay_caused = self.initial_delay()
+        self.no_arrived = []
+        self.no_stopped = []
 
     def reset(self):
         self.positions = [[0] for i in range(len(self.trains))]
         self.occupied_edges = np.array([None]*len(self.trains))
-        self.current_steps = [0]*len(self.trains)
+        self.current_steps = np.zeros(len(self.trains), dtype=int)
+        self.delay = [[0] for i in range(len(self.trains))]
+    
+    def initial_delay(self):
+        df = pd.read_csv('inputs/capacities0.csv')
+        init_delay = {df['Edge'][i]: 0 for i in range(len(df['Edge']))}
+        return init_delay
 
     def get_capacities(self): 
         df = pd.read_csv('inputs/capacities0.csv')
@@ -123,9 +135,9 @@ class TrainSimulation:
     def is_edge(self, v):
         return v[0] != v[1]
 
-    def step(self):
+    def step(self, arrived):
         for i in range(len(self.trains)):
-            if self.is_arrived(i):
+            if arrived[i]:
                 self.occupied_edges[i] = None
                 self.positions[i].append(self.get_current_position(i))
                 continue #nwm czy continue czy pass
@@ -133,7 +145,8 @@ class TrainSimulation:
             occupied = list(np.concatenate((self.occupied_edges[:i],self.occupied_edges[i+1:])))
             cnt = occupied.count(next)
             if self.is_edge(next) and cnt == self.capacities[str(tuple(next))]:
-                pass
+                self.delay[i].append(self.delay[i][-1]+1)
+                self.delay_caused[str(tuple(next))] += 1
             else:
                 self.current_steps[i] += 1
                 self.occupy_edge(i)
@@ -141,8 +154,15 @@ class TrainSimulation:
 
     def simulation(self):
         self.reset()
-        while not all([self.is_arrived(i) for i in range(len(self.trains))]):
-            self.step()
+        arrived = [self.is_arrived(i) for i in range(len(self.trains))]
+        s = 0
+        while not all(arrived):
+            self.no_arrived.append(sum(arrived))
+            self.no_stopped.append(sum([self.trains_startstep[i] > s for i in range(len(self.trains))]))
+            self.step(arrived)
+            arrived = [self.is_arrived(i) for i in range(len(self.trains))]
+            s += 1
+
 
 
 
@@ -272,21 +292,21 @@ def multiply(file, n):
 
 if __name__ == '__main__':
     n = 2
-    X = pd.read_csv('traces/AF.csv')
+    X = pd.read_csv('traces/AF.csv', index_col=False)
     #X = pd.read_csv('traces/katowice_poznan.csv')
     #multiply(X, n)
-    Y = pd.read_csv('traces/BG.csv')
+    Y = pd.read_csv('traces/BG.csv', index_col=False)
     #Y = pd.read_csv('traces/wroclaw_warsaw2.csv')
     #multiply(Y, n)
-    Z = pd.read_csv('traces/CH.csv')
+    Z = pd.read_csv('traces/CH.csv', index_col = False)
     #multiply(Z, n) 
     #A = TrainSimulation([X, Y, Z])
-    trains = [X,Y,Y]
+    trains = [X,Y,Z]
     A = TrainSimulation(trains,n)
     A.simulation()
     sim_positions = A.positions
 
     B = TrainSimulationAnimation(trains, sim_positions, pd.read_csv('inputs/stops0.txt'), n,A.start,pd.read_csv('inputs/id_capacities0.csv'))
-    save_anim(B.animate())
+    #save_anim(B.animate())
 
 
