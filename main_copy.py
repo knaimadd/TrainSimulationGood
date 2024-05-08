@@ -151,9 +151,10 @@ class TrainSimulationAnimation:
     trains:list[DataFrame]
     positions: list[list]
     stops: DataFrame
+    n: int
     starttime: Any
     def __post_init__(self):
-        self.starttime = str(self.starttime)[11:16]
+        self.starttime =self.starttime
         self.no_trains = len(self.trains)
         self.fig, self.ax = self.create_plot()
         self.no_steps = len(self.positions[0])
@@ -202,6 +203,7 @@ class TrainSimulationAnimation:
 
     def draw_stops(self,ax):
         ax.clear()
+        
         ax.plot(self.stops_x,self.stops_y,'.')
         #plt.plot(stops_x,stops_y,'o')
 
@@ -213,6 +215,8 @@ class TrainSimulationAnimation:
     
     def draw_step(self,step_number,ax):
         self.draw_stops(ax)
+        #print(str(datetime.timedelta(seconds=60/self.n*step_number)))
+        ax.set_title(str(self.starttime+datetime.timedelta(seconds=60/self.n*step_number))[11:])
         self.draw_train_positions(step_number,ax)
 
     def animate(self):
@@ -245,7 +249,7 @@ if __name__ == '__main__':
     A.simulation()
     sim_positions = A.positions
 
-    #B = TrainSimulationAnimation(trains, sim_positions, pd.read_csv('inputs/stops0.txt'), A.start)
-    #save_anim(B.animate())
+    B = TrainSimulationAnimation(trains, sim_positions, pd.read_csv('inputs/stops0.txt'), n,A.start)
+    save_anim(B.animate())
 
 
