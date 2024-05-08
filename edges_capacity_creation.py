@@ -9,18 +9,35 @@ def get_all_edges(trains):
         all_edges.update(edges)
     return list(all_edges)
 
+def name_to_id(trains,stops):
+        train_with_id = [None for i in range(len(trains))]
+        for i in range(len(trains)):
+            ids = []
+            for j in range(len(trains[i])):
+                ids.append(int(*stops[stops['stop_name'].str.replace(' ', '') == trains[i]['Station Name'][j].replace(' ', '')]['stop_id'].values))
+            train_with_id[i] = DataFrame({'Station Name': ids, 'Travel Time': trains[i]['Travel Time']})
+        return train_with_id
 
 if __name__ == '__main__':
     X = pd.read_csv('traces/AF.csv')
     Y = pd.read_csv('traces/BG.csv')
     Z = pd.read_csv('traces/CH.csv')
+    stops = pd.read_csv('inputs/stops0.txt')
 
 trains = [X, Y, Z]
+
 
 edges = get_all_edges(trains)
 capacity = np.ones(len(edges), dtype=int)
 
-data = {"Edge": edges, "Capacity": capacity}
 
+data = {"Edge": edges, "Capacity": capacity}
 df = DataFrame(data)
 df.to_csv('inputs/capacities0.csv')
+
+trains_with_id = name_to_id(trains,stops)
+edges2=get_all_edges(trains_with_id)
+data2 = {"Edge_start": [edges2[i][0] for i in range(len(edges2))], "Edge_end":[edges2[i][1] for i in range(len(edges2))], "Capacity": capacity}
+
+df2 = DataFrame(data2)
+df2.to_csv('inputs/id_capacities0.csv')

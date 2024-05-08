@@ -153,6 +153,7 @@ class TrainSimulationAnimation:
     stops: DataFrame
     n: int
     starttime: Any
+    edges: DataFrame
     def __post_init__(self):
         self.starttime =self.starttime
         self.no_trains = len(self.trains)
@@ -165,6 +166,8 @@ class TrainSimulationAnimation:
         self.trains_id = self.name_to_id()
         self.trains_x = [np.zeros(self.no_steps) for i in range(self.no_trains)]
         self.trains_y = [np.zeros(self.no_steps) for i in range(self.no_trains)]
+        self.capacities = self.edges["Capacity"]
+        self.edges_start_xy, self.edges_end_xy,self.edge_width = self.eval_edges()
         #self.colors = [list(np.random.choice(range(256), size=3)) for i in range(self.no_trains)]
         self.eval_plot_positions()
 
@@ -181,6 +184,16 @@ class TrainSimulationAnimation:
                 ids.append(int(*stops[stops['stop_name'].str.replace(' ', '') == self.trains[i]['Station Name'][j].replace(' ', '')]['stop_id'].values))
             train_with_id[i] = DataFrame({'stop_id': ids, 'Travel Time': self.trains[i]['Travel Time']})
         return train_with_id
+    
+    def edges_name_to_id(self):
+        edges = self.edges
+        edges_with_id = [None for i in range(len(edges))]
+        for i in range(len(edges)):
+            ids = []
+            for j in range(len(self.trains[i])):
+                ids.append(int(*edges[edges['Edge'].str.replace(' ', '') == self.trains[i]['Station Name'][j].replace(' ', '')]['stop_id'].values))
+            edges_with_id[i] = DataFrame({'stop_id': ids, 'Travel Time': self.trains[i]['Travel Time']})
+        return edges_with_id
 
     def eval_plot_positions(self):
         for i in range(self.no_trains):
@@ -203,9 +216,32 @@ class TrainSimulationAnimation:
 
     def draw_stops(self,ax):
         ax.clear()
-        
         ax.plot(self.stops_x,self.stops_y,'.')
         #plt.plot(stops_x,stops_y,'o')
+    
+    
+    
+    def eval_edges(self):
+        edges_start = self.edges["Edge_start"]
+        edges_end = self.edges["Edge_end"]
+        edges_start_xy = [self.stops[self.stops['stop_id']==edges_start[i]][['stop_lon','stop_lat']].iloc[0] for i in range(len(edges_start))]
+        edges_end_xy = [self.stops[self.stops['stop_id']==edges_end[i]][['stop_lon','stop_lat']].iloc[0] for i in range(len(edges_end))]
+        cap_min = min(self.capacities)
+        cap_max = max(self.capacities)
+        w_max = 2
+        w_min = 0.5
+        if cap_max == cap_min:
+            width = [0.7 for i in self.capacities]
+        else:
+            a = (w_max-w_min)/(cap_max-cap_min)
+            b = w_min-a*cap_min
+            width = [a*capacity+b for capacity in self.capacities]
+        return edges_start_xy,edges_end_xy,width
+    
+
+    def draw_edges(self,ax):
+        for i in range(len(self.edges)):
+            ax.plot([self.edges_start_xy[i][0],self.edges_end_xy[i][0]],[self.edges_start_xy[i][1],self.edges_end_xy[i][1]],color="black",alpha=0.3,linewidth=self.edge_width[i])
 
     def draw_train_positions(self,step_number,ax):
         for i in range(self.no_trains):
@@ -215,6 +251,7 @@ class TrainSimulationAnimation:
     
     def draw_step(self,step_number,ax):
         self.draw_stops(ax)
+        self.draw_edges(ax)
         #print(str(datetime.timedelta(seconds=60/self.n*step_number)))
         ax.set_title(str(self.starttime+datetime.timedelta(seconds=60/self.n*step_number))[11:])
         self.draw_train_positions(step_number,ax)
@@ -242,14 +279,14 @@ if __name__ == '__main__':
     #Y = pd.read_csv('traces/wroclaw_warsaw2.csv')
     #multiply(Y, n)
     Z = pd.read_csv('traces/CH.csv')
-    #multiply(Z, n)
+    #multiply(Z, n) 
     #A = TrainSimulation([X, Y, Z])
     trains = [X,Y,Y]
     A = TrainSimulation(trains,n)
     A.simulation()
     sim_positions = A.positions
 
-    B = TrainSimulationAnimation(trains, sim_positions, pd.read_csv('inputs/stops0.txt'), n,A.start)
+    B = TrainSimulationAnimation(trains, sim_positions, pd.read_csv('inputs/stops0.txt'), n,A.start,pd.read_csv('inputs/id_capacities0.csv'))
     save_anim(B.animate())
 
 
