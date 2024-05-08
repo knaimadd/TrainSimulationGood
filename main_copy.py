@@ -15,14 +15,21 @@ import datetime
 
 from constants import *
 
+
+def multiply_time(file, n):
+    file.loc[:(len(file['Travel Time'])-2), 'Travel Time'] = n*file.loc[:(len(file['Travel Time'])-2), 'Travel Time']
+    return file
+
 @dataclass
 class TrainSimulation:
 #    stops: DataFrame 
 #    stop_times: DataFrame 
     trains: list[DataFrame]
+    n: int
 
     def __post_init__(self) -> None:
         self.trains = [self.trains[i].copy() for i in range(len(self.trains))]
+        self.trains = [multiply_time(train,self.n) for train in self.trains]
         self.no_trains = len(self.trains)
         self.last_stops = [len(train['Station Name'])-1 for train in self.trains]
         self.trains_starttime = self.create_starttime()
@@ -34,6 +41,7 @@ class TrainSimulation:
         self.positions = [[0] for i in range(len(self.trains))]
         self.occupied_edges = np.array([None]*len(self.trains))
         self.current_steps = [0]*len(self.trains)
+
         
     def create_starttime(self): #czas startu
         trains_starttime = [pd.to_datetime(str(train['Travel Time'].iloc[-1])[:2]+':'+str(train['Travel Time'].iloc[-1])[2:]) for train in self.trains]
@@ -46,7 +54,7 @@ class TrainSimulation:
 
     def create_startstep(self): #krok startowy
         differences =  [(self.trains_starttime[i]-self.start).components[1:3] for i in range(self.no_trains)]
-        startstep = [differences[i][0]*60+differences[i][1] for i in range(self.no_trains)]
+        startstep = [(differences[i][0]*60+differences[i][1])*self.n for i in range(self.no_trains)]
         return startstep
     
     # stworzenie listy pozycji w kolejnych krokach pociągów bez zatrzymywania
@@ -120,7 +128,9 @@ class TrainSimulationAnimation:
     trains:list[DataFrame]
     positions: list[list]
     stops: DataFrame
+    starttime: Any
     def __post_init__(self):
+        self.starttime = str(self.starttime)[11:16]
         self.no_trains = len(self.trains)
         self.fig, self.ax = self.create_plot()
         self.no_steps = len(self.positions[0])
@@ -197,22 +207,22 @@ def multiply(file, n):
     file.loc[:(len(file['Travel Time'])-2), 'Travel Time'] = n*file.loc[:(len(file['Travel Time'])-2), 'Travel Time']
 
 if __name__ == '__main__':
-    n = 5
+    n = 2
     X = pd.read_csv('traces/AF.csv')
     #X = pd.read_csv('traces/katowice_poznan.csv')
-    multiply(X, n)
+    #multiply(X, n)
     Y = pd.read_csv('traces/BG.csv')
     #Y = pd.read_csv('traces/wroclaw_warsaw2.csv')
-    multiply(Y, n)
+    #multiply(Y, n)
     Z = pd.read_csv('traces/CH.csv')
-    multiply(Z, n)
+    #multiply(Z, n)
     #A = TrainSimulation([X, Y, Z])
     trains = [X,Y,Y]
-    A = TrainSimulation(trains)
+    A = TrainSimulation(trains,n)
     A.simulation()
     sim_positions = A.positions
     
-    B = TrainSimulationAnimation(trains, sim_positions, pd.read_csv('inputs/stops0.txt'))
+    B = TrainSimulationAnimation(trains, sim_positions, pd.read_csv('inputs/stops0.txt'), A.start)
     save_anim(B.animate())
 
 
