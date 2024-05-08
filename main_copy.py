@@ -49,8 +49,13 @@ class TrainSimulation:
         self.positions = [[0] for i in range(len(self.trains))]
         self.occupied_edges = np.array([None]*len(self.trains))
         self.current_steps = [0]*len(self.trains)
+        self.capacities = self.get_capacities()
 
-        
+    def get_capacities(self): 
+        df = pd.read_csv('inputs/capacities0.csv')
+        cap = {df['Edge'][i]: df['Capacity'][i] for i in range(len(df['Edge']))}
+        return cap
+
     def create_starttime(self): #czas startu
         trains_starttime = [pd.to_datetime(str(train['Travel Time'].iloc[-1])[:2]+':'+str(train['Travel Time'].iloc[-1])[2:]) for train in self.trains]
         return trains_starttime
@@ -119,6 +124,9 @@ class TrainSimulation:
                 self.occupied_edges[i] = None
                 self.positions[i].append(self.get_current_position(i))
                 continue #nwm czy continue czy pass
+            next = self.next_occupied_edge(i)
+            occupied = list(np.concatenate((self.occupied_edges[:i],self.occupied_edges[i+1:])))
+            cnt = occupied.count(next)
             if self.next_occupied_edge(i) in list(np.concatenate((self.occupied_edges[:i],self.occupied_edges[i+1:]))):
                 pass
             else:

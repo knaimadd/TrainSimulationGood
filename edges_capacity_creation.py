@@ -1,5 +1,6 @@
 import pandas as pd
 from pandas import DataFrame
+import numpy as np
 
 def get_all_edges(trains):
     all_edges = set()
@@ -16,4 +17,10 @@ if __name__ == '__main__':
 
 trains = [X, Y, Z]
 
-get_all_edges(trains)
+edges = get_all_edges(trains)
+capacity = np.ones(len(edges), dtype=int)
+
+data = {"Edge": edges, "Capacity": capacity}
+
+df = DataFrame(data)
+df.to_csv('inputs/capacities0.csv')
