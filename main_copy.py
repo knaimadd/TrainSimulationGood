@@ -22,6 +22,7 @@ class TrainSimulation:
     trains: list[DataFrame]
 
     def __post_init__(self) -> None:
+        self.trains = [self.trains[i].copy() for i in range(len(self.trains))]
         self.no_trains = len(self.trains)
         self.last_stops = [len(train['Station Name'])-1 for train in self.trains]
         self.trains_starttime = self.create_starttime()
@@ -210,8 +211,7 @@ if __name__ == '__main__':
     A = TrainSimulation(trains)
     A.simulation()
     sim_positions = A.positions
-        
-
+    
     B = TrainSimulationAnimation(trains, sim_positions, pd.read_csv('inputs/stops0.txt'))
     save_anim(B.animate())
 
