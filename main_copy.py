@@ -51,6 +51,11 @@ class TrainSimulation:
         self.current_steps = [0]*len(self.trains)
         self.capacities = self.get_capacities()
 
+    def reset(self):
+        self.positions = [[0] for i in range(len(self.trains))]
+        self.occupied_edges = np.array([None]*len(self.trains))
+        self.current_steps = [0]*len(self.trains)
+
     def get_capacities(self): 
         df = pd.read_csv('inputs/capacities0.csv')
         cap = {df['Edge'][i]: df['Capacity'][i] for i in range(len(df['Edge']))}
@@ -127,7 +132,7 @@ class TrainSimulation:
             next = self.next_occupied_edge(i)
             occupied = list(np.concatenate((self.occupied_edges[:i],self.occupied_edges[i+1:])))
             cnt = occupied.count(next)
-            if self.next_occupied_edge(i) in list(np.concatenate((self.occupied_edges[:i],self.occupied_edges[i+1:]))):
+            if self.is_edge(next) and cnt == self.capacities[str(tuple(next))]:
                 pass
             else:
                 self.current_steps[i] += 1
@@ -135,8 +140,10 @@ class TrainSimulation:
             self.positions[i].append(self.get_current_position(i))
 
     def simulation(self):
+        self.reset()
         while not all([self.is_arrived(i) for i in range(len(self.trains))]):
             self.step()
+
 
 
 @dataclass
@@ -218,7 +225,7 @@ def replace_spaces(file):
     file.columns = file.columns.str.replace(' ', '')
     return file
 def save_anim(animation: FuncAnimation) -> None:
-    animation.save('outputs/anim3.gif', writer='imagemagick', fps=24,dpi=200)
+    animation.save('outputs/anim3.gif', writer='imagemagick', fps=10,dpi=200)
 def multiply(file, n):
     file.loc[:(len(file['Travel Time'])-2), 'Travel Time'] = n*file.loc[:(len(file['Travel Time'])-2), 'Travel Time']
 
@@ -237,8 +244,8 @@ if __name__ == '__main__':
     A = TrainSimulation(trains,n)
     A.simulation()
     sim_positions = A.positions
-    
-    B = TrainSimulationAnimation(trains, sim_positions, pd.read_csv('inputs/stops0.txt'), A.start)
-#    save_anim(B.animate())
+
+    #B = TrainSimulationAnimation(trains, sim_positions, pd.read_csv('inputs/stops0.txt'), A.start)
+    #save_anim(B.animate())
 
 
