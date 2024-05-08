@@ -11,6 +11,7 @@ from scipy.interpolate import interp1d
 from matplotlib.animation import FuncAnimation
 from typing import Any
 from collections import defaultdict
+import datetime
 
 from constants import *
 
@@ -21,22 +22,42 @@ class TrainSimulation:
     trains: list[DataFrame]
 
     def __post_init__(self) -> None:
-        self.total_times = [sum(train['Travel Time']) for train in self.trains]
+        self.no_trains = len(self.trains)
         self.last_stops = [len(train['Station Name'])-1 for train in self.trains]
+        self.trains_starttime = self.create_starttime()
+        self.start = min(self.trains_starttime)
+        self.create_0lasttime()
+        self.total_times = [sum(train['Travel Time']) for train in self.trains]
+        self.trains_startstep = self.create_startstep()
         self.step_positions = self.create_step_positions()
         self.positions = [[0] for i in range(len(self.trains))]
         self.occupied_edges = np.array([None]*len(self.trains))
         self.current_steps = [0]*len(self.trains)
+        
+    def create_starttime(self): #czas startu
+        trains_starttime = [pd.to_datetime(str(train['Travel Time'].iloc[-1])[:2]+':'+str(train['Travel Time'].iloc[-1])[2:]) for train in self.trains]
+        return trains_starttime
+    
+   
+    def create_0lasttime(self): #zamiana czasu startu na 0 w csv
+        for i in range(self.no_trains):
+            self.trains[i].loc[len(self.trains[i])-1, "Travel Time"] = 0
 
+    def create_startstep(self): #krok startowy
+        differences =  [(self.trains_starttime[i]-self.start).components[1:3] for i in range(self.no_trains)]
+        startstep = [differences[i][0]*60+differences[i][1] for i in range(self.no_trains)]
+        return startstep
+    
     # stworzenie listy pozycji w kolejnych krokach pociągów bez zatrzymywania
     def create_step_positions(self):
-        step_positions = [np.zeros(self.total_times[i]+1) for i in range(len(self.trains))]
+        start_delays = self.trains_startstep
+        step_positions = [np.zeros(self.total_times[i]+1+start_delays[i]) for i in range(len(self.trains))]
         for i in range(len(self.trains)):
             train = self.trains[i]
             distance = 0
             for j in range(len(train['Travel Time'])):
                 t = train['Travel Time'][j]
-                step_positions[i][distance:distance+t] = [j+k/t for k in range(t)]
+                step_positions[i][distance+start_delays[i]:distance+t+start_delays[i]] = [j+k/t for k in range(t)]
                 distance += t
             step_positions[i][-1] = j
 
@@ -67,7 +88,7 @@ class TrainSimulation:
         self.occupied_edges[train_number] = None
 
     def is_arrived(self, train_number):
-        return self.current_steps[train_number] == self.total_times[train_number]
+        return self.current_steps[train_number] == self.total_times[train_number]+self.trains_startstep[train_number]
     
     def get_current_position(self, train_number):
         return self.step_positions[train_number][self.current_steps[train_number]]
@@ -172,24 +193,26 @@ def replace_spaces(file):
 def save_anim(animation: FuncAnimation) -> None:
     animation.save('outputs/anim3.gif', writer='imagemagick', fps=24,dpi=200)
 def multiply(file, n):
-    file['Travel Time'] = n*file['Travel Time']
+    file.loc[:(len(file['Travel Time'])-2), 'Travel Time'] = n*file.loc[:(len(file['Travel Time'])-2), 'Travel Time']
 
 if __name__ == '__main__':
-    n = 1
+    n = 5
     X = pd.read_csv('traces/AF.csv')
-    X = pd.read_csv('traces/katowice_poznan.csv')
+    #X = pd.read_csv('traces/katowice_poznan.csv')
     multiply(X, n)
     Y = pd.read_csv('traces/BG.csv')
-    Y = pd.read_csv('traces/wroclaw_warsaw2.csv')
+    #Y = pd.read_csv('traces/wroclaw_warsaw2.csv')
     multiply(Y, n)
     Z = pd.read_csv('traces/CH.csv')
     multiply(Z, n)
     #A = TrainSimulation([X, Y, Z])
-    A = TrainSimulation([X,Y,Y,Y,Y])
+    trains = [X,Y,Y]
+    A = TrainSimulation(trains)
     A.simulation()
     sim_positions = A.positions
+        
 
-    B = TrainSimulationAnimation([X,Y,Y,Y,Y], sim_positions, pd.read_csv('inputs/stops.txt'))
+    B = TrainSimulationAnimation(trains, sim_positions, pd.read_csv('inputs/stops0.txt'))
     save_anim(B.animate())
 
 
