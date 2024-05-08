@@ -20,6 +20,14 @@ def multiply_time(file, n):
     file.loc[:(len(file['Travel Time'])-2), 'Travel Time'] = n*file.loc[:(len(file['Travel Time'])-2), 'Travel Time']
     return file
 
+def get_all_edges(trains):
+    all_edges = set()
+    for train in trains:
+        edges = [(train['Station Name'][i], train['Station Name'][i+1]) for i in range(len(train['Station Name']) - 1)]
+        all_edges.update(edges)
+    return all_edges
+
+
 @dataclass
 class TrainSimulation:
 #    stops: DataFrame 
@@ -223,6 +231,6 @@ if __name__ == '__main__':
     sim_positions = A.positions
     
     B = TrainSimulationAnimation(trains, sim_positions, pd.read_csv('inputs/stops0.txt'), A.start)
-    save_anim(B.animate())
+#    save_anim(B.animate())
 
 
