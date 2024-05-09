@@ -25,8 +25,6 @@ def name_to_id(trains,stops):
 if __name__ == '__main__':
     X = pd.read_csv('traces/AF.csv')
     Y = pd.read_csv('traces/BG.csv')
-    Y = pd.read_csv('traces/wroclaw_warsaw2.csv')
-    X = pd.read_csv('traces/katowice_poznan.csv')
     Z = pd.read_csv('traces/CH.csv')
 trip_ids = pd.read_csv('inputs/generated_trip.csv')
 trains = [pd.read_csv(f'inputs/routes/{trip_ids.iloc[i][0]}.csv') for i in range(len(trip_ids))]
