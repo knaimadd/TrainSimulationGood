@@ -4,7 +4,7 @@ import pandas as pd
 trip_ids = pd.read_csv('inputs/generated_trip.csv')
 trains = [pd.read_csv(f'inputs/routes/{trip_ids.iloc[i][0]}.csv') for i in range(len(trip_ids))]
 n=1
-A = TrainSimulation(trains,n)
+A = TrainSimulation(trains,n, pd.read_csv('inputs/capacities.csv'))
 A.simulation()
 
 sim_positions = A.positions

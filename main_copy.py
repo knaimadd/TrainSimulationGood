@@ -293,7 +293,7 @@ def replace_spaces(file):
     file.columns = file.columns.str.replace(' ', '')
     return file
 def save_anim(animation: FuncAnimation) -> None:
-    animation.save('outputs/anim3.gif', writer='imagemagick', fps=24,dpi=200)
+    animation.save('outputs/anim3.gif', writer='imagemagick', fps=24,dpi=50)
 def multiply(file, n):
     file.loc[:(len(file['Travel Time'])-2), 'Travel Time'] = n*file.loc[:(len(file['Travel Time'])-2), 'Travel Time']
 
