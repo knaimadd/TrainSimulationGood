@@ -32,7 +32,7 @@ def timedelta_to_minutes(timedelta):
 
 
 #for i in range(len(trip_ids)):
-for i in range(200):
+for i in range(10):
     route = stoptimes[stoptimes['trip_id']==trip_ids[i]]
     route = route.reset_index()
     starttime = route['arrival_time'].iloc[0]
