@@ -13,8 +13,6 @@ from typing import Any
 from collections import defaultdict
 import datetime
 
-from constants import *
-
 
 def multiply_time(file, n):
     file.loc[:(len(file['Travel Time'])-2), 'Travel Time'] = n*file.loc[:(len(file['Travel Time'])-2), 'Travel Time']
@@ -162,6 +160,19 @@ class TrainSimulation:
             arrived = [self.is_arrived(i) for i in range(len(self.trains))]
             s += 1
 
+    
+    @dataclass
+    class RNG:
+        likelyhood: float
+        intensity: float
+
+        def random_delay(self):
+            rng = np.random.default_rng()
+            p = rng.random()
+            if self.likelyhood >= p:
+                return rng.poisson(self.intensity)
+            return np.floor(rng.exponential(self.intensity), dtype=int)
+        
 
 
 
