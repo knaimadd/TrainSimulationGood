@@ -17,7 +17,6 @@ from constants import *
 
 
 def multiply_time(file, n):
-    print(file['Travel Time'])
     file.loc[:(len(file['Travel Time'])-2), 'Travel Time'] = n*file.loc[:(len(file['Travel Time'])-2), 'Travel Time']
     return file
 
@@ -222,8 +221,8 @@ class TrainSimulationAnimation:
                 next_stop_index = np.ceil(self.positions[i][step])
                 prev_stop_id = self.trains_id[i]['stop_id'][prev_stop_index]
                 next_stop_id = self.trains_id[i]['stop_id'][next_stop_index]
-                prev_stop_xy = self.stops[self.stops['stop_id']==prev_stop_id][['stop_lon','stop_lat']].iloc[0]
-                next_stop_xy = self.stops[self.stops['stop_id']==next_stop_id][['stop_lon','stop_lat']].iloc[0]
+                prev_stop_xy = self.stops[self.stops['stop_id']==prev_stop_id][['stop_lon','stop_lat']].values[0]
+                next_stop_xy = self.stops[self.stops['stop_id']==next_stop_id][['stop_lon','stop_lat']].values[0]
                 #x_move = self.stops_x[next_stop_id]-self.stops_x[prev_stop_id]
                 x_move = next_stop_xy[0]-prev_stop_xy[0]
                 y_move = next_stop_xy[1]-prev_stop_xy[1]
@@ -261,7 +260,7 @@ class TrainSimulationAnimation:
 
     def draw_edges(self,ax):
         for i in range(len(self.edges)):
-            ax.plot([self.edges_start_xy[i][0],self.edges_end_xy[i][0]],[self.edges_start_xy[i][1],self.edges_end_xy[i][1]],color="black",alpha=0.3,linewidth=self.edge_width[i])
+            ax.plot([self.edges_start_xy[i].values[0],self.edges_end_xy[i].values[0]],[self.edges_start_xy[i].values[0],self.edges_end_xy[i].values[0]],color="black",alpha=0.3,linewidth=self.edge_width[i])
 
     def draw_train_positions(self,step_number,ax):
         for i in range(self.no_trains):
@@ -307,6 +306,6 @@ if __name__ == '__main__':
     sim_positions = A.positions
 
     B = TrainSimulationAnimation(trains, sim_positions, pd.read_csv('inputs/stops0.txt'), n,A.start,pd.read_csv('inputs/id_capacities0.csv'))
-    #save_anim(B.animate())
+    save_anim(B.animate())
 
 
