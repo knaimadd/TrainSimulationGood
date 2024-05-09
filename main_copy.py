@@ -260,7 +260,7 @@ class TrainSimulationAnimation:
 
     def draw_edges(self,ax):
         for i in range(len(self.edges)):
-            ax.plot([self.edges_start_xy[i].values[0],self.edges_end_xy[i].values[0]],[self.edges_start_xy[i].values[0],self.edges_end_xy[i].values[0]],color="black",alpha=0.3,linewidth=self.edge_width[i])
+            ax.plot([self.edges_start_xy[i].values[0],self.edges_end_xy[i].values[0]],[self.edges_start_xy[i].values[1],self.edges_end_xy[i].values[1]],color="black",alpha=0.3,linewidth=self.edge_width[i])
 
     def draw_train_positions(self,step_number,ax):
         for i in range(self.no_trains):
