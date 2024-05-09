@@ -32,6 +32,7 @@ class TrainSimulation:
 #    stop_times: DataFrame 
     trains: list[DataFrame]
     n: int
+    capacities_file: DataFrame
 
     def __post_init__(self) -> None:
         self.trains = [self.trains[i].copy() for i in range(len(self.trains))]
@@ -48,6 +49,7 @@ class TrainSimulation:
         self.occupied_edges = np.array([None]*len(self.trains))
         self.current_steps = np.zeros(len(self.trains), dtype=int)
         self.capacities = self.get_capacities()
+        self.arrived_step = np.zeros(len(self.trains))
         # Statystyki
         self.delay = [[0] for i in range(len(self.trains))]
         self.delay_caused = self.initial_delay()
@@ -61,17 +63,24 @@ class TrainSimulation:
         self.delay = [[0] for i in range(len(self.trains))]
     
     def initial_delay(self):
-        df = pd.read_csv('inputs/capacities0.csv')
+        df = self.capacities_file
         init_delay = {df['Edge'][i]: 0 for i in range(len(df['Edge']))}
         return init_delay
 
     def get_capacities(self): 
-        df = pd.read_csv('inputs/capacities0.csv')
+        df = self.capacities_file
         cap = {df['Edge'][i]: df['Capacity'][i] for i in range(len(df['Edge']))}
         return cap
 
     def create_starttime(self): #czas startu
-        trains_starttime = [pd.to_datetime(str(train['Travel Time'].iloc[-1])[:2]+':'+str(train['Travel Time'].iloc[-1])[2:]) for train in self.trains]
+        trains_starttime = [None for train in self.trains]
+        for i in range(self.no_trains):
+            if len(str(self.trains[i]['Travel Time'].iloc[-1])) ==3:
+                trains_starttime[i] = pd.to_datetime('0'+str(self.trains[i]['Travel Time'].iloc[-1])[:1]+':'+str(self.trains[i]['Travel Time'].iloc[-1])[1:])
+            elif len(str(self.trains[i]['Travel Time'].iloc[-1]))==2:
+                trains_starttime[i] = pd.to_datetime('00:'+str(self.trains[i]['Travel Time'].iloc[-1]))
+            else:
+                trains_starttime[i] = pd.to_datetime(str(self.trains[i]['Travel Time'].iloc[-1])[:2]+':'+str(self.trains[i]['Travel Time'].iloc[-1])[2:])
         return trains_starttime
     
    
@@ -132,11 +141,13 @@ class TrainSimulation:
     def is_edge(self, v):
         return v[0] != v[1]
 
-    def step(self, arrived):
+    def step(self, arrived, s):
         for i in range(len(self.trains)):
             if arrived[i]:
                 self.occupied_edges[i] = None
                 self.positions[i].append(self.get_current_position(i))
+                if self.arrived_step[i] == 0:
+                    self.arrived_step[i] = s
                 continue #nwm czy continue czy pass
             next = self.next_occupied_edge(i)
             occupied = list(np.concatenate((self.occupied_edges[:i],self.occupied_edges[i+1:])))
@@ -156,23 +167,9 @@ class TrainSimulation:
         while not all(arrived):
             self.no_arrived.append(sum(arrived))
             self.no_stopped.append(sum([self.trains_startstep[i] > s for i in range(len(self.trains))]))
-            self.step(arrived)
+            self.step(arrived, s)
             arrived = [self.is_arrived(i) for i in range(len(self.trains))]
-            s += 1
-
-    
-    @dataclass
-    class RNG:
-        likelyhood: float
-        intensity: float
-
-        def random_delay(self):
-            rng = np.random.default_rng()
-            p = rng.random()
-            if self.likelyhood >= p:
-                return rng.poisson(self.intensity)
-            return np.floor(rng.exponential(self.intensity), dtype=int)
-        
+            s += 1        
 
 
 
@@ -296,7 +293,7 @@ def replace_spaces(file):
     file.columns = file.columns.str.replace(' ', '')
     return file
 def save_anim(animation: FuncAnimation) -> None:
-    animation.save('outputs/anim3.gif', writer='imagemagick', fps=10,dpi=200)
+    animation.save('outputs/anim3.gif', writer='imagemagick', fps=24,dpi=200)
 def multiply(file, n):
     file.loc[:(len(file['Travel Time'])-2), 'Travel Time'] = n*file.loc[:(len(file['Travel Time'])-2), 'Travel Time']
 
@@ -311,12 +308,13 @@ if __name__ == '__main__':
     Z = pd.read_csv('traces/CH.csv', index_col = False)
     #multiply(Z, n) 
     #A = TrainSimulation([X, Y, Z])
+    cap = pd.read_csv('inputs/capacities0.csv')
     trains = [X,Y,Z]
-    A = TrainSimulation(trains,n)
+    A = TrainSimulation(trains,n,cap)
     A.simulation()
     sim_positions = A.positions
 
-    B = TrainSimulationAnimation(trains, sim_positions, pd.read_csv('inputs/stops0.txt'), n,A.start,pd.read_csv('inputs/id_capacities0.csv'))
-    save_anim(B.animate())
+    #B = TrainSimulationAnimation(trains, sim_positions, pd.read_csv('inputs/stops0.txt'), n,A.start,pd.read_csv('inputs/id_capacities0.csv'))
+    #save_anim(B.animate())
 
 

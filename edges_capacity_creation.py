@@ -2,6 +2,10 @@ import pandas as pd
 from pandas import DataFrame
 import numpy as np
 
+def replace_spaces(file):
+    file.columns = file.columns.str.replace(' ', '')
+    return file
+
 def get_all_edges(trains):
     all_edges = set()
     for train in trains:
@@ -21,10 +25,15 @@ def name_to_id(trains,stops):
 if __name__ == '__main__':
     X = pd.read_csv('traces/AF.csv')
     Y = pd.read_csv('traces/BG.csv')
+    Y = pd.read_csv('traces/wroclaw_warsaw2.csv')
+    X = pd.read_csv('traces/katowice_poznan.csv')
     Z = pd.read_csv('traces/CH.csv')
-    stops = pd.read_csv('inputs/stops0.txt')
+trip_ids = pd.read_csv('inputs/generated_trip.csv')
+trains = [pd.read_csv(f'inputs/routes/{trip_ids.iloc[i][0]}.csv') for i in range(len(trip_ids))]
+stops = pd.read_csv('inputs/stops.txt')
+replace_spaces(stops)
 
-trains = [X, Y, Z]
+#trains = [X, Y, Y]
 
 
 edges = get_all_edges(trains)
@@ -33,11 +42,11 @@ capacity = np.ones(len(edges), dtype=int)
 
 data = {"Edge": edges, "Capacity": capacity}
 df = DataFrame(data)
-df.to_csv('inputs/capacities0.csv')
+df.to_csv('inputs/capacities.csv')
 
 trains_with_id = name_to_id(trains,stops)
 edges2=get_all_edges(trains_with_id)
 data2 = {"Edge_start": [edges2[i][0] for i in range(len(edges2))], "Edge_end":[edges2[i][1] for i in range(len(edges2))], "Capacity": capacity}
 
 df2 = DataFrame(data2)
-df2.to_csv('inputs/id_capacities0.csv')
+df2.to_csv('inputs/id_capacities.csv')

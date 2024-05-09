@@ -47,7 +47,14 @@ class TrainSimulationRNG:
         return cap
 
     def create_starttime(self): #czas startu
-        trains_starttime = [pd.to_datetime(str(train['Travel Time'].iloc[-1])[:2]+':'+str(train['Travel Time'].iloc[-1])[2:]) for train in self.trains]
+        trains_starttime = [None for train in self.trains]
+        for i in range(self.no_trains):
+            if len(str(self.trains[i]['Travel Time'].iloc[-1])) ==3:
+                trains_starttime[i] = pd.to_datetime('0'+str(self.trains[i]['Travel Time'].iloc[-1])[:1]+':'+str(self.trains[i]['Travel Time'].iloc[-1])[1:])
+            elif len(str(self.trains[i]['Travel Time'].iloc[-1]))==2:
+                trains_starttime[i] = pd.to_datetime('00:'+str(self.trains[i]['Travel Time'].iloc[-1]))
+            else:
+                trains_starttime[i] = pd.to_datetime(str(self.trains[i]['Travel Time'].iloc[-1])[:2]+':'+str(self.trains[i]['Travel Time'].iloc[-1])[2:])
         return trains_starttime
     
    
