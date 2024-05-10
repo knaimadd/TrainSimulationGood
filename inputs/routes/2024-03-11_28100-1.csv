@@ -1,58 +1,4 @@
 Station Name,Travel Time
-Lublin Główny_i,0
-Lublin Główny_o,5
-Lublin Zachodni_i,1
-Lublin Zachodni_o,12
-Nałęczów_i,1
-Nałęczów_o,10
-Puławy Miasto_i,1
-Puławy Miasto_o,11
-Dęblin_i,1
-Dęblin_o,11
-Sobolew_i,1
-Sobolew_o,12
-Pilawa_i,1
-Pilawa_o,12
-Otwock_i,1
-Otwock_o,19
-Warszawa Wschodnia_i,6
-Warszawa Wschodnia_o,6
-Warszawa Centralna_i,5
-Warszawa Centralna_o,3
-Warszawa Zachodnia_i,2
-Warszawa Zachodnia_o,29
-Sochaczew_i,1
-Sochaczew_o,13
-Łowicz Główny_i,1
-Łowicz Główny_o,20
-Kutno_i,9
-Kutno_o,30
-Włocławek_i,4
-Włocławek_o,19
-Aleksandrów Kujawski_i,1
-Aleksandrów Kujawski_o,13
-Toruń Główny_i,2
-Toruń Główny_o,17
-Solec Kujawski_i,1
-Solec Kujawski_o,8
-Bydgoszcz Wschód_i,1
-Bydgoszcz Wschód_o,3
-Bydgoszcz Leśna_i,1
-Bydgoszcz Leśna_o,4
-Bydgoszcz Główna_i,3
-Bydgoszcz Główna_o,26
-Nakło nad Notecią_i,1
-Nakło nad Notecią_o,17
-Wyrzysk Osiek_i,1
-Wyrzysk Osiek_o,28
-Piła Główna_i,35
-Piła Główna_o,34
-Wałcz_i,20
-Wałcz_o,22
-Tuczno Krajeńskie_i,1
-Tuczno Krajeńskie_o,20
-Kalisz Pomorski_i,1
-Kalisz Pomorski_o,22
 Recz Pomorski_i,1
 Recz Pomorski_o,39
 Stargard_i,1
@@ -60,4 +6,4 @@ Stargard_o,25
 Szczecin Dąbie_i,1
 Szczecin Dąbie_o,14
 Szczecin Główny_i,5
-Szczecin Główny_o,623
+Szczecin Główny_o,1521

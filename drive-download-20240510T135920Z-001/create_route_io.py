@@ -19,8 +19,8 @@ stoptimes = pd.read_csv('inputs/stop_times.txt')
 replace_spaces(stops)
 replace_spaces(stoptimes)
 stoptimes = stoptimes[stoptimes['trip_id'].str.startswith('2024-03-11')]
-stoptimes = stoptimes[stoptimes['departure_time'] < '18:00']
-stoptimes = stoptimes[stoptimes['departure_time']>'15:00']
+stoptimes = stoptimes[stoptimes['departure_time'] < '24:00']
+#stoptimes = stoptimes[stoptimes['departure_time']>'14:00']
 trip_ids = stoptimes['trip_id'].unique()
 
 stoptimes = pd.merge(stoptimes,stops,on="stop_id",how="left").drop(["stop_lon","stop_lat","stop_IBNR"],axis=1)
@@ -33,7 +33,7 @@ def timedelta_to_minutes(timedelta):
 
 
 #for i in range(len(trip_ids)):
-for i in range(100):
+for i in range(len(trip_ids)):
     route = stoptimes[stoptimes['trip_id']==trip_ids[i]]
     route = route.reset_index()
     starttime = route['arrival_time'].iloc[0]

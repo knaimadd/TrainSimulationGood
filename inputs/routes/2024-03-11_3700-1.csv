@@ -1,14 +1,4 @@
 Station Name,Travel Time
-Przemyśl Główny_i,5
-Przemyśl Główny_o,3
-Przemyśl Zasanie_i,1
-Przemyśl Zasanie_o,13
-Radymno_i,1
-Radymno_o,9
-Jarosław_i,1
-Jarosław_o,10
-Przeworsk_i,1
-Przeworsk_o,13
 Łańcut_i,1
 Łańcut_o,11
 Rzeszów Główny_i,3
@@ -34,34 +24,4 @@ Krzeszowice_o,8
 Trzebinia_i,1
 Trzebinia_o,9
 Jaworzno Szczakowa_i,2
-Jaworzno Szczakowa_o,9
-Mysłowice_i,5
-Mysłowice_o,11
-Katowice_i,5
-Katowice_o,15
-Zabrze_i,1
-Zabrze_o,7
-Gliwice_i,3
-Gliwice_o,25
-Strzelce Opolskie_i,1
-Strzelce Opolskie_o,20
-Opole Główne_i,4
-Opole Główne_o,19
-Brzeg_i,2
-Brzeg_o,9
-Oława_i,2
-Oława_o,20
-Wrocław Główny_i,10
-Wrocław Główny_o,15
-Oborniki Śląskie_i,1
-Oborniki Śląskie_o,11
-Żmigród_i,1
-Żmigród_o,9
-Rawicz_i,1
-Rawicz_o,16
-Leszno_i,5
-Leszno_o,14
-Kościan_i,2
-Kościan_o,23
-Poznań Główny_i,0
-Poznań Główny_o,1413
+Jaworzno Szczakowa_o,1510

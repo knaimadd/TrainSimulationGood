@@ -1,40 +1,4 @@
 Station Name,Travel Time
-Warszawa Wschodnia_i,20
-Warszawa Wschodnia_o,24
-Mińsk Mazowiecki_i,4
-Mińsk Mazowiecki_o,10
-Mrozy_i,1
-Mrozy_o,17
-Siedlce Zachodnie_i,1
-Siedlce Zachodnie_o,3
-Siedlce_i,28
-Siedlce_o,20
-Niemojki_i,1
-Niemojki_o,10
-Sarnaki_i,1
-Sarnaki_o,7
-Siemiatycze_i,1
-Siemiatycze_o,10
-Nurzec_i,1
-Nurzec_o,13
-Czeremcha_i,1
-Czeremcha_o,19
-Hajnówka_i,2
-Hajnówka_o,21
-Bielsk Podlaski_i,1
-Bielsk Podlaski_o,29
-Białystok Zielone Wzgórza_i,1
-Białystok Zielone Wzgórza_o,5
-Białystok_i,25
-Białystok_o,5
-Białystok Zielone Wzgórza_i,1
-Białystok Zielone Wzgórza_o,29
-Mońki_i,1
-Mońki_o,11
-Osowiec_i,1
-Osowiec_o,17
-Grajewo_i,1
-Grajewo_o,18
 Ełk_i,29
 Ełk_o,32
 Biała Piska_i,2
@@ -48,24 +12,4 @@ Szczytno_o,34
 Olsztyn Główny_i,26
 Olsztyn Główny_o,3
 Olsztyn Zachodni_i,1
-Olsztyn Zachodni_o,43
-Morąg_i,1
-Morąg_o,23
-Pasłęk_i,1
-Pasłęk_o,18
-Elbląg_i,5
-Elbląg_o,20
-Malbork_i,2
-Malbork_o,13
-Tczew_i,1
-Tczew_o,18
-Gdańsk Główny_i,3
-Gdańsk Główny_o,4
-Gdańsk Wrzeszcz_i,1
-Gdańsk Wrzeszcz_o,3
-Gdańsk Oliwa_i,1
-Gdańsk Oliwa_o,3
-Sopot_i,2
-Sopot_o,8
-Gdynia Główna_i,5
-Gdynia Główna_o,842
+Olsztyn Zachodni_o,1445

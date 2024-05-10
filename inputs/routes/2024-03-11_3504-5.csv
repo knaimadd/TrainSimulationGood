@@ -1,12 +1,4 @@
 Station Name,Travel Time
-Kraków Główny_i,0
-Kraków Główny_o,137
-Warszawa Zachodnia_i,1
-Warszawa Zachodnia_o,4
-Warszawa Centralna_i,3
-Warszawa Centralna_o,6
-Warszawa Wschodnia_i,2
-Warszawa Wschodnia_o,92
 Iława Główna_i,0
 Iława Główna_o,32
 Malbork_i,0
@@ -22,4 +14,4 @@ Gdańsk Oliwa_o,4
 Sopot_i,1
 Sopot_o,9
 Gdynia Główna_i,0
-Gdynia Główna_o,1159
+Gdynia Główna_o,1605

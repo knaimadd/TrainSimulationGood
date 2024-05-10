@@ -1,6 +1,4 @@
 Station Name,Travel Time
-Bohumín_i,0
-Bohumín_o,7
 Chałupki_i,1
 Chałupki_o,14
 Racibórz_i,1
@@ -18,12 +16,4 @@ Dąbrowa Górnicza_o,17
 Zawiercie_i,1
 Zawiercie_o,28
 Włoszczowa Północ_i,1
-Włoszczowa Północ_o,27
-Opoczno Południe_i,1
-Opoczno Południe_o,50
-Warszawa Zachodnia_i,2
-Warszawa Zachodnia_o,5
-Warszawa Centralna_i,4
-Warszawa Centralna_o,6
-Warszawa Wschodnia_i,4
-Warszawa Wschodnia_o,1454
+Włoszczowa Północ_o,1501
