@@ -18,7 +18,9 @@ def name_to_id(trains,stops):
         for i in range(len(trains)):
             ids = []
             for j in range(len(trains[i])):
-                ids.append(int(*stops[stops['stop_name'].str.replace(' ', '') == trains[i]['Station Name'][j].replace(' ', '')]['stop_id'].values))
+                ids.append(*stops[stops['stop_name'].str.replace(' ', '') == trains[i]['Station Name'][j].replace(' ', '')]['stop_id'].values)
+                #ids.append(int(*stops[stops['stop_name'].str.replace(' ', '') == trains[i]['Station Name'][j].replace(' ', '')]['stop_id'].values))
+
             train_with_id[i] = DataFrame({'Station Name': ids, 'Travel Time': trains[i]['Travel Time']})
         return train_with_id
 
@@ -28,14 +30,14 @@ if __name__ == '__main__':
     Z = pd.read_csv('traces/CH.csv')
 trip_ids = pd.read_csv('inputs/generated_trip.csv')
 trains = [pd.read_csv(f'inputs/routes/{trip_ids.iloc[i][0]}.csv') for i in range(len(trip_ids))]
-stops = pd.read_csv('inputs/stops.txt')
+stops = pd.read_csv('inputs/stops_io.txt')
 replace_spaces(stops)
 
 #trains = [X, Y, Y]
 
 
 edges = get_all_edges(trains)
-capacity = np.ones(len(edges), dtype=int)
+capacity = np.ones(len(edges), dtype=int)*10
 
 
 data = {"Edge": edges, "Capacity": capacity}

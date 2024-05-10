@@ -1,0 +1,53 @@
+Station Name,Travel Time
+Chełm_i,0
+Chełm_o,3
+Chełm Miasto_i,1
+Chełm Miasto_o,11
+Rejowiec_i,1
+Rejowiec_o,10
+Trawniki_i,1
+Trawniki_o,15
+Świdnik Miasto_i,1
+Świdnik Miasto_o,8
+Lublin Główny_i,5
+Lublin Główny_o,5
+Lublin Zachodni_i,1
+Lublin Zachodni_o,12
+Nałęczów_i,1
+Nałęczów_o,10
+Puławy Miasto_i,1
+Puławy Miasto_o,11
+Dęblin_i,1
+Dęblin_o,24
+Pilawa_i,1
+Pilawa_o,12
+Otwock_i,1
+Otwock_o,19
+Warszawa Wschodnia_i,2
+Warszawa Wschodnia_o,6
+Warszawa Centralna_i,6
+Warszawa Centralna_o,4
+Warszawa Zachodnia_i,2
+Warszawa Zachodnia_o,31
+Sochaczew_i,1
+Sochaczew_o,12
+Łowicz Główny_i,1
+Łowicz Główny_o,12
+Żychlin_i,1
+Żychlin_o,9
+Kutno_i,9
+Kutno_o,31
+Włocławek_i,4
+Włocławek_o,19
+Aleksandrów Kujawski_i,1
+Aleksandrów Kujawski_o,14
+Toruń Główny_i,2
+Toruń Główny_o,17
+Solec Kujawski_i,1
+Solec Kujawski_o,8
+Bydgoszcz Wschód_i,1
+Bydgoszcz Wschód_o,3
+Bydgoszcz Leśna_i,1
+Bydgoszcz Leśna_o,5
+Bydgoszcz Główna_i,0
+Bydgoszcz Główna_o,1325

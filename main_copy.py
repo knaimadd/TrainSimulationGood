@@ -25,7 +25,6 @@ def get_all_edges(trains):
         all_edges.update(edges)
     return all_edges
 
-
 @dataclass
 class TrainSimulation:
 #    stops: DataFrame 
@@ -64,12 +63,26 @@ class TrainSimulation:
     
     def initial_delay(self):
         df = self.capacities_file
-        init_delay = {df['Edge'][i]: 0 for i in range(len(df['Edge']))}
-        return init_delay
+        cap = {}
+        for i in range(len(df['Edge'])):
+            edge = eval(df['Edge'][i])
+            inv = (edge[1], edge[0])
+            if inv in cap:
+                cap[inv] = min(df['Capacity'][i], 0)
+            else:
+                cap[edge] = 0
+        return cap
 
     def get_capacities(self): 
         df = self.capacities_file
-        cap = {df['Edge'][i]: df['Capacity'][i] for i in range(len(df['Edge']))}
+        cap = {}
+        for i in range(len(df['Edge'])):
+            edge = eval(df['Edge'][i])
+            inv = (edge[1], edge[0])
+            if inv in cap:
+                cap[inv] = min(df['Capacity'][i], cap[inv])
+            else:
+                cap[edge] = df['Capacity'][i]
         return cap
 
     def create_starttime(self): #czas startu
@@ -113,14 +126,14 @@ class TrainSimulation:
         next_station_index = np.ceil(self.step_positions[train_number][self.current_steps[train_number]])
         prev_station = self.trains[train_number]['Station Name'][prev_station_index]
         next_station = self.trains[train_number]['Station Name'][next_station_index]
-        return [prev_station,next_station]
+        return (prev_station,next_station)
     
     def next_occupied_edge(self, train_number):
         prev_station_index = np.floor(self.step_positions[train_number][self.current_steps[train_number]+1])
         next_station_index = np.ceil(self.step_positions[train_number][self.current_steps[train_number]+1])
         prev_station = self.trains[train_number]['Station Name'][prev_station_index]
         next_station = self.trains[train_number]['Station Name'][next_station_index]
-        return [prev_station,next_station]
+        return (prev_station,next_station)
 
     def occupy_edge(self, train_number):
         e = self.occupied_edge(train_number)
@@ -150,14 +163,17 @@ class TrainSimulation:
                     self.arrived_step[i] = s
                 continue #nwm czy continue czy pass
             next = self.next_occupied_edge(i)
+            if next not in self.capacities:
+                next = (next[1], next[0])
             occupied = list(np.concatenate((self.occupied_edges[:i],self.occupied_edges[i+1:])))
             cnt = occupied.count(next)
-            if self.is_edge(next) and cnt == self.capacities[str(tuple(next))]:
+            if self.is_edge(next) and cnt == self.capacities[next]:
                 self.delay[i].append(self.delay[i][-1]+1)
-                self.delay_caused[str(tuple(next))] += 1
+                self.delay_caused[next] += 1
             else:
                 self.current_steps[i] += 1
                 self.occupy_edge(i)
+                self.delay[i].append(self.delay[i][-1])
             self.positions[i].append(self.get_current_position(i))
 
     def simulation(self):
@@ -169,7 +185,7 @@ class TrainSimulation:
             self.no_stopped.append(sum([self.trains_startstep[i] > s for i in range(len(self.trains))]))
             self.step(arrived, s)
             arrived = [self.is_arrived(i) for i in range(len(self.trains))]
-            s += 1        
+            s += 1
 
 
 
@@ -181,6 +197,9 @@ class TrainSimulationAnimation:
     n: int
     starttime: Any
     edges: DataFrame
+    arrived_step: list
+    starstep:list
+    delays: list
     def __post_init__(self):
         self.starttime =self.starttime
         self.no_trains = len(self.trains)
@@ -196,7 +215,24 @@ class TrainSimulationAnimation:
         self.capacities = self.edges["Capacity"]
         self.edges_start_xy, self.edges_end_xy,self.edge_width = self.eval_edges()
         #self.colors = [list(np.random.choice(range(256), size=3)) for i in range(self.no_trains)]
+        self.arrived_step_fix()
         self.eval_plot_positions()
+        self.delays_colors = self.eval_colors()
+
+    def arrived_step_fix(self):
+        for i in range(self.no_trains):
+            if self.arrived_step[i] ==0:
+                self.arrived_step[i] = self.no_steps
+    def eval_colors(self):
+        self.max_delay = max([max(self.delays[i]) for i in range(self.no_trains)])
+        no_delay = (0,0.58,0)
+        delays_gb = 0.62
+        if self.max_delay == 0:
+            return [no_delay]
+        else:
+            color_step = delays_gb/self.max_delay
+            delays = [(1,0.62-color_step*i,0.62-color_step*i) for i in range(self.max_delay)]
+            return [no_delay]+delays
 
     def create_plot(self):
         fig, ax = plt.subplots(figsize=(10, 8))
@@ -208,7 +244,10 @@ class TrainSimulationAnimation:
         for i in range(self.no_trains):
             ids = []
             for j in range(len(self.trains[i])):
-                ids.append(int(*stops[stops['stop_name'].str.replace(' ', '') == self.trains[i]['Station Name'][j].replace(' ', '')]['stop_id'].values))
+                print(*stops[stops['stop_name'].str.replace(' ', '') == self.trains[i]['Station Name'][j].replace(' ', '')]['stop_id'].values)
+                #ids.append(int(*stops[stops['stop_name'].str.replace(' ', '') == self.trains[i]['Station Name'][j].replace(' ', '')]['stop_id'].values))
+                ids.append(*stops[stops['stop_name'].str.replace(' ', '') == self.trains[i]['Station Name'][j].replace(' ', '')]['stop_id'].values)
+
             train_with_id[i] = DataFrame({'stop_id': ids, 'Travel Time': self.trains[i]['Travel Time']})
         return train_with_id
     
@@ -218,7 +257,8 @@ class TrainSimulationAnimation:
         for i in range(len(edges)):
             ids = []
             for j in range(len(self.trains[i])):
-                ids.append(int(*edges[edges['Edge'].str.replace(' ', '') == self.trains[i]['Station Name'][j].replace(' ', '')]['stop_id'].values))
+                ids.append(*edges[edges['Edge'].str.replace(' ', '') == self.trains[i]['Station Name'][j].replace(' ', '')]['stop_id'].values)
+                #ids.append(int(*edges[edges['Edge'].str.replace(' ', '') == self.trains[i]['Station Name'][j].replace(' ', '')]['stop_id'].values))
             edges_with_id[i] = DataFrame({'stop_id': ids, 'Travel Time': self.trains[i]['Travel Time']})
         return edges_with_id
 
@@ -272,7 +312,8 @@ class TrainSimulationAnimation:
 
     def draw_train_positions(self,step_number,ax):
         for i in range(self.no_trains):
-            ax.plot(self.trains_x[i][step_number], self.trains_y[i][step_number],'o')
+            if step_number >= self.starstep[i] and step_number <= self.arrived_step[i]:
+                ax.plot(self.trains_x[i][step_number], self.trains_y[i][step_number],'o',color=self.delays_colors[self.delays[i][step_number]])
         
         #return self.fig
     
@@ -292,10 +333,14 @@ class TrainSimulationAnimation:
 def replace_spaces(file):
     file.columns = file.columns.str.replace(' ', '')
     return file
-def save_anim(animation: FuncAnimation) -> None:
-    animation.save('outputs/anim3.gif', writer='imagemagick', fps=24,dpi=50)
+def save_anim(animation: FuncAnimation,name='anim3.gif',fps=30) -> None:
+    animation.save(f'outputs/{name}', writer='imagemagick', fps=fps,dpi=100)
 def multiply(file, n):
     file.loc[:(len(file['Travel Time'])-2), 'Travel Time'] = n*file.loc[:(len(file['Travel Time'])-2), 'Travel Time']
+
+def create_anim(A,stops,id_capacities):
+    B =TrainSimulationAnimation(A.trains,A.positions,stops,A.n,A.start,id_capacities,A.arrived_step,A.trains_startstep,A.delay)
+    return B
 
 if __name__ == '__main__':
     n = 2
@@ -305,8 +350,7 @@ if __name__ == '__main__':
     Y = pd.read_csv('traces/BG.csv', index_col=False)
     #Y = pd.read_csv('traces/wroclaw_warsaw2.csv')
     #multiply(Y, n)
-    Z = pd.read_csv('traces/CH.csv', index_col = False)
-    #multiply(Z, n) 
+    Z = pd.read_csv('traces/CH.csv')
     #A = TrainSimulation([X, Y, Z])
     cap = pd.read_csv('inputs/capacities0.csv')
     trains = [X,Y,Z]
@@ -314,7 +358,7 @@ if __name__ == '__main__':
     A.simulation()
     sim_positions = A.positions
 
-    #B = TrainSimulationAnimation(trains, sim_positions, pd.read_csv('inputs/stops0.txt'), n,A.start,pd.read_csv('inputs/id_capacities0.csv'))
-    #save_anim(B.animate())
+    B = create_anim(A,pd.read_csv('inputs/stops0.txt'),pd.read_csv('inputs/id_capacities0.csv'))
+    save_anim(B.animate(), fps=10)
 
 

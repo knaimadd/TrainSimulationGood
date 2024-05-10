@@ -1,12 +1,23 @@
 Station Name,Travel Time
-Warszawa Wschodnia,24
-Mińsk Mazowiecki,9
-Mrozy,14
-Siedlce Zachodnie,3
-Siedlce,14
-Łuków,12
-Międzyrzec Podlaski,11
-Biała Podlaska,11
-Chotyłów,8
-Małaszewicze Przystanek,7
-Terespol,2057
+Warszawa Wschodnia_i,24
+Warszawa Wschodnia_o,24
+Mińsk Mazowiecki_i,1
+Mińsk Mazowiecki_o,9
+Mrozy_i,1
+Mrozy_o,14
+Siedlce Zachodnie_i,1
+Siedlce Zachodnie_o,3
+Siedlce_i,1
+Siedlce_o,14
+Łuków_i,2
+Łuków_o,12
+Międzyrzec Podlaski_i,1
+Międzyrzec Podlaski_o,11
+Biała Podlaska_i,2
+Biała Podlaska_o,11
+Chotyłów_i,0
+Chotyłów_o,8
+Małaszewicze Przystanek_i,0
+Małaszewicze Przystanek_o,7
+Terespol_i,0
+Terespol_o,2057

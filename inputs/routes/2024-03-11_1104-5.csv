@@ -1,19 +1,37 @@
 Station Name,Travel Time
-Terespol,7
-Małaszewicze Przystanek,8
-Chotyłów,10
-Biała Podlaska,12
-Międzyrzec Podlaski,13
-Łuków,14
-Siedlce,3
-Siedlce Zachodnie,14
-Mrozy,9
-Mińsk Mazowiecki,20
-Warszawa Wschodnia,6
-Warszawa Centralna,4
-Warszawa Zachodnia,19
-Żyrardów,11
-Skierniewice,20
-Koluszki,13
-Łódź Widzew,7
-Łódź Fabryczna,1839
+Terespol_i,0
+Terespol_o,7
+Małaszewicze Przystanek_i,0
+Małaszewicze Przystanek_o,8
+Chotyłów_i,0
+Chotyłów_o,10
+Biała Podlaska_i,1
+Biała Podlaska_o,12
+Międzyrzec Podlaski_i,1
+Międzyrzec Podlaski_o,13
+Łuków_i,2
+Łuków_o,14
+Siedlce_i,1
+Siedlce_o,3
+Siedlce Zachodnie_i,1
+Siedlce Zachodnie_o,14
+Mrozy_i,1
+Mrozy_o,9
+Mińsk Mazowiecki_i,1
+Mińsk Mazowiecki_o,20
+Warszawa Wschodnia_i,9
+Warszawa Wschodnia_o,6
+Warszawa Centralna_i,44
+Warszawa Centralna_o,4
+Warszawa Zachodnia_i,1
+Warszawa Zachodnia_o,19
+Żyrardów_i,1
+Żyrardów_o,11
+Skierniewice_i,1
+Skierniewice_o,20
+Koluszki_i,1
+Koluszki_o,13
+Łódź Widzew_i,1
+Łódź Widzew_o,7
+Łódź Fabryczna_i,15
+Łódź Fabryczna_o,1839

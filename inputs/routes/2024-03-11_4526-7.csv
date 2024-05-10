@@ -1,0 +1,69 @@
+Station Name,Travel Time
+Katowice_i,0
+Katowice_o,8
+Sosnowiec Główny_i,1
+Sosnowiec Główny_o,7
+Będzin Miasto_i,1
+Będzin Miasto_o,3
+Dąbrowa Górnicza_i,1
+Dąbrowa Górnicza_o,16
+Zawiercie_i,2
+Zawiercie_o,8
+Myszków_i,1
+Myszków_o,17
+Częstochowa_i,2
+Częstochowa_o,23
+Radomsko_i,1
+Radomsko_o,26
+Piotrków Trybunalski_i,1
+Piotrków Trybunalski_o,34
+Łódź Widzew_i,9
+Łódź Widzew_o,5
+Łódź Dąbrowa_i,0
+Łódź Dąbrowa_o,4
+Łódź Chojny_i,1
+Łódź Chojny_o,3
+Łódź Pabianicka_i,1
+Łódź Pabianicka_o,3
+Łódź Kaliska_i,2
+Łódź Kaliska_o,4
+Łódź Żabiniec_i,1
+Łódź Żabiniec_o,5
+Zgierz_i,1
+Zgierz_o,15
+Ozorków_i,3
+Ozorków_o,6
+Łęczyca_i,1
+Łęczyca_o,23
+Kutno_i,1
+Kutno_o,31
+Włocławek_i,1
+Włocławek_o,19
+Aleksandrów Kujawski_i,1
+Aleksandrów Kujawski_o,13
+Toruń Główny_i,2
+Toruń Główny_o,18
+Solec Kujawski_i,1
+Solec Kujawski_o,8
+Bydgoszcz Wschód_i,1
+Bydgoszcz Wschód_o,4
+Bydgoszcz Leśna_i,1
+Bydgoszcz Leśna_o,5
+Bydgoszcz Główna_i,13
+Bydgoszcz Główna_o,28
+Laskowice Pomorskie_i,1
+Laskowice Pomorskie_o,38
+Tczew_i,7
+Tczew_o,10
+Pruszcz Gdański_i,0
+Pruszcz Gdański_o,6
+Gdańsk Główny_i,2
+Gdańsk Główny_o,4
+Gdańsk Wrzeszcz_i,1
+Gdańsk Wrzeszcz_o,3
+Gdańsk Oliwa_i,1
+Gdańsk Oliwa_o,3
+Sopot_i,2
+Sopot_o,8
+Gdynia Główna_i,0
+Gdynia Główna_o,1327
