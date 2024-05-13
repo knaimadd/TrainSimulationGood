@@ -1,4 +1,58 @@
 Station Name,Travel Time
+Lublin Główny_i,0
+Lublin Główny_o,5
+Lublin Zachodni_i,1
+Lublin Zachodni_o,14
+Nałęczów_i,1
+Nałęczów_o,12
+Puławy Miasto_i,1
+Puławy Miasto_o,31
+Pionki Zachodnie_i,1
+Pionki Zachodnie_o,14
+Radom Główny_i,7
+Radom Główny_o,24
+Skarżysko Kamienna_i,2
+Skarżysko Kamienna_o,7
+Suchedniów_i,1
+Suchedniów_o,25
+Kielce_i,21
+Kielce_o,36
+Włoszczowa_i,4
+Włoszczowa_o,19
+Koniecpol_i,1
+Koniecpol_o,28
+Częstochowa Stradom_i,2
+Częstochowa Stradom_o,21
+Lubliniec_i,1
+Lubliniec_o,32
+Opole Główne_i,2
+Opole Główne_o,22
+Brzeg_i,1
+Brzeg_o,9
+Oława_i,1
+Oława_o,21
+Wrocław Główny_i,10
+Wrocław Główny_o,12
+Wrocław Leśnica_i,1
+Wrocław Leśnica_o,13
+Środa Śląska_i,1
+Środa Śląska_o,19
+Legnica_i,2
+Legnica_o,14
+Lubin_i,1
+Lubin_o,27
+Głogów_i,1
+Głogów_o,16
+Bytom Odrzański_i,1
+Bytom Odrzański_o,7
+Nowa Sól_i,1
+Nowa Sól_o,14
+Zielona Góra Główna_i,2
+Zielona Góra Główna_o,43
+Rzepin_i,2
+Rzepin_o,22
+Kostrzyn_i,1
+Kostrzyn_o,15
 Mieszkowice_i,1
 Mieszkowice_o,13
 Chojna_i,1
@@ -6,4 +60,4 @@ Chojna_o,21
 Gryfino_i,1
 Gryfino_o,20
 Szczecin Główny_i,0
-Szczecin Główny_o,1500
+Szczecin Główny_o,458

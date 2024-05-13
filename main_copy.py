@@ -49,11 +49,13 @@ class TrainSimulation:
         self.current_steps = np.zeros(len(self.trains), dtype=int)
         self.capacities = self.get_capacities()
         self.arrived_step = np.zeros(len(self.trains))
+        self.previous = [() for i in range(len(self.trains))]
         # Statystyki
         self.delay = [[0] for i in range(len(self.trains))]
         self.delay_caused = self.initial_delay()
         self.no_arrived = []
         self.no_stopped = []
+        self.count_edge = self.initial_delay()
 
     def reset(self):
         self.positions = [[0] for i in range(len(self.trains))]
@@ -135,8 +137,8 @@ class TrainSimulation:
         next_station = self.trains[train_number]['Station Name'][next_station_index]
         return (prev_station,next_station)
 
-    def occupy_edge(self, train_number):
-        e = self.occupied_edge(train_number)
+    def occupy_edge(self, train_number, edge):
+        e = edge
         if self.is_edge(e):
             self.occupied_edges[train_number] = e
         else:
@@ -159,21 +161,26 @@ class TrainSimulation:
             if arrived[i]:
                 self.occupied_edges[i] = None
                 self.positions[i].append(self.get_current_position(i))
+                self.delay[i].append(self.delay[i][-1])
                 if self.arrived_step[i] == 0:
                     self.arrived_step[i] = s
                 continue #nwm czy continue czy pass
             next = self.next_occupied_edge(i)
             if next not in self.capacities:
                 next = (next[1], next[0])
+            am_i_edge = self.is_edge(next)
+            if am_i_edge and next != self.previous[i]:
+                self.count_edge[next] += 1
             occupied = list(np.concatenate((self.occupied_edges[:i],self.occupied_edges[i+1:])))
             cnt = occupied.count(next)
-            if self.is_edge(next) and cnt == self.capacities[next]:
+            if am_i_edge and cnt == self.capacities[next]:
                 self.delay[i].append(self.delay[i][-1]+1)
                 self.delay_caused[next] += 1
             else:
                 self.current_steps[i] += 1
-                self.occupy_edge(i)
+                self.occupy_edge(i, next)
                 self.delay[i].append(self.delay[i][-1])
+            self.previous[i] = next
             self.positions[i].append(self.get_current_position(i))
 
     def simulation(self):
@@ -348,7 +355,7 @@ def create_anim(A,stops,id_capacities):
     return B
 
 if __name__ == '__main__':
-    n = 2
+    n = 10
     X = pd.read_csv('traces/AF.csv', index_col=False)
     #X = pd.read_csv('traces/katowice_poznan.csv')
     #multiply(X, n)
@@ -364,6 +371,6 @@ if __name__ == '__main__':
     sim_positions = A.positions
 
     B = create_anim(A,pd.read_csv('inputs/stops0.txt'),pd.read_csv('inputs/id_capacities0.csv'))
-    save_anim(B.animate(), fps=10)
+    save_anim(B.animate(), fps=30)
 
 

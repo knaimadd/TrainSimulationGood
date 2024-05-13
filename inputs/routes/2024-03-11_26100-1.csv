@@ -1,4 +1,24 @@
 Station Name,Travel Time
+Lublin Główny_i,0
+Lublin Główny_o,5
+Lublin Zachodni_i,1
+Lublin Zachodni_o,12
+Nałęczów_i,1
+Nałęczów_o,10
+Puławy Miasto_i,1
+Puławy Miasto_o,29
+Pionki Zachodnie_i,1
+Pionki Zachodnie_o,13
+Radom Główny_i,2
+Radom Główny_o,24
+Skarżysko Kamienna_i,5
+Skarżysko Kamienna_o,7
+Suchedniów_i,1
+Suchedniów_o,27
+Kielce_i,12
+Kielce_o,33
+Włoszczowa_i,3
+Włoszczowa_o,33
 Zawiercie_i,1
 Zawiercie_o,16
 Dąbrowa Górnicza_i,1
@@ -24,4 +44,4 @@ Brzeg_o,8
 Oława_i,2
 Oława_o,20
 Wrocław Główny_i,0
-Wrocław Główny_o,1506
+Wrocław Główny_o,1125

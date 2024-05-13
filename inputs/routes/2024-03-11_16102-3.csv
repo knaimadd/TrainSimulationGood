@@ -1,4 +1,10 @@
 Station Name,Travel Time
+Warszawa Wschodnia_i,5
+Warszawa Wschodnia_o,6
+Warszawa Centralna_i,5
+Warszawa Centralna_o,4
+Warszawa Zachodnia_i,5
+Warszawa Zachodnia_o,25
 Żyrardów_i,1
 Żyrardów_o,12
 Skierniewice_i,1
@@ -18,4 +24,16 @@ Zduńska Wola_o,13
 Sieradz_i,1
 Sieradz_o,29
 Kalisz_i,1
-Kalisz_o,1520
+Kalisz_o,17
+Ostrów Wielkopolski_i,3
+Ostrów Wielkopolski_o,32
+Twardogóra_i,1
+Twardogóra_o,14
+Oleśnica Rataje_i,1
+Oleśnica Rataje_o,19
+Wrocław Nadodrze_i,1
+Wrocław Nadodrze_o,4
+Wrocław Mikołajów_i,1
+Wrocław Mikołajów_o,5
+Wrocław Główny_i,0
+Wrocław Główny_o,1430

@@ -1,4 +1,14 @@
 Station Name,Travel Time
+Warszawa Wschodnia_i,5
+Warszawa Wschodnia_o,6
+Warszawa Centralna_i,9
+Warszawa Centralna_o,4
+Warszawa Zachodnia_i,1
+Warszawa Zachodnia_o,52
+Opoczno Południe_i,2
+Opoczno Południe_o,28
+Włoszczowa Północ_i,1
+Włoszczowa Północ_o,32
 Zawiercie_i,7
 Zawiercie_o,17
 Dąbrowa Górnicza_i,2
@@ -16,4 +26,4 @@ Wodzisław Śląski_o,17
 Chałupki_i,1
 Chałupki_o,7
 Bohumín_i,0
-Bohumín_o,1524
+Bohumín_o,1304

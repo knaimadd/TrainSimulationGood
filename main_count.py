@@ -1,4 +1,5 @@
 from main_copy import *
+from edges_capacity_creation import *
 
 class TrainSimulationCount(TrainSimulation):
     
@@ -30,7 +31,7 @@ class TrainSimulationCount(TrainSimulation):
                 self.delay_caused[str(tuple(next))] += 1
             else:
                 self.current_steps[i] += 1
-                self.occupy_edge(i)
+                self.occupy_edge(i, next)
                 self.delay[i].append(self.delay[i][-1])
             self.positions[i].append(self.get_current_position(i))
 
@@ -38,6 +39,23 @@ class TrainSimulationCount(TrainSimulation):
 if __name__ == '__main__':
     trip_ids = pd.read_csv('inputs/generated_trip.csv')
     trains = [pd.read_csv(f'inputs/routes/{trip_ids.iloc[i][0]}.csv') for i in range(len(trip_ids))]
+    stops = pd.read_csv('inputs/stops_io.txt')
     n=1
     A = TrainSimulationCount(trains,n, pd.read_csv('inputs/capacities.csv'))
     A.simulation()
+    
+    cap = A.max_capacity_counter
+    edges = list(A.max_capacity_counter.keys())
+    vals = list(A.max_capacity_counter.values())
+    cap = DataFrame({'Edge': edges, 'Capacity': vals})
+    cap.to_csv('inputs/capacties_estimated.csv')
+
+    trains_with_id = name_to_id(trains,stops)
+
+    edges2=get_all_edges(trains_with_id)
+    data2 = {"Edge_start": [edges2[i][0] for i in range(len(edges2))], "Edge_end":[edges2[i][1] for i in range(len(edges2))], "Capacity": vals}
+    
+    df2 = DataFrame(data2)
+    df2.to_csv('inputs/id_capacities_estimated.csv')
+    
+    

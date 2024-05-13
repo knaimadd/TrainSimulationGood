@@ -1,0 +1,31 @@
+Station Name,Travel Time
+Olsztyn Główny_i,0
+Olsztyn Główny_o,3
+Olsztyn Zachodni_i,1
+Olsztyn Zachodni_o,25
+Ostróda_i,1
+Ostróda_o,20
+Iława Główna_i,1
+Iława Główna_o,31
+Działdowo_i,1
+Działdowo_o,9
+Mława_i,1
+Mława_o,14
+Ciechanów_i,1
+Ciechanów_o,17
+Nasielsk_i,0
+Nasielsk_o,11
+Nowy Dwór Mazowiecki_i,1
+Nowy Dwór Mazowiecki_o,8
+Legionowo_i,1
+Legionowo_o,13
+Warszawa Wschodnia_i,2
+Warszawa Wschodnia_o,6
+Warszawa Centralna_i,18
+Warszawa Centralna_o,4
+Warszawa Zachodnia_i,2
+Warszawa Zachodnia_o,13
+Grodzisk Mazowiecki_i,1
+Grodzisk Mazowiecki_o,40
+Opoczno Południe_i,7
+Opoczno Południe_o,1916

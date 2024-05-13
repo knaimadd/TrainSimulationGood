@@ -1,0 +1,23 @@
+Station Name,Travel Time
+Szczecin Główny_i,0
+Szczecin Główny_o,12
+Szczecin Dąbie_i,1
+Szczecin Dąbie_o,23
+Stargard_i,1
+Stargard_o,31
+Choszczno_i,1
+Choszczno_o,46
+Krzyż_i,8
+Krzyż_o,48
+Poznań Główny_i,5
+Poznań Główny_o,55
+Konin_i,1
+Konin_o,38
+Kutno_i,1
+Kutno_o,62
+Warszawa Zachodnia_i,1
+Warszawa Zachodnia_o,5
+Warszawa Centralna_i,5
+Warszawa Centralna_o,6
+Warszawa Wschodnia_i,5
+Warszawa Wschodnia_o,424

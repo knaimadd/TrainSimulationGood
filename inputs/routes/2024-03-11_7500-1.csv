@@ -1,0 +1,31 @@
+Station Name,Travel Time
+Poznań Główny_i,0
+Poznań Główny_o,25
+Gniezno_i,1
+Gniezno_o,15
+Mogilno_i,1
+Mogilno_o,15
+Inowrocław_i,1
+Inowrocław_o,25
+Bydgoszcz Główna_i,7
+Bydgoszcz Główna_o,28
+Laskowice Pomorskie_i,1
+Laskowice Pomorskie_o,17
+Smętowo_i,0
+Smętowo_o,10
+Pelplin_i,0
+Pelplin_o,12
+Tczew_i,6
+Tczew_o,10
+Pruszcz Gdański_i,0
+Pruszcz Gdański_o,6
+Gdańsk Główny_i,2
+Gdańsk Główny_o,4
+Gdańsk Wrzeszcz_i,1
+Gdańsk Wrzeszcz_o,4
+Gdańsk Oliwa_i,1
+Gdańsk Oliwa_o,3
+Sopot_i,1
+Sopot_o,8
+Gdynia Główna_i,0
+Gdynia Główna_o,525

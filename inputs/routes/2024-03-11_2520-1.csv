@@ -1,4 +1,24 @@
 Station Name,Travel Time
+Lublin Główny_i,0
+Lublin Główny_o,5
+Lublin Zachodni_i,1
+Lublin Zachodni_o,12
+Nałęczów_i,1
+Nałęczów_o,10
+Puławy Miasto_i,1
+Puławy Miasto_o,11
+Dęblin_i,1
+Dęblin_o,24
+Pilawa_i,1
+Pilawa_o,12
+Otwock_i,1
+Otwock_o,19
+Warszawa Wschodnia_i,5
+Warszawa Wschodnia_o,6
+Warszawa Centralna_i,14
+Warszawa Centralna_o,4
+Warszawa Zachodnia_i,2
+Warszawa Zachodnia_o,30
 Sochaczew_i,1
 Sochaczew_o,12
 Łowicz Główny_i,1
@@ -18,4 +38,4 @@ Bydgoszcz Wschód_o,3
 Bydgoszcz Leśna_i,1
 Bydgoszcz Leśna_o,5
 Bydgoszcz Główna_i,0
-Bydgoszcz Główna_o,1505
+Bydgoszcz Główna_o,1223

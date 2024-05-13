@@ -1,4 +1,20 @@
 Station Name,Travel Time
+Kraków Główny_i,0
+Kraków Główny_o,28
+Miechów_i,4
+Miechów_o,16
+Sędziszów_i,1
+Sędziszów_o,12
+Jędrzejów_i,1
+Jędrzejów_o,30
+Kielce_i,2
+Kielce_o,25
+Suchedniów_i,0
+Suchedniów_o,6
+Skarżysko Kamienna_i,1
+Skarżysko Kamienna_o,26
+Radom Główny_i,5
+Radom Główny_o,24
 Warka_i,1
 Warka_o,15
 Piaseczno_i,1
@@ -26,4 +42,8 @@ Działdowo_o,15
 Nidzica_i,1
 Nidzica_o,19
 Olsztynek_i,1
-Olsztynek_o,1500
+Olsztynek_o,18
+Olsztyn Zachodni_i,1
+Olsztyn Zachodni_o,4
+Olsztyn Główny_i,0
+Olsztyn Główny_o,1155

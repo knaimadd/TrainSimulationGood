@@ -1,0 +1,43 @@
+Station Name,Travel Time
+Frankfurt (Oder)_i,0
+Frankfurt (Oder)_o,20
+Rzepin_i,13
+Rzepin_o,44
+Zielona Góra Główna_i,2
+Zielona Góra Główna_o,35
+Głogów_i,2
+Głogów_o,27
+Lubin_i,1
+Lubin_o,15
+Legnica_i,1
+Legnica_o,33
+Wrocław Główny_i,12
+Wrocław Główny_o,46
+Opole Główne_i,2
+Opole Główne_o,46
+Gliwice_i,2
+Gliwice_o,6
+Zabrze_i,1
+Zabrze_o,14
+Katowice_i,6
+Katowice_o,51
+Kraków Główny_i,10
+Kraków Główny_o,5
+Kraków Płaszów_i,1
+Kraków Płaszów_o,19
+Bochnia_i,1
+Bochnia_o,18
+Tarnów_i,2
+Tarnów_o,15
+Dębica_i,1
+Dębica_o,21
+Rzeszów Główny_i,3
+Rzeszów Główny_o,11
+Łańcut_i,1
+Łańcut_o,13
+Przeworsk_i,1
+Przeworsk_o,9
+Jarosław_i,1
+Jarosław_o,24
+Przemyśl Główny_i,5
+Przemyśl Główny_o,1149
