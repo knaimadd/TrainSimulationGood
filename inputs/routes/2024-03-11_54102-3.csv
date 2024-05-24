@@ -1,24 +1,4 @@
 Station Name,Travel Time
-Gdynia Główna_i,5
-Gdynia Główna_o,8
-Sopot_i,2
-Sopot_o,3
-Gdańsk Oliwa_i,1
-Gdańsk Oliwa_o,4
-Gdańsk Wrzeszcz_i,1
-Gdańsk Wrzeszcz_o,4
-Gdańsk Główny_i,2
-Gdańsk Główny_o,22
-Tczew_i,1
-Tczew_o,14
-Malbork_i,1
-Malbork_o,11
-Sztum_i,1
-Sztum_o,18
-Kwidzyn_i,1
-Kwidzyn_o,39
-Grudziądz_i,20
-Grudziądz_o,30
 Jabłonowo Pomorskie_i,1
 Jabłonowo Pomorskie_o,22
 Brodnica_i,1
@@ -30,32 +10,4 @@ Sierpc_o,33
 Płock_i,33
 Płock_o,19
 Gostynin_i,1
-Gostynin_o,20
-Kutno_i,1
-Kutno_o,22
-Łęczyca_i,1
-Łęczyca_o,6
-Ozorków_i,1
-Ozorków_o,15
-Zgierz_i,11
-Zgierz_o,5
-Łódź Żabiniec_i,1
-Łódź Żabiniec_o,5
-Łódź Kaliska_i,5
-Łódź Kaliska_o,8
-Łódź Chojny_i,1
-Łódź Chojny_o,47
-Piotrków Trybunalski_i,1
-Piotrków Trybunalski_o,25
-Radomsko_i,1
-Radomsko_o,22
-Częstochowa_i,2
-Częstochowa_o,4
-Częstochowa Stradom_i,1
-Częstochowa Stradom_o,60
-Gliwice_i,1
-Gliwice_o,6
-Zabrze_i,1
-Zabrze_o,13
-Katowice_i,0
-Katowice_o,849
+Gostynin_o,1159

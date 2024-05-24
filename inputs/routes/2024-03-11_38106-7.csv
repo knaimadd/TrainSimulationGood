@@ -1,12 +1,4 @@
 Station Name,Travel Time
-Kraków Główny_i,0
-Kraków Główny_o,30
-Miechów_i,1
-Miechów_o,35
-Koniecpol_i,1
-Koniecpol_o,28
-Częstochowa Stradom_i,2
-Częstochowa Stradom_o,38
 Krzepice_i,1
 Krzepice_o,26
 Wieluń_i,1
@@ -22,16 +14,4 @@ Ostrów Wielkopolski_o,20
 Pleszew_i,1
 Pleszew_o,12
 Jarocin_i,2
-Jarocin_o,19
-Środa Wielkopolska_i,2
-Środa Wielkopolska_o,21
-Poznań Główny_i,8
-Poznań Główny_o,23
-Oborniki Wielkopolskie Miasto_i,1
-Oborniki Wielkopolskie Miasto_o,13
-Rogoźno Wielkopolskie_i,1
-Rogoźno Wielkopolskie_o,16
-Chodzież_i,1
-Chodzież_o,16
-Piła Główna_i,0
-Piła Główna_o,1008
+Jarocin_o,1224

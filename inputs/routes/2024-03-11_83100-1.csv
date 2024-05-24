@@ -1,14 +1,4 @@
 Station Name,Travel Time
-Kołobrzeg_i,0
-Kołobrzeg_o,30
-Białogard_i,3
-Białogard_o,54
-Szczecinek_i,2
-Szczecinek_o,30
-Jastrowie_i,1
-Jastrowie_o,27
-Piła Główna_i,35
-Piła Główna_o,29
 Wyrzysk Osiek_i,7
 Wyrzysk Osiek_o,19
 Nakło nad Notecią_i,1
@@ -30,42 +20,4 @@ Włocławek_o,33
 Kutno_i,1
 Kutno_o,20
 Łowicz Główny_i,1
-Łowicz Główny_o,13
-Sochaczew_i,1
-Sochaczew_o,31
-Warszawa Zachodnia_i,2
-Warszawa Zachodnia_o,5
-Warszawa Centralna_i,6
-Warszawa Centralna_o,6
-Warszawa Wschodnia_i,3
-Warszawa Wschodnia_o,18
-Otwock_i,1
-Otwock_o,12
-Pilawa_i,1
-Pilawa_o,24
-Dęblin_i,5
-Dęblin_o,11
-Puławy Miasto_i,1
-Puławy Miasto_o,10
-Nałęczów_i,1
-Nałęczów_o,11
-Lublin Zachodni_i,1
-Lublin Zachodni_o,5
-Lublin Główny_i,30
-Lublin Główny_o,33
-Kraśnik_i,1
-Kraśnik_o,21
-Zaklików_i,3
-Zaklików_o,15
-Stalowa Wola Charzewice_i,1
-Stalowa Wola Charzewice_o,25
-Tarnobrzeg_i,1
-Tarnobrzeg_o,12
-Nowa Dęba_i,1
-Nowa Dęba_o,13
-Kolbuszowa_i,1
-Kolbuszowa_o,17
-Rzeszów Zachodni_i,1
-Rzeszów Zachodni_o,3
-Rzeszów Główny_i,0
-Rzeszów Główny_o,827
+Łowicz Główny_o,1158

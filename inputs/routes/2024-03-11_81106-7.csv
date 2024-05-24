@@ -1,36 +1,4 @@
 Station Name,Travel Time
-Świnoujście_i,0
-Świnoujście_o,11
-Międzyzdroje_i,2
-Międzyzdroje_o,21
-Wysoka Kamieńska_i,1
-Wysoka Kamieńska_o,17
-Goleniów_i,1
-Goleniów_o,16
-Szczecin Dąbie_i,2
-Szczecin Dąbie_o,12
-Szczecin Główny_i,4
-Szczecin Główny_o,13
-Szczecin Dąbie_i,4
-Szczecin Dąbie_o,20
-Stargard_i,4
-Stargard_o,28
-Choszczno_i,1
-Choszczno_o,28
-Dobiegniew_i,1
-Dobiegniew_o,15
-Krzyż_i,1
-Krzyż_o,19
-Wronki_i,1
-Wronki_o,8
-Szamotuły_i,1
-Szamotuły_o,18
-Poznań Główny_i,8
-Poznań Główny_o,21
-Swarzędz_i,1
-Swarzędz_o,19
-Września_i,1
-Września_o,11
 Słupca_i,1
 Słupca_o,12
 Konin_i,2
@@ -48,4 +16,4 @@ Warszawa Zachodnia_o,5
 Warszawa Centralna_i,5
 Warszawa Centralna_o,6
 Warszawa Wschodnia_i,5
-Warszawa Wschodnia_o,645
+Warszawa Wschodnia_o,1159

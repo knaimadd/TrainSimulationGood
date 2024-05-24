@@ -1,28 +1,4 @@
 Station Name,Travel Time
-Zakopane_i,0
-Zakopane_o,6
-Poronin_i,1
-Poronin_o,12
-Nowy Targ_i,1
-Nowy Targ_o,29
-Chabówka Stadion_i,1
-Chabówka Stadion_o,24
-Maków Podhalański_i,1
-Maków Podhalański_o,5
-Sucha Beskidzka Zamek_i,1
-Sucha Beskidzka Zamek_o,22
-Kalwaria Zebrzydowska Lanckorona_i,7
-Kalwaria Zebrzydowska Lanckorona_o,33
-Kraków Główny_i,5
-Kraków Główny_o,30
-Miechów_i,4
-Miechów_o,34
-Włoszczowa Północ_i,1
-Włoszczowa Północ_o,25
-Opoczno Południe_i,1
-Opoczno Południe_o,27
-Tomaszów Mazowiecki_i,6
-Tomaszów Mazowiecki_o,28
 Łódź Widzew_i,9
 Łódź Widzew_o,9
 Łódź Chojny_i,1
@@ -48,26 +24,4 @@ Toruń Główny_o,18
 Solec Kujawski_i,1
 Solec Kujawski_o,8
 Bydgoszcz Wschód_i,1
-Bydgoszcz Wschód_o,3
-Bydgoszcz Leśna_i,1
-Bydgoszcz Leśna_o,5
-Bydgoszcz Główna_i,16
-Bydgoszcz Główna_o,28
-Laskowice Pomorskie_i,1
-Laskowice Pomorskie_o,17
-Smętowo_i,0
-Smętowo_o,24
-Tczew_i,2
-Tczew_o,10
-Pruszcz Gdański_i,0
-Pruszcz Gdański_o,7
-Gdańsk Główny_i,5
-Gdańsk Główny_o,4
-Gdańsk Wrzeszcz_i,1
-Gdańsk Wrzeszcz_o,4
-Gdańsk Oliwa_i,1
-Gdańsk Oliwa_o,3
-Sopot_i,2
-Sopot_o,8
-Gdynia Główna_i,0
-Gdynia Główna_o,646
+Bydgoszcz Wschód_o,1154

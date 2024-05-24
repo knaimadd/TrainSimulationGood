@@ -1,1571 +1,876 @@
 ,Edge,Capacity
-0,"('Puławy Miasto_o', 'Pionki Zachodnie_i')",10
-1,"('Chrzanów Śródmieście_i', 'Chrzanów Śródmieście_o')",10
-2,"('Chełm_o', 'Jahodyn_i')",10
-3,"('Brzesko Okocim_o', 'Tarnów_i')",10
-4,"('Gliwice_o', 'Częstochowa Stradom_i')",10
-5,"('Olsztyn Zachodni_i', 'Olsztyn Zachodni_o')",10
-6,"('Przemyśl Zasanie_o', 'Jarosław_i')",10
-7,"('Nysa_i', 'Nysa_o')",10
-8,"('Międzyzdroje_i', 'Międzyzdroje_o')",10
-9,"('Malbork_o', 'Elbląg_i')",10
-10,"('Augustów_i', 'Augustów_o')",10
-11,"('Prabuty_i', 'Prabuty_o')",10
-12,"('Warszawa Wschodnia_o', 'Warszawa Centralna_i')",10
-13,"('Kędzierzyn Koźle_o', 'Zdzieszowice_i')",10
-14,"('Gniezno_i', 'Gniezno_o')",10
-15,"('Bydgoszcz Leśna_i', 'Bydgoszcz Leśna_o')",10
-16,"('Stalowa Wola Centrum_o', 'Nisko_i')",10
-17,"('Smętowo_o', 'Pelplin_i')",10
-18,"('Łask_o', 'Pabianice_i')",10
-19,"('Solec Kujawski_i', 'Solec Kujawski_o')",10
-20,"('Rawicz_i', 'Rawicz_o')",10
-21,"('Czyżew_o', 'Szepietowo_i')",10
-22,"('Rytro_i', 'Rytro_o')",10
-23,"('Wysoka Kamieńska_o', 'Goleniów_i')",10
-24,"('Żyrardów_o', 'Warszawa Gdańska_i')",10
-25,"('Oława_i', 'Oława_o')",10
-26,"('Rzepin_o', 'Frankfurt (Oder)_i')",10
-27,"('Częstochowa Stradom_o', 'Krzepice_i')",10
-28,"('Rzeszów Główny_o', 'Rzeszów Zachodni_i')",10
-29,"('Bydgoszcz Główna_o', 'Nakło nad Notecią_i')",10
-30,"('Gryfino_o', 'Szczecin Główny_i')",10
-31,"('Ciechanów_o', 'Warszawa Wschodnia_i')",10
-32,"('Pasłęk_o', 'Morąg_i')",10
-33,"('Chabówka Stadion_o', 'Nowy Targ_i')",10
-34,"('Świebodzice_i', 'Świebodzice_o')",10
-35,"('Stróże_o', 'Grybów_i')",10
-36,"('Leszno_i', 'Leszno_o')",10
-37,"('Łódź Dąbrowa_i', 'Łódź Dąbrowa_o')",10
-38,"('Łódź Widzew_o', 'Łódź Fabryczna_i')",10
-39,"('Ząbkowice Śląskie_i', 'Ząbkowice Śląskie_o')",10
-40,"('Toruń Miasto_o', 'Toruń Wschodni_i')",10
-41,"('Laskowice Pomorskie_o', 'Bydgoszcz Główna_i')",10
-42,"('Pruszcz Gdański_o', 'Tczew_i')",10
-43,"('Pieńsk_o', 'Węgliniec_i')",10
-44,"('Kraków Płaszów_i', 'Kraków Płaszów_o')",10
-45,"('Kłodzko Miasto_i', 'Kłodzko Miasto_o')",10
-46,"('Zawiercie_o', 'Myszków_i')",10
-47,"('Przeworsk_o', 'Łańcut_i')",10
-48,"('Ustronie Morskie_o', 'Kołobrzeg_i')",10
-49,"('Łódź Chojny_o', 'Łódź Dąbrowa_i')",10
-50,"('Dorohusk_o', 'Chełm_i')",10
-51,"('Augustów_o', 'Suwałki_i')",10
-52,"('Lubliniec_o', 'Ozimek_i')",10
-53,"('Skwierzyna_o', 'Międzyrzecz_i')",10
-54,"('Wałbrzych Miasto_o', 'Wrocław Główny_i')",10
-55,"('Wałbrzych Główny_i', 'Wałbrzych Główny_o')",10
-56,"('Łódź Chojny_o', 'Piotrków Trybunalski_i')",10
-57,"('Rawicz_o', 'Żmigród_i')",10
-58,"('Zdzieszowice_o', 'Kędzierzyn Koźle_i')",10
-59,"('Szczecinek_i', 'Szczecinek_o')",10
-60,"('Radomsko_o', 'Częstochowa_i')",10
-61,"('Głogów_o', 'Lubin_i')",10
-62,"('Otmuchów_i', 'Otmuchów_o')",10
-63,"('Racibórz_i', 'Racibórz_o')",10
-64,"('Gorzkowice_o', 'Radomsko_i')",10
-65,"('Trzcianka_o', 'Wieleń_i')",10
-66,"('Kutno_o', 'Warszawa Zachodnia_i')",10
-67,"('Wyrzysk Osiek_o', 'Piła Główna_i')",10
-68,"('Witnica_o', 'Gorzów Wielkopolski_i')",10
-69,"('Goleniów_o', 'Wysoka Kamieńska_i')",10
-70,"('Małaszewicze Przystanek_o', 'Terespol_i')",10
-71,"('Bolesławiec_i', 'Bolesławiec_o')",10
-72,"('Piotrków Trybunalski_o', 'Radomsko_i')",10
-73,"('Kępno_i', 'Kępno_o')",10
-74,"('Białystok_i', 'Białystok_o')",10
-75,"('Warszawa Wschodnia_o', 'Legionowo_i')",10
-76,"('Zgierz_o', 'Ozorków_i')",10
-77,"('Opoczno Południe_o', 'Warszawa Zachodnia_i')",10
-78,"('Świdnik Miasto_o', 'Lublin Główny_i')",10
-79,"('Koło_o', 'Konin_i')",10
-80,"('Łódź Kaliska_o', 'Łódź\xa0Żabiniec_i')",10
-81,"('Gliwice_o', 'Opole Główne_i')",10
-82,"('Koszalin_o', 'Białogard_i')",10
-83,"('Rzeszów Zachodni_o', 'Rzeszów Główny_i')",10
-84,"('Oświęcim_o', 'Chrzanów Śródmieście_i')",10
-85,"('Dęblin_i', 'Dęblin_o')",10
-86,"('Szczecinek_o', 'Piła Główna_i')",10
-87,"('Poznań Główny_o', 'Krzyż_i')",10
-88,"('Inowrocław_o', 'Toruń Główny_i')",10
-89,"('Poznań Główny_i', 'Poznań Główny_o')",10
-90,"('Oborniki Wielkopolskie Miasto_o', 'Poznań Główny_i')",10
-91,"('Koniecpol_o', 'Włoszczowa_i')",10
-92,"('Brodnica_i', 'Brodnica_o')",10
-93,"('Kaliska_o', 'Starogard Gdański_i')",10
-94,"('Gorzów Wielkopolski_o', 'Skwierzyna_i')",10
-95,"('Będzin Miasto_o', 'Dąbrowa Górnicza_i')",10
-96,"('Stalowa Wola Charzewice_o', 'Tarnobrzeg_i')",10
-97,"('Frankfurt (Oder)_i', 'Frankfurt (Oder)_o')",10
-98,"('Sztum_o', 'Kwidzyn_i')",10
-99,"('Radom Główny_o', 'Warka_i')",10
-100,"('Prudnik_o', 'Głogówek_i')",10
-101,"('Międzyrzecz_i', 'Międzyrzecz_o')",10
-102,"('Świnoujście_o', 'Międzyzdroje_i')",10
-103,"('Otwock_o', 'Warszawa Wschodnia_i')",10
-104,"('Zwierzyniec_i', 'Zwierzyniec_o')",10
-105,"('Kętrzyn_o', 'Giżycko_i')",10
-106,"('Lubliniec_i', 'Lubliniec_o')",10
-107,"('Włoszczowa_o', 'Kielce_i')",10
-108,"('Nowy Targ_o', 'Chabówka Stadion_i')",10
-109,"('Czechowice-Dziedzice_o', 'Bielsko-Biała Główna_i')",10
-110,"('Kostrzyn_o', 'Chojna_i')",10
-111,"('Świdwin_i', 'Świdwin_o')",10
-112,"('Czechowice-Dziedzice_o', 'Oświęcim_i')",10
-113,"('Mińsk Mazowiecki_i', 'Mińsk Mazowiecki_o')",10
-114,"('Byczyna Kluczborska_i', 'Byczyna Kluczborska_o')",10
-115,"('Krosno Miasto_o', 'Krosno_i')",10
-116,"('Świebodzin_i', 'Świebodzin_o')",10
-117,"('Grybów_o', 'Nowy Sącz_i')",10
-118,"('Biecz_o', 'Jasło_i')",10
-119,"('Olsztyn Zachodni_o', 'Olsztynek_i')",10
-120,"('Tuchów_o', 'Tarnów_i')",10
-121,"('Białystok_o', 'Białystok Zielone Wzgórza_i')",10
-122,"('Petrovice u Karviné_o', 'Zebrzydowice_i')",10
-123,"('Kalisz Pomorski_o', 'Recz Pomorski_i')",10
-124,"('Lubliniec_o', 'Gliwice_i')",10
-125,"('Malbork_o', 'Sztum_i')",10
-126,"('Białystok Zielone Wzgórza_i', 'Białystok Zielone Wzgórza_o')",10
-127,"('Babimost_i', 'Babimost_o')",10
-128,"('Kielce_o', 'Suchedniów_i')",10
-129,"('Krzyż_o', 'Dobiegniew_i')",10
-130,"('Kłodzko Główne_o', 'Bardo Śląskie_i')",10
-131,"('Wejherowo_o', 'Rumia_i')",10
-132,"('Oleśnica Rataje_o', 'Wrocław Nadodrze_i')",10
-133,"('Racibórz_o', 'Rybnik_i')",10
-134,"('Wrocław Nadodrze_i', 'Wrocław Nadodrze_o')",10
-135,"('Ozimek_o', 'Opole Główne_i')",10
-136,"('Kutno_o', 'Warszawa Gdańska_i')",10
-137,"('Lębork_o', 'Wejherowo_i')",10
-138,"('Strzelce Krajeńskie Wschód_o', 'Gorzów Wielkopolski Wschodni_i')",10
-139,"('Bytom Odrzański_o', 'Nowa Sól_i')",10
-140,"('Gdańsk Wrzeszcz_o', 'Gdańsk Główny_i')",10
-141,"('Opole Główne_o', 'Gliwice_i')",10
-142,"('Będzin Miasto_o', 'Sosnowiec Główny_i')",10
-143,"('Smętowo_o', 'Laskowice Pomorskie_i')",10
-144,"('Sędziszów_o', 'Jędrzejów_i')",10
-145,"('Krajenka_i', 'Krajenka_o')",10
-146,"('Opoczno Południe_o', 'Warszawa Gdańska_i')",10
-147,"('Oleśnica Rataje_o', 'Twardogóra_i')",10
-148,"('Kraśnik_i', 'Kraśnik_o')",10
-149,"('Augustów_o', 'Dąbrowa Białostocka_i')",10
-150,"('Rudnik nad Sanem_o', 'Nisko_i')",10
-151,"('Kalisz_o', 'Ostrów Wielkopolski_i')",10
-152,"('Dębica_o', 'Ropczyce_i')",10
-153,"('Kraków Główny_o', 'Kalwaria Zebrzydowska Lanckorona_i')",10
-154,"('Świebodzin_o', 'Rzepin_i')",10
-155,"('Chodzież_i', 'Chodzież_o')",10
-156,"('Poznań Główny_o', 'Oborniki Wielkopolskie Miasto_i')",10
-157,"('Łomnica Zdrój_o', 'Piwniczna Zdrój_i')",10
-158,"('Poznań Główny_o', 'Środa Wielkopolska_i')",10
-159,"('Drzewica_i', 'Drzewica_o')",10
-160,"('Starogard Gdański_o', 'Tczew_i')",10
-161,"('Nurzec_o', 'Siemiatycze_i')",10
-162,"('Pszczyna_o', 'Czechowice-Dziedzice_i')",10
-163,"('Runowo Pomorskie_o', 'Chociwel_i')",10
-164,"('Szczecinek_o', 'Białogard_i')",10
-165,"('Wrocław Mikołajów_o', 'Oborniki Śląskie_i')",10
-166,"('Niemojki_o', 'Sarnaki_i')",10
-167,"('Krzyż_o', 'Poznań Główny_i')",10
-168,"('Biecz_o', 'Gorlice Zagórzany_i')",10
-169,"('Krosno_o', 'Krosno Miasto_i')",10
-170,"('Otwock_i', 'Otwock_o')",10
-171,"('Szczecin Dąbie_o', 'Stargard_i')",10
-172,"('Kępno_o', 'Wieruszów Miasto_i')",10
-173,"('Rejowiec_o', 'Trawniki_i')",10
-174,"('Nowogród Osiedle_o', 'Zielona Góra Główna_i')",10
-175,"('Przemyśl Zasanie_o', 'Przemyśl Główny_i')",10
-176,"('Białystok Zielone Wzgórza_o', 'Białystok_i')",10
-177,"('Piaseczno_o', 'Warszawa Służewiec_i')",10
-178,"('Łódź Kaliska_i', 'Łódź Kaliska_o')",10
-179,"('Bochnia_o', 'Brzesko Okocim_i')",10
-180,"('Warszawa Zachodnia_o', 'Opoczno Południe_i')",10
-181,"('Zbąszynek_i', 'Zbąszynek_o')",10
-182,"('Biała Podlaska_o', 'Chotyłów_i')",10
-183,"('Brzesko Okocim_i', 'Brzesko Okocim_o')",10
-184,"('Toruń Główny_o', 'Aleksandrów Kujawski_i')",10
-185,"('Bydgoszcz Główna_o', 'Tczew_i')",10
-186,"('Krosno_i', 'Krosno_o')",10
-187,"('Solec Kujawski_o', 'Toruń Główny_i')",10
-188,"('Wrocław Leśnica_o', 'Wrocław Główny_i')",10
-189,"('Piotrków Trybunalski_i', 'Piotrków Trybunalski_o')",10
-190,"('Trzebinia_o', 'Krzeszowice_i')",10
-191,"('Sędzisław_o', 'Janowice Wielkie_i')",10
-192,"('Nidzica_i', 'Nidzica_o')",10
-193,"('Zamość Wschód_o', 'Zamość Starówka_i')",10
-194,"('Stargard_o', 'Choszczno_i')",10
-195,"('Oława_o', 'Wrocław Główny_i')",10
-196,"('Inowrocław Rąbinek_o', 'Mogilno_i')",10
-197,"('Łódź Chojny_i', 'Łódź Chojny_o')",10
-198,"('Puławy Miasto_i', 'Puławy Miasto_o')",10
-199,"('Zgierz_i', 'Zgierz_o')",10
-200,"('Gdańsk Wrzeszcz_o', 'Gdańsk Oliwa_i')",10
-201,"('Poznań Główny_o', 'Zbąszynek_i')",10
-202,"('Ostróda_o', 'Olsztyn Zachodni_i')",10
-203,"('Rypin_o', 'Sierpc_i')",10
-204,"('Sierpc_o', 'Płock_i')",10
-205,"('Kamieniec Ząbkowicki_o', 'Ziębice_i')",10
-206,"('Tarnów_o', 'Brzesko Okocim_i')",10
-207,"('Ozorków_i', 'Ozorków_o')",10
-208,"('Białystok Zielone Wzgórza_o', 'Bielsk Podlaski_i')",10
-209,"('Poronin_o', 'Nowy Targ_i')",10
-210,"('Krzepice_i', 'Krzepice_o')",10
-211,"('Gdańsk Wrzeszcz_i', 'Gdańsk Wrzeszcz_o')",10
-212,"('Runowo Pomorskie_o', 'Łobez_i')",10
-213,"('Mińsk Mazowiecki_o', 'Mrozy_i')",10
-214,"('Tychy_o', 'Pszczyna_i')",10
-215,"('Grudziądz_o', 'Kwidzyn_i')",10
-216,"('Włoszczowa Północ_o', 'Warszawa Zachodnia_i')",10
-217,"('Chełm_i', 'Chełm_o')",10
-218,"('Wrocław Główny_o', 'Wałbrzych Miasto_i')",10
-219,"('Twardogóra_i', 'Twardogóra_o')",10
-220,"('Swarzędz_o', 'Poznań Główny_i')",10
-221,"('Zielona Góra Główna_o', 'Głogów_i')",10
-222,"('Stalowa Wola Rozwadów_o', 'Stalowa Wola Centrum_i')",10
-223,"('Tychy_o', 'Rybnik_i')",10
-224,"('Aleksandrów Kujawski_o', 'Toruń Główny_i')",10
-225,"('Sławno_o', 'Koszalin_i')",10
-226,"('Iława Główna_o', 'Prabuty_i')",10
-227,"('Radomsko_o', 'Gorzkowice_i')",10
-228,"('Chociwel_o', 'Runowo Pomorskie_i')",10
-229,"('Kraków Główny_i', 'Kraków Główny_o')",10
-230,"('Bochnia_o', 'Tarnów_i')",10
-231,"('Nowogród Osiedle_o', 'Żary_i')",10
-232,"('Kępno_o', 'Byczyna Kluczborska_i')",10
-233,"('Jabłonowo Pomorskie_o', 'Wąbrzeźno_i')",10
-234,"('Skierniewice_i', 'Skierniewice_o')",10
-235,"('Rzepin_o', 'Zielona Góra Główna_i')",10
-236,"('Ostrów Wielkopolski_o', 'Pleszew_i')",10
-237,"('Myszków_o', 'Częstochowa_i')",10
-238,"('Radom Główny_o', 'Radom Gołębiów_i')",10
-239,"('Radzyń Podlaski_o', 'Łuków_i')",10
-240,"('Kutno_o', 'Włocławek_i')",10
-241,"('Wejherowo_i', 'Wejherowo_o')",10
-242,"('Łódź Widzew_i', 'Łódź Widzew_o')",10
-243,"('Ropczyce_o', 'Dębica_i')",10
-244,"('Wieruszów Miasto_o', 'Kępno_i')",10
-245,"('Małomice_o', 'Żagań_i')",10
-246,"('Zebrzydowice_o', 'Czechowice-Dziedzice_i')",10
-247,"('Czarna Woda_o', 'Łąg_i')",10
-248,"('Pabianice_i', 'Pabianice_o')",10
-249,"('Koszalin_o', 'Kołobrzeg_i')",10
-250,"('Nowy Tomyśl_o', 'Zbąszyń_i')",10
-251,"('Strzelce Krajeńskie Wschód_o', 'Nowe Drezdenko_i')",10
-252,"('Łódź\xa0Żabiniec_i', 'Łódź\xa0Żabiniec_o')",10
-253,"('Sarnaki_o', 'Niemojki_i')",10
-254,"('Warka_i', 'Warka_o')",10
-255,"('Siedlce_o', 'Łuków_i')",10
-256,"('Strzelce Opolskie_i', 'Strzelce Opolskie_o')",10
-257,"('Wrocław Główny_o', 'Wrocław Leśnica_i')",10
-258,"('Krzeszowice_o', 'Trzebinia_i')",10
-259,"('Laskowice Pomorskie_i', 'Laskowice Pomorskie_o')",10
-260,"('Pleszew_o', 'Ostrów Wielkopolski_i')",10
-261,"('Iława Główna_o', 'Działdowo_i')",10
-262,"('Racibórz_o', 'Chałupki_i')",10
-263,"('Gorzów Wielkopolski Wschodni_i', 'Gorzów Wielkopolski Wschodni_o')",10
-264,"('Dęblin_o', 'Pilawa_i')",10
-265,"('Pisz_o', 'Biała Piska_i')",10
-266,"('Krotoszyn_i', 'Krotoszyn_o')",10
-267,"('Zbąszynek_o', 'Międzyrzecz_i')",10
-268,"('Osowiec_o', 'Grajewo_i')",10
-269,"('Łańcut_o', 'Przeworsk_i')",10
-270,"('Pszczyna_i', 'Pszczyna_o')",10
-271,"('Szczebrzeszyn_o', 'Zawada_i')",10
-272,"('Nowa Dęba_o', 'Tarnobrzeg_i')",10
-273,"('Kamieniec Ząbkowicki_o', 'Bardo Śląskie_i')",10
-274,"('Środa Śląska_i', 'Środa Śląska_o')",10
-275,"('Suchedniów_o', 'Skarżysko Kamienna_i')",10
-276,"('Zarszyn_o', 'Wróblik Szlachecki_i')",10
-277,"('Włocławek_o', 'Kutno_i')",10
-278,"('Skarżysko Kamienna_o', 'Suchedniów_i')",10
-279,"('Będzin Miasto_i', 'Będzin Miasto_o')",10
-280,"('Chojnice_i', 'Chojnice_o')",10
-281,"('Rzepin_i', 'Rzepin_o')",10
-282,"('Krosno Miasto_i', 'Krosno Miasto_o')",10
-283,"('Kraków Płaszów_o', 'Bochnia_i')",10
-284,"('Choszczno_i', 'Choszczno_o')",10
-285,"('Nowa Sól_o', 'Zielona Góra Główna_i')",10
-286,"('Nysa_o', 'Otmuchów_i')",10
-287,"('Terespol_i', 'Terespol_o')",10
-288,"('Częstochowa Stradom_o', 'Częstochowa_i')",10
-289,"('Jarocin_i', 'Jarocin_o')",10
-290,"('Racibórz_o', 'Kędzierzyn Koźle_i')",10
-291,"('Częstochowa Stradom_o', 'Warszawa Zachodnia_i')",10
-292,"('Szamotuły_o', 'Poznań Główny_i')",10
-293,"('Łask_i', 'Łask_o')",10
-294,"('Pabianice_o', 'Łask_i')",10
-295,"('Pyskowice_o', 'Strzelce Opolskie_i')",10
-296,"('Środa Wielkopolska_o', 'Jarocin_i')",10
-297,"('Włocławek_i', 'Włocławek_o')",10
-298,"('Nakło nad Notecią_i', 'Nakło nad Notecią_o')",10
-299,"('Sulechów_o', 'Babimost_i')",10
-300,"('Nowe Drezdenko_o', 'Krzyż_i')",10
-301,"('Sandomierz_o', 'Stalowa Wola Rozwadów_i')",10
-302,"('Wrocław Główny_o', 'Strzelin_i')",10
-303,"('Nowy Targ_o', 'Kraków Główny_i')",10
-304,"('Miechów_o', 'Sędziszów_i')",10
-305,"('Czyżew_i', 'Czyżew_o')",10
-306,"('Koszalin_i', 'Koszalin_o')",10
-307,"('Ełk_o', 'Grajewo_i')",10
-308,"('Jarosław_o', 'Przemyśl Zasanie_i')",10
-309,"('Trzebinia_i', 'Trzebinia_o')",10
-310,"('Rogoźno Wielkopolskie_o', 'Oborniki Wielkopolskie Miasto_i')",10
-311,"('Inowrocław Rąbinek_i', 'Inowrocław Rąbinek_o')",10
-312,"('Działdowo_i', 'Działdowo_o')",10
-313,"('Warszawa Młynów_o', 'Warszawa Zachodnia (Peron 9)_i')",10
-314,"('Katowice_o', 'Sosnowiec Główny_i')",10
-315,"('Sosnowiec Główny_o', 'Warszawa Zachodnia_i')",10
-316,"('Parczew_o', 'Lubartów_i')",10
-317,"('Łuków_o', 'Międzyrzec Podlaski_i')",10
-318,"('Warszawa Centralna_i', 'Warszawa Centralna_o')",10
-319,"('Mysłowice_i', 'Mysłowice_o')",10
-320,"('Krasnystaw Miasto_o', 'Izbica_i')",10
-321,"('Mrozy_o', 'Mińsk Mazowiecki_i')",10
-322,"('Hajnówka_i', 'Hajnówka_o')",10
-323,"('Parczew_o', 'Radzyń Podlaski_i')",10
-324,"('Siemiatycze_o', 'Nurzec_i')",10
-325,"('Przeworsk_o', 'Jarosław_i')",10
-326,"('Dęblin_o', 'Sobolew_i')",10
-327,"('Aleksandrów Kujawski_o', 'Włocławek_i')",10
-328,"('Giżycko_i', 'Giżycko_o')",10
-329,"('Nowy Tomyśl_i', 'Nowy Tomyśl_o')",10
-330,"('Chałupki_o', 'Wodzisław Śląski_i')",10
-331,"('Starachowice Wschodnie_o', 'Skarżysko Kościelne_i')",10
-332,"('Krzyż_o', 'Nowe Drezdenko_i')",10
-333,"('Witnica_i', 'Witnica_o')",10
-334,"('Częstochowa_o', 'Koniecpol_i')",10
-335,"('Olsztyn Zachodni_o', 'Morąg_i')",10
-336,"('Koniecpol_o', 'Częstochowa_i')",10
-337,"('Sędziszów_o', 'Miechów_i')",10
-338,"('Suwałki_o', 'Augustów_i')",10
-339,"('Nisko_o', 'Stalowa Wola Centrum_i')",10
-340,"('Kościan_o', 'Poznań Główny_i')",10
-341,"('Zduńska Wola_o', 'Łask_i')",10
-342,"('Tychy_o', 'Katowice_i')",10
-343,"('Suwałki_i', 'Suwałki_o')",10
-344,"('Otmuchów_o', 'Paczków_i')",10
-345,"('Lublin Główny_o', 'Lublin Zachodni_i')",10
-346,"('Stalowa Wola Charzewice_i', 'Stalowa Wola Charzewice_o')",10
-347,"('Grajewo_o', 'Ełk_i')",10
-348,"('Chełm Miasto_o', 'Rejowiec_i')",10
-349,"('Chojnów_i', 'Chojnów_o')",10
-350,"('Jaworzyna Śląska_o', 'Świebodzice_i')",10
-351,"('Lubartów_i', 'Lubartów_o')",10
-352,"('Strzelce Opolskie_o', 'Pyskowice_i')",10
-353,"('Sopot_o', 'Gdynia Główna_i')",10
-354,"('Kolbuszowa_o', 'Nowa Dęba_i')",10
-355,"('Niemojki_i', 'Niemojki_o')",10
-356,"('Sarnaki_i', 'Sarnaki_o')",10
-357,"('Chociwel_o', 'Stargard_i')",10
-358,"('Warszawa Gdańska_o', 'Legionowo_i')",10
-359,"('Kaliska_o', 'Czarna Woda_i')",10
-360,"('Łapy_i', 'Łapy_o')",10
-361,"('Milicz_i', 'Milicz_o')",10
-362,"('Łódź Pabianicka_i', 'Łódź Pabianicka_o')",10
-363,"('Słupca_i', 'Słupca_o')",10
-364,"('Miechów_o', 'Koniecpol_i')",10
-365,"('Zawiercie_o', 'Dąbrowa Górnicza_i')",10
-366,"('Elbląg_o', 'Malbork_i')",10
-367,"('Biała Piska_o', 'Pisz_i')",10
-368,"('Rytro_o', 'Piwniczna Zdrój_i')",10
-369,"('Malbork_o', 'Prabuty_i')",10
-370,"('Tczew_i', 'Tczew_o')",10
-371,"('Ostrów Wielkopolski_o', 'Ostrzeszów_i')",10
-372,"('Toruń Wschodni_o', 'Kowalewo Pomorskie_i')",10
-373,"('Żyrardów_i', 'Żyrardów_o')",10
-374,"('Jędrzejów_o', 'Sędziszów_i')",10
-375,"('Lubartów_o', 'Lublin Główny_i')",10
-376,"('Babiak_o', 'Kutno_i')",10
-377,"('Warszawa Zachodnia_o', 'Sochaczew_i')",10
-378,"('Suchedniów_o', 'Kielce_i')",10
-379,"('Toruń Miasto_o', 'Toruń Główny_i')",10
-380,"('Sopot_i', 'Sopot_o')",10
-381,"('Świebodzice_o', 'Jaworzyna Śląska_i')",10
-382,"('Kutno_o', 'Żychlin_i')",10
-383,"('Tarnów_i', 'Tarnów_o')",10
-384,"('Prabuty_o', 'Iława Główna_i')",10
-385,"('Kędzierzyn Koźle_o', 'Opole Główne_i')",10
-386,"('Miechów_i', 'Miechów_o')",10
-387,"('Bardo Śląskie_i', 'Bardo Śląskie_o')",10
-388,"('Płock_o', 'Sierpc_i')",10
-389,"('Wrocław Mikołajów_i', 'Wrocław Mikołajów_o')",10
-390,"('Sulechów_o', 'Zielona Góra Główna_i')",10
-391,"('Łobez_i', 'Łobez_o')",10
-392,"('Sieradz_o', 'Zduńska Wola_i')",10
-393,"('Wołomin_i', 'Wołomin_o')",10
-394,"('Maków Podhalański_o', 'Sucha Beskidzka Zamek_i')",10
-395,"('Wałbrzych Główny_o', 'Sędzisław_i')",10
-396,"('Kostrzyn_i', 'Kostrzyn_o')",10
-397,"('Oborniki Śląskie_o', 'Wrocław Mikołajów_i')",10
-398,"('Wieluń_o', 'Wieruszów Miasto_i')",10
-399,"('Żagań_i', 'Żagań_o')",10
-400,"('Wałbrzych Miasto_o', 'Świebodzice_i')",10
-401,"('Sandomierz_i', 'Sandomierz_o')",10
-402,"('Jahodyn_o', 'Dorohusk_i')",10
-403,"('Krajenka_o', 'Piła Główna_i')",10
-404,"('Radymno_o', 'Jarosław_i')",10
-405,"('Białogard_o', 'Kołobrzeg_i')",10
-406,"('Głogów_o', 'Zielona Góra Główna_i')",10
-407,"('Kraków Główny_o', 'Katowice_i')",10
-408,"('Ruciane Nida_i', 'Ruciane Nida_o')",10
-409,"('Kościan_i', 'Kościan_o')",10
-410,"('Lębork_o', 'Gdynia Główna_i')",10
-411,"('Krotoszyn_o', 'Milicz_i')",10
-412,"('Gorlice Zagórzany_i', 'Gorlice Zagórzany_o')",10
-413,"('Przemyśl Główny_o', 'Przemyśl Zasanie_i')",10
-414,"('Nowa Sarzyna_o', 'Leżajsk_i')",10
-415,"('Włoszczowa Północ_o', 'Opoczno Południe_i')",10
-416,"('Mysłowice_o', 'Jaworzno Szczakowa_i')",10
-417,"('Bytom Odrzański_i', 'Bytom Odrzański_o')",10
-418,"('Świdnica Miasto_o', 'Dzierżoniów Śląski_i')",10
-419,"('Nowa Ruda_o', 'Jedlina-Zdrój_i')",10
-420,"('Żmigród_o', 'Oborniki Śląskie_i')",10
-421,"('Przeworsk_i', 'Przeworsk_o')",10
-422,"('Kraków Główny_o', 'Miechów_i')",10
-423,"('Lubin_o', 'Legnica_i')",10
-424,"('Piła Główna_o', 'Jastrowie_i')",10
-425,"('Gogolin_o', 'Zdzieszowice_i')",10
-426,"('Poznań Główny_o', 'Gniezno_i')",10
-427,"('Jaworzno Szczakowa_o', 'Mysłowice_i')",10
-428,"('Wieruszów Miasto_o', 'Wieluń_i')",10
-429,"('Kraków Główny_o', 'Kraków Płaszów_i')",10
-430,"('Leżajsk_o', 'Nowa Sarzyna_i')",10
-431,"('Strzelin_o', 'Ziębice_i')",10
-432,"('Piotrków Trybunalski_o', 'Koluszki_i')",10
-433,"('Tuczno Krajeńskie_o', 'Kalisz Pomorski_i')",10
-434,"('Ustka_o', 'Słupsk_i')",10
-435,"('Chałupki_o', 'Bohumín_i')",10
-436,"('Choszczno_o', 'Krzyż_i')",10
-437,"('Babimost_o', 'Sulechów_i')",10
-438,"('Stróże_i', 'Stróże_o')",10
-439,"('Pieńsk_o', 'Zgorzelec Miasto_i')",10
-440,"('Łęczyca_i', 'Łęczyca_o')",10
-441,"('Częstochowa_i', 'Częstochowa_o')",10
-442,"('Zagórz_i', 'Zagórz_o')",10
-443,"('Brzeg_o', 'Oława_i')",10
-444,"('Kraków Główny_o', 'Warszawa Zachodnia_i')",10
-445,"('Kołobrzeg_i', 'Kołobrzeg_o')",10
-446,"('Kamieniec Ząbkowicki_i', 'Kamieniec Ząbkowicki_o')",10
-447,"('Małkinia_i', 'Małkinia_o')",10
-448,"('Radomsko_o', 'Piotrków Trybunalski_i')",10
-449,"('Mińsk Mazowiecki_o', 'Warszawa Wschodnia_i')",10
-450,"('Warszawa Gdańska_o', 'Warszawa Młynów_i')",10
-451,"('Bogoniowice Ciężkowice_o', 'Tuchów_i')",10
-452,"('Zabrze_o', 'Chorzów Batory_i')",10
-453,"('Stalowa Wola Centrum_i', 'Stalowa Wola Centrum_o')",10
-454,"('Rejowiec_i', 'Rejowiec_o')",10
-455,"('Iława Główna_i', 'Iława Główna_o')",10
-456,"('Bielsko-Biała Główna_i', 'Bielsko-Biała Główna_o')",10
-457,"('Warszawa Główna_i', 'Warszawa Główna_o')",10
-458,"('Trawniki_i', 'Trawniki_o')",10
-459,"('Małaszewicze Przystanek_i', 'Małaszewicze Przystanek_o')",10
-460,"('Słupsk_o', 'Sławno_i')",10
-461,"('Żychlin_o', 'Kutno_i')",10
-462,"('Krynica Zdrój_o', 'Muszyna Zdrój_i')",10
-463,"('Szczytno_i', 'Szczytno_o')",10
-464,"('Brzesko Okocim_o', 'Bochnia_i')",10
-465,"('Białogard_i', 'Białogard_o')",10
-466,"('Gdynia Główna_o', 'Sopot_i')",10
-467,"('Świdwin_o', 'Łobez_i')",10
-468,"('Radom Główny_i', 'Radom Główny_o')",10
-469,"('Kolbuszowa_i', 'Kolbuszowa_o')",10
-470,"('Przeworsk_o', 'Leżajsk_i')",10
-471,"('Mieszkowice_o', 'Chojna_i')",10
-472,"('Warszawa Gdańska_o', 'Warszawa Wschodnia_i')",10
-473,"('Radom Gołębiów_o', 'Warka_i')",10
-474,"('Mława_i', 'Mława_o')",10
-475,"('Sobolew_o', 'Dęblin_i')",10
-476,"('Brzeg_o', 'Opole Główne_i')",10
-477,"('Biała Podlaska_o', 'Międzyrzec Podlaski_i')",10
-478,"('Grybów_i', 'Grybów_o')",10
-479,"('Małaszewicze Przystanek_o', 'Chotyłów_i')",10
-480,"('Kutno_o', 'Koło_i')",10
-481,"('Kraków Główny_o', 'Nowy Targ_i')",10
-482,"('Brzeg_i', 'Brzeg_o')",10
-483,"('Zdzieszowice_o', 'Gogolin_i')",10
-484,"('Ełk_i', 'Ełk_o')",10
-485,"('Drzewica_o', 'Przysucha_i')",10
-486,"('Gniezno_o', 'Inowrocław_i')",10
-487,"('Swarzędz_i', 'Swarzędz_o')",10
-488,"('Częstochowa_o', 'Myszków_i')",10
-489,"('Koluszki_i', 'Koluszki_o')",10
-490,"('Sędziszów Małopolski_o', 'Ropczyce_i')",10
-491,"('Bohumín_i', 'Bohumín_o')",10
-492,"('Żagań_o', 'Żary_i')",10
-493,"('Pilawa_i', 'Pilawa_o')",10
-494,"('Dzierżoniów Śląski_o', 'Świdnica Miasto_i')",10
-495,"('Morąg_o', 'Pasłęk_i')",10
-496,"('Zgorzelec_o', 'Zgorzelec Miasto_i')",10
-497,"('Starachowice Wschodnie_i', 'Starachowice Wschodnie_o')",10
-498,"('Słupsk_o', 'Koszalin_i')",10
-499,"('Rzeszów Główny_i', 'Rzeszów Główny_o')",10
-500,"('Sucha Beskidzka Zamek_i', 'Sucha Beskidzka Zamek_o')",10
-501,"('Częstochowa Stradom_o', 'Gliwice_i')",10
-502,"('Słupsk_i', 'Słupsk_o')",10
-503,"('Giżycko_o', 'Kętrzyn_i')",10
-504,"('Zgorzelec_i', 'Zgorzelec_o')",10
-505,"('Kostrzyn_o', 'Witnica_i')",10
-506,"('Oborniki Wielkopolskie Miasto_i', 'Oborniki Wielkopolskie Miasto_o')",10
-507,"('Toruń Główny_i', 'Toruń Główny_o')",10
-508,"('Pyskowice_o', 'Lubliniec_i')",10
-509,"('Nysa_o', 'Prudnik_i')",10
-510,"('Głogów_o', 'Bytom Odrzański_i')",10
-511,"('Poronin_i', 'Poronin_o')",10
-512,"('Stróże_o', 'Bobowa Miasto_i')",10
-513,"('Wałbrzych Miasto_o', 'Jelenia Góra_i')",10
-514,"('Krzepice_o', 'Częstochowa Stradom_i')",10
-515,"('Rudnik nad Sanem_o', 'Nowa Sarzyna_i')",10
-516,"('Mońki_i', 'Mońki_o')",10
-517,"('Zabrze_o', 'Katowice_i')",10
-518,"('Mrozy_i', 'Mrozy_o')",10
-519,"('Gliwice_i', 'Gliwice_o')",10
-520,"('Ząbkowice Śląskie_o', 'Dzierżoniów Śląski_i')",10
-521,"('Słupca_o', 'Konin_i')",10
-522,"('Nowy Dwór Mazowiecki_o', 'Nasielsk_i')",10
-523,"('Piła Główna_o', 'Wałcz_i')",10
-524,"('Małomice_o', 'Rokitki_i')",10
-525,"('Łódź Kaliska_o', 'Łódź Retkinia_i')",10
-526,"('Lubliniec_o', 'Częstochowa Stradom_i')",10
-527,"('Świebodzice_o', 'Wałbrzych Miasto_i')",10
-528,"('Gorlice Zagórzany_o', 'Biecz_i')",10
-529,"('Warszawa Młynów_i', 'Warszawa Młynów_o')",10
-530,"('Kościan_o', 'Leszno_i')",10
-531,"('Wysoka Kamieńska_i', 'Wysoka Kamieńska_o')",10
-532,"('Międzyzdroje_o', 'Świnoujście_i')",10
-533,"('Tuchów_o', 'Bogoniowice Ciężkowice_i')",10
-534,"('Oleśnica Rataje_o', 'Milicz_i')",10
-535,"('Włoszczowa Północ_o', 'Zawiercie_i')",10
-536,"('Działdowo_o', 'Warszawa Wschodnia_i')",10
-537,"('Wąbrzeźno_o', 'Jabłonowo Pomorskie_i')",10
-538,"('Świdnik Miasto_o', 'Trawniki_i')",10
-539,"('Lublin Zachodni_o', 'Nałęczów_i')",10
-540,"('Wąbrzeźno_o', 'Kowalewo Pomorskie_i')",10
-541,"('Opole Główne_o', 'Brzeg_i')",10
-542,"('Gliwice_o', 'Pyskowice_i')",10
-543,"('Prudnik_o', 'Nysa_i')",10
-544,"('Grybów_o', 'Stróże_i')",10
-545,"('Chotyłów_o', 'Biała Podlaska_i')",10
-546,"('Włoszczowa Północ_o', 'Sosnowiec Główny_i')",10
-547,"('Malbork_o', 'Tczew_i')",10
-548,"('Pszczyna_o', 'Tychy_i')",10
-549,"('Warszawa Zachodnia_o', 'Żyrardów_i')",10
-550,"('Skarżysko Kościelne_o', 'Radom Główny_i')",10
-551,"('Ustronie Morskie_i', 'Ustronie Morskie_o')",10
-552,"('Przemyśl Główny_o', 'Mostiska II_i')",10
-553,"('Ostrowiec Świętokrzyski_i', 'Ostrowiec Świętokrzyski_o')",10
-554,"('Zamość_i', 'Zamość_o')",10
-555,"('Piaseczno_o', 'Warka_i')",10
-556,"('Babiak_o', 'Piotrków Kujawski_i')",10
-557,"('Zawiercie_o', 'Jaworzno Szczakowa_i')",10
-558,"('Kostrzyn_o', 'Rzepin_i')",10
-559,"('Opole Główne_o', 'Ozimek_i')",10
-560,"('Zawiercie_o', 'Włoszczowa Północ_i')",10
-561,"('Tereszpol Biłgorajski_o', 'Zwierzyniec_i')",10
-562,"('Koszalin_o', 'Sławno_i')",10
-563,"('Bogoniowice Ciężkowice_i', 'Bogoniowice Ciężkowice_o')",10
-564,"('Zielona Góra Główna_o', 'Sulechów_i')",10
-565,"('Jaworzyna Śląska_o', 'Świdnica Miasto_i')",10
-566,"('Iława Główna_o', 'Malbork_i')",10
-567,"('Koniecpol_i', 'Koniecpol_o')",10
-568,"('Zdzieszowice_i', 'Zdzieszowice_o')",10
-569,"('Rzeszów Główny_o', 'Łańcut_i')",10
-570,"('Tczew_o', 'Bydgoszcz Główna_i')",10
-571,"('Wronki_o', 'Szamotuły_i')",10
-572,"('Twardogóra_o', 'Ostrów Wielkopolski_i')",10
-573,"('Łańcut_i', 'Łańcut_o')",10
-574,"('Tłuszcz_o', 'Łochów_i')",10
-575,"('Warka_o', 'Radom Główny_i')",10
-576,"('Gdańsk Główny_o', 'Gdańsk Wrzeszcz_i')",10
-577,"('Piła Główna_o', 'Chodzież_i')",10
-578,"('Dąbrowa Górnicza_i', 'Dąbrowa Górnicza_o')",10
-579,"('Nakło nad Notecią_o', 'Bydgoszcz Główna_i')",10
-580,"('Gliwice_o', 'Lubliniec_i')",10
-581,"('Rumia_o', 'Gdynia Główna_i')",10
-582,"('Wrocław Mikołajów_o', 'Wrocław Główny_i')",10
-583,"('Kwidzyn_o', 'Sztum_i')",10
-584,"('Dąbrowa Białostocka_o', 'Sokółka_i')",10
-585,"('Recz Pomorski_i', 'Recz Pomorski_o')",10
-586,"('Sanok_o', 'Zarszyn_i')",10
-587,"('Laskowice Pomorskie_o', 'Smętowo_i')",10
-588,"('Czersk_o', 'Łąg_i')",10
-589,"('Jaworzno Szczakowa_o', 'Katowice_i')",10
-590,"('Warszawa Wschodnia_o', 'Ciechanów_i')",10
-591,"('Szepietowo_o', 'Czyżew_i')",10
-592,"('Wróblik Szlachecki_o', 'Krosno Miasto_i')",10
-593,"('Choszczno_o', 'Dobiegniew_i')",10
-594,"('Wrocław Nadodrze_o', 'Wrocław Mikołajów_i')",10
-595,"('Werbkowice_o', 'Zamość Wschód_i')",10
-596,"('Płock_i', 'Płock_o')",10
-597,"('Jastrowie_o', 'Szczecinek_i')",10
-598,"('Lubliniec_o', 'Olesno Śląskie_i')",10
-599,"('Hrubieszów Miasto_o', 'Werbkowice_i')",10
-600,"('Szczebrzeszyn_o', 'Zwierzyniec_i')",10
-601,"('Łapy_o', 'Białystok Zielone Wzgórza_i')",10
-602,"('Biłgoraj_o', 'Stalowa Wola Rozwadów_i')",10
-603,"('Rzeszów Główny_o', 'Sędziszów Małopolski_i')",10
-604,"('Stargard_i', 'Stargard_o')",10
-605,"('Bielsk Podlaski_o', 'Białystok Zielone Wzgórza_i')",10
-606,"('Legionowo_o', 'Warszawa Wschodnia_i')",10
-607,"('Legnica_o', 'Rokitki_i')",10
-608,"('Lubliniec_o', 'Opole Główne_i')",10
-609,"('Pilawa_o', 'Dęblin_i')",10
-610,"('Warszawa Zachodnia_i', 'Warszawa Zachodnia_o')",10
-611,"('Pionki Zachodnie_o', 'Puławy Miasto_i')",10
-612,"('Gryfino_i', 'Gryfino_o')",10
-613,"('Nidzica_o', 'Olsztynek_i')",10
-614,"('Lublin Główny_i', 'Lublin Główny_o')",10
-615,"('Nowa Ruda_o', 'Kłodzko Główne_i')",10
-616,"('Kołobrzeg_o', 'Ustronie Morskie_i')",10
-617,"('Rejowiec_o', 'Chełm Miasto_i')",10
-618,"('Jarocin_o', 'Pleszew_i')",10
-619,"('Bobowa Miasto_i', 'Bobowa Miasto_o')",10
-620,"('Jarosław_o', 'Przeworsk_i')",10
-621,"('Częstochowa Stradom_o', 'Koniecpol_i')",10
-622,"('Sosnowiec Główny_o', 'Dąbrowa Górnicza_i')",10
-623,"('Muszyna_o', 'Muszyna Zdrój_i')",10
-624,"('Żyrardów_o', 'Skierniewice_i')",10
-625,"('Żychlin_o', 'Łowicz Główny_i')",10
-626,"('Łańcut_o', 'Rzeszów Główny_i')",10
-627,"('Przysucha_i', 'Przysucha_o')",10
-628,"('Jędrzejów_i', 'Jędrzejów_o')",10
-629,"('Poznań Główny_o', 'Opalenica_i')",10
-630,"('Jahodyn_o', 'Chełm_i')",10
-631,"('Nurzec_o', 'Czeremcha_i')",10
-632,"('Wierchomla Wielka_i', 'Wierchomla Wielka_o')",10
-633,"('Głogówek_o', 'Kędzierzyn Koźle_i')",10
-634,"('Świdnica Miasto_i', 'Świdnica Miasto_o')",10
-635,"('Osowiec_o', 'Mońki_i')",10
-636,"('Koluszki_o', 'Tomaszów Mazowiecki_i')",10
-637,"('Werbkowice_o', 'Hrubieszów Miasto_i')",10
-638,"('Siemiatycze_o', 'Sarnaki_i')",10
-639,"('Kutno_i', 'Kutno_o')",10
-640,"('Dębica_o', 'Rzeszów Główny_i')",10
-641,"('Tomaszów Mazowiecki_o', 'Opoczno Południe_i')",10
-642,"('Sobolew_o', 'Pilawa_i')",10
-643,"('Ozimek_o', 'Lubliniec_i')",10
-644,"('Szczytno_o', 'Ruciane Nida_i')",10
-645,"('Koluszki_o', 'Łódź Widzew_i')",10
-646,"('Mostiska II_o', 'Przemyśl Główny_i')",10
-647,"('Jasło_o', 'Jedlicze_i')",10
-648,"('Łódź Chojny_o', 'Łódź Pabianicka_i')",10
-649,"('Ustka_i', 'Ustka_o')",10
-650,"('Radom Główny_o', 'Skarżysko Kościelne_i')",10
-651,"('Sosnowiec Główny_o', 'Zawiercie_i')",10
-652,"('Częstochowa_o', 'Częstochowa Stradom_i')",10
-653,"('Kraków Główny_o', 'Krzeszowice_i')",10
-654,"('Żegiestów Zdrój_o', 'Muszyna_i')",10
-655,"('Gliwice_o', 'Zabrze_i')",10
-656,"('Szczebrzeszyn_i', 'Szczebrzeszyn_o')",10
-657,"('Sierpc_i', 'Sierpc_o')",10
-658,"('Skierniewice_o', 'Koluszki_i')",10
-659,"('Radzyń Podlaski_i', 'Radzyń Podlaski_o')",10
-660,"('Zielona Góra Główna_o', 'Rzepin_i')",10
-661,"('Piaseczno_i', 'Piaseczno_o')",10
-662,"('Kluczbork_i', 'Kluczbork_o')",10
-663,"('Warszawa Gdańska_i', 'Warszawa Gdańska_o')",10
-664,"('Tomaszów Mazowiecki_o', 'Koluszki_i')",10
-665,"('Szepietowo_o', 'Łapy_i')",10
-666,"('Skarżysko Kościelne_i', 'Skarżysko Kościelne_o')",10
-667,"('Toruń Główny_o', 'Toruń Miasto_i')",10
-668,"('Olsztynek_i', 'Olsztynek_o')",10
-669,"('Jedlicze_i', 'Jedlicze_o')",10
-670,"('Mława_o', 'Ciechanów_i')",10
-671,"('Zarszyn_o', 'Sanok_i')",10
-672,"('Żary_i', 'Żary_o')",10
-673,"('Tuczno Krajeńskie_i', 'Tuczno Krajeńskie_o')",10
-674,"('Biecz_i', 'Biecz_o')",10
-675,"('Czeremcha_i', 'Czeremcha_o')",10
-676,"('Środa Śląska_o', 'Wrocław Leśnica_i')",10
-677,"('Twardogóra_o', 'Oleśnica Rataje_i')",10
-678,"('Opalenica_o', 'Poznań Główny_i')",10
-679,"('Ciechanów_o', 'Nowy Dwór Mazowiecki_i')",10
-680,"('Prudnik_i', 'Prudnik_o')",10
-681,"('Jedlicze_o', 'Krosno_i')",10
-682,"('Gniezno_o', 'Mogilno_i')",10
-683,"('Żary_o', 'Żagań_i')",10
-684,"('Wyrzysk Osiek_i', 'Wyrzysk Osiek_o')",10
-685,"('Olsztyn Zachodni_o', 'Ostróda_i')",10
-686,"('Olsztyn Główny_o', 'Szczytno_i')",10
-687,"('Dobiegniew_o', 'Krzyż_i')",10
-688,"('Sokółka_o', 'Białystok_i')",10
-689,"('Tarnów_o', 'Dębica_i')",10
-690,"('Wodzisław Śląski_i', 'Wodzisław Śląski_o')",10
-691,"('Nowogród Osiedle_i', 'Nowogród Osiedle_o')",10
-692,"('Łódź Chojny_o', 'Łódź Kaliska_i')",10
-693,"('Ruciane Nida_o', 'Szczytno_i')",10
-694,"('Zakopane_i', 'Zakopane_o')",10
-695,"('Trzebinia_o', 'Chrzanów Śródmieście_i')",10
-696,"('Mogilno_o', 'Gniezno_i')",10
-697,"('Mogilno_i', 'Mogilno_o')",10
-698,"('Maków Podhalański_o', 'Chabówka Stadion_i')",10
-699,"('Leszno_o', 'Poznań Główny_i')",10
-700,"('Zgierz_o', 'Łódź\xa0Żabiniec_i')",10
-701,"('Tomaszów Mazowiecki_o', 'Drzewica_i')",10
-702,"('Czarna Woda_o', 'Kaliska_i')",10
-703,"('Chałupki_o', 'Racibórz_i')",10
-704,"('Koło_i', 'Koło_o')",10
-705,"('Gorzów Wielkopolski_o', 'Gorzów Wielkopolski Wschodni_i')",10
-706,"('Chrzanów Śródmieście_o', 'Trzebinia_i')",10
-707,"('Szczytno_o', 'Olsztyn Główny_i')",10
-708,"('Wejherowo_o', 'Lębork_i')",10
-709,"('Warszawa Wschodnia_o', 'Otwock_i')",10
-710,"('Wołomin_o', 'Warszawa Wschodnia_i')",10
-711,"('Grajewo_i', 'Grajewo_o')",10
-712,"('Toruń Główny_o', 'Solec Kujawski_i')",10
-713,"('Zaklików_o', 'Kraśnik_i')",10
-714,"('Dorohusk_i', 'Dorohusk_o')",10
-715,"('Kowalewo Pomorskie_i', 'Kowalewo Pomorskie_o')",10
-716,"('Ostrów Wielkopolski_o', 'Krotoszyn_i')",10
-717,"('Kuźnia Raciborska_o', 'Rybnik_i')",10
-718,"('Swarzędz_o', 'Września_i')",10
-719,"('Środa Wielkopolska_i', 'Środa Wielkopolska_o')",10
-720,"('Malbork_o', 'Iława Główna_i')",10
-721,"('Lipka Krajeńska_i', 'Lipka Krajeńska_o')",10
-722,"('Stalowa Wola Centrum_o', 'Stalowa Wola Rozwadów_i')",10
-723,"('Gdynia Główna_o', 'Rumia_i')",10
-724,"('Piła Główna_o', 'Krajenka_i')",10
-725,"('Zielona Góra Główna_o', 'Nowa Sól_i')",10
-726,"('Białystok Zielone Wzgórza_o', 'Mońki_i')",10
-727,"('Izbica_i', 'Izbica_o')",10
-728,"('Ostróda_i', 'Ostróda_o')",10
-729,"('Przemyśl Zasanie_i', 'Przemyśl Zasanie_o')",10
-730,"('Łochów_o', 'Małkinia_i')",10
-731,"('Jarocin_o', 'Środa Wielkopolska_i')",10
-732,"('Żegiestów Zdrój_o', 'Wierchomla Wielka_i')",10
-733,"('Wierchomla Wielka_o', 'Żegiestów Zdrój_i')",10
-734,"('Bolesławiec_o', 'Węgliniec_i')",10
-735,"('Poronin_o', 'Zakopane_i')",10
-736,"('Krosno Miasto_o', 'Wróblik Szlachecki_i')",10
-737,"('Łódź Dąbrowa_o', 'Łódź Chojny_i')",10
-738,"('Mogilno_o', 'Inowrocław_i')",10
-739,"('Włoszczowa Północ_i', 'Włoszczowa Północ_o')",10
-740,"('Aleksandrów Kujawski_i', 'Aleksandrów Kujawski_o')",10
-741,"('Dęblin_o', 'Puławy Miasto_i')",10
-742,"('Tarnów_o', 'Bochnia_i')",10
-743,"('Chabówka Stadion_i', 'Chabówka Stadion_o')",10
-744,"('Parczew_i', 'Parczew_o')",10
-745,"('Krzyż_i', 'Krzyż_o')",10
-746,"('Szczecin Dąbie_o', 'Szczecin Główny_i')",10
-747,"('Szczecin Dąbie_o', 'Goleniów_i')",10
-748,"('Wieluń_i', 'Wieluń_o')",10
-749,"('Świdnica Miasto_o', 'Jaworzyna Śląska_i')",10
-750,"('Muszyna_i', 'Muszyna_o')",10
-751,"('Dzierżoniów Śląski_i', 'Dzierżoniów Śląski_o')",10
-752,"('Piwniczna Zdrój_i', 'Piwniczna Zdrój_o')",10
-753,"('Warszawa Wschodnia_o', 'Wołomin_i')",10
-754,"('Witnica_o', 'Kostrzyn_i')",10
-755,"('Kuźnia Raciborska_o', 'Racibórz_i')",10
-756,"('Zagórz_o', 'Sanok_i')",10
-757,"('Siedlce Zachodnie_o', 'Siedlce_i')",10
-758,"('Sierpc_o', 'Rypin_i')",10
-759,"('Gdańsk Główny_o', 'Warszawa Wschodnia_i')",10
-760,"('Otwock_o', 'Pilawa_i')",10
-761,"('Kalwaria Zebrzydowska Lanckorona_o', 'Kraków Główny_i')",10
-762,"('Zakopane_o', 'Nowy Targ_i')",10
-763,"('Wrocław Główny_o', 'Leszno_i')",10
-764,"('Łuków_i', 'Łuków_o')",10
-765,"('Piotrków Kujawski_o', 'Inowrocław Rąbinek_i')",10
-766,"('Zabrze_i', 'Zabrze_o')",10
-767,"('Laskowice Pomorskie_o', 'Tczew_i')",10
-768,"('Rybnik_i', 'Rybnik_o')",10
-769,"('Łódź Widzew_o', 'Koluszki_i')",10
-770,"('Zgorzelec Miasto_o', 'Pieńsk_i')",10
-771,"('Łódź Widzew_o', 'Tomaszów Mazowiecki_i')",10
-772,"('Kołobrzeg_o', 'Białogard_i')",10
-773,"('Jasło_o', 'Biecz_i')",10
-774,"('Leszno_o', 'Kościan_i')",10
-775,"('Szczecin Główny_i', 'Szczecin Główny_o')",10
-776,"('Gdynia Główna_o', 'Lębork_i')",10
-777,"('Ciechanów_o', 'Iława Główna_i')",10
-778,"('Leżajsk_o', 'Łańcut_i')",10
-779,"('Rawicz_o', 'Leszno_i')",10
-780,"('Łódź Fabryczna_i', 'Łódź Fabryczna_o')",10
-781,"('Łódź Kaliska_o', 'Łódź Chojny_i')",10
-782,"('Międzyrzec Podlaski_o', 'Biała Podlaska_i')",10
-783,"('Dzierżoniów Śląski_o', 'Ząbkowice Śląskie_i')",10
-784,"('Łódź Widzew_o', 'Łódź Chojny_i')",10
-785,"('Dąbrowa Górnicza_o', 'Zawiercie_i')",10
-786,"('Dąbrowa Białostocka_i', 'Dąbrowa Białostocka_o')",10
-787,"('Częstochowa Stradom_o', 'Myszków_i')",10
-788,"('Szczecin Główny_o', 'Gryfino_i')",10
-789,"('Tczew_o', 'Gdańsk Główny_i')",10
-790,"('Nowa Sarzyna_o', 'Rudnik nad Sanem_i')",10
-791,"('Warszawa Młynów_o', 'Warszawa Gdańska_i')",10
-792,"('Jabłonowo Pomorskie_i', 'Jabłonowo Pomorskie_o')",10
-793,"('Czechowice-Dziedzice_o', 'Pszczyna_i')",10
-794,"('Zabrze_o', 'Gliwice_i')",10
-795,"('Kraków Płaszów_o', 'Kraków Główny_i')",10
-796,"('Brzeg Dolny_o', 'Wołów_i')",10
-797,"('Nowy Sącz_i', 'Nowy Sącz_o')",10
-798,"('Dąbrowa Górnicza_o', 'Sosnowiec Główny_i')",10
-799,"('Koluszki_o', 'Piotrków Trybunalski_i')",10
-800,"('Gliwice_o', 'Racibórz_i')",10
-801,"('Werbkowice_i', 'Werbkowice_o')",10
-802,"('Warszawa Wschodnia_o', 'Gdańsk Główny_i')",10
-803,"('Gogolin_o', 'Opole Główne_i')",10
-804,"('Radom Główny_o', 'Skarżysko Kamienna_i')",10
-805,"('Wołów_o', 'Ścinawa_i')",10
-806,"('Poznań Główny_o', 'Szamotuły_i')",10
-807,"('Sulechów_i', 'Sulechów_o')",10
-808,"('Tarnów_o', 'Kraków Płaszów_i')",10
-809,"('Sobolew_i', 'Sobolew_o')",10
-810,"('Warszawa Zachodnia_o', 'Zawiercie_i')",10
-811,"('Kłodzko Główne_i', 'Kłodzko Główne_o')",10
-812,"('Zamość Wschód_o', 'Werbkowice_i')",10
-813,"('Muszyna Zdrój_o', 'Muszyna_i')",10
-814,"('Nowy Dwór Mazowiecki_o', 'Legionowo_i')",10
-815,"('Kędzierzyn Koźle_o', 'Kuźnia Raciborska_i')",10
-816,"('Opoczno Południe_o', 'Tomaszów Mazowiecki_i')",10
-817,"('Opalenica_i', 'Opalenica_o')",10
-818,"('Pionki Zachodnie_o', 'Radom Główny_i')",10
-819,"('Krasnystaw Miasto_o', 'Trawniki_i')",10
-820,"('Piwniczna Zdrój_o', 'Rytro_i')",10
-821,"('Kielce_o', 'Jędrzejów_i')",10
-822,"('Rumia_o', 'Wejherowo_i')",10
-823,"('Tłuszcz_o', 'Wołomin_i')",10
-824,"('Skarżysko Kamienna_o', 'Radom Główny_i')",10
-825,"('Warszawa Zachodnia_o', 'Sosnowiec Główny_i')",10
-826,"('Katowice_o', 'Mysłowice_i')",10
-827,"('Olsztyn Główny_i', 'Olsztyn Główny_o')",10
-828,"('Mostiska II_i', 'Mostiska II_o')",10
-829,"('Bohumín_o', 'Chałupki_i')",10
-830,"('Ropczyce_i', 'Ropczyce_o')",10
-831,"('Żmigród_o', 'Rawicz_i')",10
-832,"('Wałbrzych Główny_o', 'Wałbrzych Miasto_i')",10
-833,"('Legnica_o', 'Środa Śląska_i')",10
-834,"('Kalwaria Zebrzydowska Lanckorona_i', 'Kalwaria Zebrzydowska Lanckorona_o')",10
-835,"('Jaworzno Szczakowa_o', 'Trzebinia_i')",10
-836,"('Elbląg_o', 'Pasłęk_i')",10
-837,"('Pilawa_o', 'Sobolew_i')",10
-838,"('Warszawa Zachodnia_o', 'Warszawa Główna_i')",10
-839,"('Sosnowiec Główny_o', 'Włoszczowa Północ_i')",10
-840,"('Tarnobrzeg_o', 'Nowa Dęba_i')",10
-841,"('Tuczno Krajeńskie_o', 'Wałcz_i')",10
-842,"('Siemiatycze_i', 'Siemiatycze_o')",10
-843,"('Siedlce Zachodnie_o', 'Mrozy_i')",10
-844,"('Koło_o', 'Kutno_i')",10
-845,"('Przysucha_o', 'Radom Główny_i')",10
-846,"('Kętrzyn_i', 'Kętrzyn_o')",10
-847,"('Żary_o', 'Nowogród Osiedle_i')",10
-848,"('Krzyż_o', 'Wieleń_i')",10
-849,"('Świebodzin_o', 'Zbąszynek_i')",10
-850,"('Sokółka_i', 'Sokółka_o')",10
-851,"('Wołów_o', 'Brzeg Dolny_i')",10
-852,"('Oborniki Śląskie_o', 'Żmigród_i')",10
-853,"('Sarnaki_o', 'Siemiatycze_i')",10
-854,"('Olsztyn Główny_o', 'Kętrzyn_i')",10
-855,"('Rypin_o', 'Brodnica_i')",10
-856,"('Ciechanów_i', 'Ciechanów_o')",10
-857,"('Jaworzyna Śląska_i', 'Jaworzyna Śląska_o')",10
-858,"('Warszawa Wschodnia_o', 'Nowy Dwór Mazowiecki_i')",10
-859,"('Ozimek_i', 'Ozimek_o')",10
-860,"('Kraków Płaszów_o', 'Tarnów_i')",10
-861,"('Zawiercie_o', 'Włoszczowa_i')",10
-862,"('Ziębice_o', 'Strzelin_i')",10
-863,"('Paczków_o', 'Otmuchów_i')",10
-864,"('Ścinawa_i', 'Ścinawa_o')",10
-865,"('Katowice_o', 'Rybnik_i')",10
-866,"('Kędzierzyn Koźle_i', 'Kędzierzyn Koźle_o')",10
-867,"('Czechowice-Dziedzice_o', 'Zebrzydowice_i')",10
-868,"('Olsztynek_o', 'Nidzica_i')",10
-869,"('Strzelin_o', 'Wrocław Główny_i')",10
-870,"('Zgorzelec Miasto_i', 'Zgorzelec Miasto_o')",10
-871,"('Konin_o', 'Poznań Główny_i')",10
-872,"('Rybnik_o', 'Racibórz_i')",10
-873,"('Międzyrzecz_o', 'Zbąszynek_i')",10
-874,"('Pieńsk_i', 'Pieńsk_o')",10
-875,"('Białystok Zielone Wzgórza_o', 'Łapy_i')",10
-876,"('Kluczbork_o', 'Olesno Śląskie_i')",10
-877,"('Września_i', 'Września_o')",10
-878,"('Ciechanów_o', 'Mława_i')",10
-879,"('Bydgoszcz Główna_i', 'Bydgoszcz Główna_o')",10
-880,"('Zamość Starówka_i', 'Zamość Starówka_o')",10
-881,"('Gliwice_o', 'Strzelce Opolskie_i')",10
-882,"('Stary Sącz_o', 'Rytro_i')",10
-883,"('Kluczbork_o', 'Byczyna Kluczborska_i')",10
-884,"('Kuźnia Raciborska_o', 'Kędzierzyn Koźle_i')",10
-885,"('Kowalewo Pomorskie_o', 'Wąbrzeźno_i')",10
-886,"('Wołów_i', 'Wołów_o')",10
-887,"('Głogówek_o', 'Prudnik_i')",10
-888,"('Ścinawa_o', 'Wołów_i')",10
-889,"('Olesno Śląskie_o', 'Lubliniec_i')",10
-890,"('Chotyłów_i', 'Chotyłów_o')",10
-891,"('Myszków_o', 'Częstochowa Stradom_i')",10
-892,"('Warszawa Centralna_o', 'Warszawa Wschodnia_i')",10
-893,"('Dębica_o', 'Tarnów_i')",10
-894,"('Łęczyca_o', 'Kutno_i')",10
-895,"('Bydgoszcz Wschód_o', 'Bydgoszcz Leśna_i')",10
-896,"('Żory_o', 'Rybnik_i')",10
-897,"('Brodnica_o', 'Jabłonowo Pomorskie_i')",10
-898,"('Rzeszów Główny_o', 'Dębica_i')",10
-899,"('Kutno_o', 'Łowicz Główny_i')",10
-900,"('Rokitki_o', 'Legnica_i')",10
-901,"('Smętowo_i', 'Smętowo_o')",10
-902,"('Piotrków Trybunalski_o', 'Gorzkowice_i')",10
-903,"('Ostrzeszów_o', 'Kępno_i')",10
-904,"('Otmuchów_o', 'Nysa_i')",10
-905,"('Grodzisk Mazowiecki_i', 'Grodzisk Mazowiecki_o')",10
-906,"('Dobiegniew_i', 'Dobiegniew_o')",10
-907,"('Łódź Retkinia_o', 'Łódź Kaliska_i')",10
-908,"('Zwierzyniec_o', 'Tereszpol Biłgorajski_i')",10
-909,"('Jelenia Góra_o', 'Janowice Wielkie_i')",10
-910,"('Nowa Sarzyna_i', 'Nowa Sarzyna_o')",10
-911,"('Sztum_o', 'Malbork_i')",10
-912,"('Łąg_i', 'Łąg_o')",10
-913,"('Myszków_i', 'Myszków_o')",10
-914,"('Łańcut_o', 'Leżajsk_i')",10
-915,"('Prabuty_o', 'Malbork_i')",10
-916,"('Katowice_o', 'Chorzów Batory_i')",10
-917,"('Małkinia_o', 'Czyżew_i')",10
-918,"('Warszawa Zachodnia (Peron 9)_i', 'Warszawa Zachodnia (Peron 9)_o')",10
-919,"('Nowa Sól_o', 'Bytom Odrzański_i')",10
-920,"('Czechowice-Dziedzice_o', 'Żory_i')",10
-921,"('Warszawa Zachodnia (Peron 9)_o', 'Warszawa Młynów_i')",10
-922,"('Węgliniec_o', 'Bolesławiec_i')",10
-923,"('Wieleń_i', 'Wieleń_o')",10
-924,"('Lubin_i', 'Lubin_o')",10
-925,"('Mońki_o', 'Osowiec_i')",10
-926,"('Ełk_o', 'Biała Piska_i')",10
-927,"('Krasnystaw Miasto_i', 'Krasnystaw Miasto_o')",10
-928,"('Mysłowice_o', 'Katowice_i')",10
-929,"('Pisz_o', 'Ruciane Nida_i')",10
-930,"('Łomnica Zdrój_o', 'Wierchomla Wielka_i')",10
-931,"('Warszawa Wschodnia_o', 'Warszawa Gdańska_i')",10
-932,"('Tomaszów Mazowiecki_i', 'Tomaszów Mazowiecki_o')",10
-933,"('Ustronie Morskie_o', 'Koszalin_i')",10
-934,"('Grudziądz_i', 'Grudziądz_o')",10
-935,"('Muszyna Zdrój_i', 'Muszyna Zdrój_o')",10
-936,"('Sosnowiec Główny_o', 'Będzin Miasto_i')",10
-937,"('Goleniów_o', 'Szczecin Dąbie_i')",10
-938,"('Hajnówka_o', 'Bielsk Podlaski_i')",10
-939,"('Gliwice_o', 'Kędzierzyn Koźle_i')",10
-940,"('Kowalewo Pomorskie_o', 'Toruń Wschodni_i')",10
-941,"('Grajewo_o', 'Osowiec_i')",10
-942,"('Pleszew_o', 'Kalisz_i')",10
-943,"('Trakiszki_o', 'Mockava_i')",10
-944,"('Stalowa Wola Rozwadów_i', 'Stalowa Wola Rozwadów_o')",10
-945,"('Mieszkowice_i', 'Mieszkowice_o')",10
-946,"('Kraków Główny_o', 'Tarnów_i')",10
-947,"('Wrocław Leśnica_i', 'Wrocław Leśnica_o')",10
-948,"('Chełm_o', 'Dorohusk_i')",10
-949,"('Sosnowiec Główny_i', 'Sosnowiec Główny_o')",10
-950,"('Nałęczów_i', 'Nałęczów_o')",10
-951,"('Łowicz Główny_i', 'Łowicz Główny_o')",10
-952,"('Rybnik_o', 'Żory_i')",10
-953,"('Bydgoszcz Leśna_o', 'Bydgoszcz Wschód_i')",10
-954,"('Strzelce Opolskie_o', 'Gliwice_i')",10
-955,"('Nowa Sól_i', 'Nowa Sól_o')",10
-956,"('Grodzisk Mazowiecki_o', 'Warszawa Zachodnia_i')",10
-957,"('Międzyzdroje_o', 'Wysoka Kamieńska_i')",10
-958,"('Toruń Wschodni_o', 'Toruń Miasto_i')",10
-959,"('Zielona Góra Główna_o', 'Nowogród Osiedle_i')",10
-960,"('Jedlina-Zdrój_o', 'Wałbrzych Główny_i')",10
-961,"('Chełm Miasto_i', 'Chełm Miasto_o')",10
-962,"('Zbąszynek_o', 'Poznań Główny_i')",10
-963,"('Rybnik_o', 'Katowice_i')",10
-964,"('Nowy Dwór Mazowiecki_o', 'Warszawa Wschodnia_i')",10
-965,"('Trakiszki_i', 'Trakiszki_o')",10
-966,"('Legnica_o', 'Lubin_i')",10
-967,"('Białystok_o', 'Sokółka_i')",10
-968,"('Lublin Zachodni_o', 'Lublin Główny_i')",10
-969,"('Wrocław Mikołajów_o', 'Wrocław Nadodrze_i')",10
-970,"('Wrocław Główny_o', 'Brzeg Dolny_i')",10
-971,"('Warszawa Wschodnia_o', 'Iława Główna_i')",10
-972,"('Lublin Zachodni_i', 'Lublin Zachodni_o')",10
-973,"('Ostrzeszów_o', 'Ostrów Wielkopolski_i')",10
-974,"('Lubin_o', 'Głogów_i')",10
-975,"('Jastrowie_i', 'Jastrowie_o')",10
-976,"('Łódź\xa0Żabiniec_o', 'Łódź Kaliska_i')",10
-977,"('Piotrków Trybunalski_o', 'Łódź Widzew_i')",10
-978,"('Opole Główne_i', 'Opole Główne_o')",10
-979,"('Jedlicze_o', 'Jasło_i')",10
-980,"('Głogówek_i', 'Głogówek_o')",10
-981,"('Chotyłów_o', 'Małaszewicze Przystanek_i')",10
-982,"('Wąbrzeźno_i', 'Wąbrzeźno_o')",10
-983,"('Bydgoszcz Główna_o', 'Inowrocław_i')",10
-984,"('Zebrzydowice_i', 'Zebrzydowice_o')",10
-985,"('Choszczno_o', 'Stargard_i')",10
-986,"('Sędziszów_i', 'Sędziszów_o')",10
-987,"('Chojnów_o', 'Bolesławiec_i')",10
-988,"('Skarżysko Kamienna_i', 'Skarżysko Kamienna_o')",10
-989,"('Koniecpol_o', 'Częstochowa Stradom_i')",10
-990,"('Lębork_i', 'Lębork_o')",10
-991,"('Warszawa Gdańska_o', 'Otwock_i')",10
-992,"('Janowice Wielkie_o', 'Sędzisław_i')",10
-993,"('Jedlina-Zdrój_o', 'Nowa Ruda_i')",10
-994,"('Recz Pomorski_o', 'Stargard_i')",10
-995,"('Pionki Zachodnie_i', 'Pionki Zachodnie_o')",10
-996,"('Częstochowa Stradom_i', 'Częstochowa Stradom_o')",10
-997,"('Warszawa Zachodnia_o', 'Włoszczowa Północ_i')",10
-998,"('Janowice Wielkie_o', 'Jelenia Góra_i')",10
-999,"('Trakiszki_o', 'Suwałki_i')",10
-1000,"('Milicz_o', 'Krotoszyn_i')",10
-1001,"('Sieradz_i', 'Sieradz_o')",10
-1002,"('Wodzisław Śląski_o', 'Rybnik_i')",10
-1003,"('Tarnobrzeg_o', 'Stalowa Wola Charzewice_i')",10
-1004,"('Kłodzko Główne_o', 'Nowa Ruda_i')",10
-1005,"('Lublin Główny_o', 'Kraśnik_i')",10
-1006,"('Oświęcim_o', 'Czechowice-Dziedzice_i')",10
-1007,"('Poznań Główny_o', 'Leszno_i')",10
-1008,"('Kolbuszowa_o', 'Rzeszów Zachodni_i')",10
-1009,"('Sokółka_o', 'Dąbrowa Białostocka_i')",10
-1010,"('Tczew_o', 'Pruszcz Gdański_i')",10
-1011,"('Sędziszów Małopolski_o', 'Rzeszów Główny_i')",10
-1012,"('Żmigród_i', 'Żmigród_o')",10
-1013,"('Słupsk_o', 'Lębork_i')",10
-1014,"('Szepietowo_i', 'Szepietowo_o')",10
-1015,"('Ropczyce_o', 'Sędziszów Małopolski_i')",10
-1016,"('Oława_o', 'Brzeg_i')",10
-1017,"('Rypin_i', 'Rypin_o')",10
-1018,"('Jelenia Góra_o', 'Wałbrzych Miasto_i')",10
-1019,"('Rybnik_o', 'Wodzisław Śląski_i')",10
-1020,"('Grodzisk Mazowiecki_o', 'Warszawa Gdańska_i')",10
-1021,"('Złotów_o', 'Krajenka_i')",10
-1022,"('Opoczno Południe_i', 'Opoczno Południe_o')",10
-1023,"('Warszawa Wschodnia_o', 'Mińsk Mazowiecki_i')",10
-1024,"('Kutno_o', 'Gostynin_i')",10
-1025,"('Czeremcha_o', 'Hajnówka_i')",10
-1026,"('Puławy Miasto_o', 'Nałęczów_i')",10
-1027,"('Nowy Sącz_o', 'Grybów_i')",10
-1028,"('Racibórz_o', 'Gliwice_i')",10
-1029,"('Łódź Fabryczna_o', 'Łódź Widzew_i')",10
-1030,"('Warszawa Służewiec_o', 'Warszawa Zachodnia (Peron 9)_i')",10
-1031,"('Stalowa Wola Rozwadów_o', 'Zaklików_i')",10
-1032,"('Kętrzyn_o', 'Olsztyn Główny_i')",10
-1033,"('Działdowo_o', 'Nidzica_i')",10
-1034,"('Zawada_o', 'Izbica_i')",10
-1035,"('Rzeszów Zachodni_o', 'Kolbuszowa_i')",10
-1036,"('Sławno_o', 'Słupsk_i')",10
-1037,"('Skierniewice_o', 'Żyrardów_i')",10
-1038,"('Wałbrzych Miasto_o', 'Wałbrzych Główny_i')",10
-1039,"('Jaworzyna Śląska_o', 'Wrocław Główny_i')",10
-1040,"('Żory_i', 'Żory_o')",10
-1041,"('Zamość Starówka_o', 'Zamość Wschód_i')",10
-1042,"('Rogoźno Wielkopolskie_i', 'Rogoźno Wielkopolskie_o')",10
-1043,"('Krotoszyn_o', 'Ostrów Wielkopolski_i')",10
-1044,"('Byczyna Kluczborska_o', 'Kępno_i')",10
-1045,"('Gdańsk Główny_o', 'Pruszcz Gdański_i')",10
-1046,"('Zawada_i', 'Zawada_o')",10
-1047,"('Wieluń_o', 'Krzepice_i')",10
-1048,"('Rzepin_o', 'Kostrzyn_i')",10
-1049,"('Gostynin_o', 'Kutno_i')",10
-1050,"('Małomice_i', 'Małomice_o')",10
-1051,"('Kutno_o', 'Babiak_i')",10
-1052,"('Starogard Gdański_o', 'Kaliska_i')",10
-1053,"('Lublin Główny_o', 'Lubartów_i')",10
-1054,"('Dobiegniew_o', 'Choszczno_i')",10
-1055,"('Łódź Chojny_o', 'Pabianice_i')",10
-1056,"('Niemojki_o', 'Siedlce_i')",10
-1057,"('Czersk_i', 'Czersk_o')",10
-1058,"('Piła Główna_o', 'Trzcianka_i')",10
-1059,"('Jabłonowo Pomorskie_o', 'Brodnica_i')",10
-1060,"('Gostynin_i', 'Gostynin_o')",10
-1061,"('Mrozy_o', 'Siedlce Zachodnie_i')",10
-1062,"('Miechów_o', 'Włoszczowa Północ_i')",10
-1063,"('Nisko_o', 'Rudnik nad Sanem_i')",10
-1064,"('Chojna_i', 'Chojna_o')",10
-1065,"('Łowicz Główny_o', 'Żychlin_i')",10
-1066,"('Dąbrowa Górnicza_o', 'Będzin Miasto_i')",10
-1067,"('Legionowo_i', 'Legionowo_o')",10
-1068,"('Puławy Miasto_o', 'Dęblin_i')",10
-1069,"('Radymno_i', 'Radymno_o')",10
-1070,"('Iława Główna_o', 'Jabłonowo Pomorskie_i')",10
-1071,"('Gorzkowice_i', 'Gorzkowice_o')",10
-1072,"('Rzepin_o', 'Świebodzin_i')",10
-1073,"('Mockava_i', 'Mockava_o')",10
-1074,"('Koluszki_o', 'Skierniewice_i')",10
-1075,"('Gogolin_i', 'Gogolin_o')",10
-1076,"('Oleśnica Rataje_i', 'Oleśnica Rataje_o')",10
-1077,"('Nidzica_o', 'Działdowo_i')",10
-1078,"('Brzeg Dolny_o', 'Wrocław Główny_i')",10
-1079,"('Pruszcz Gdański_o', 'Gdańsk Główny_i')",10
-1080,"('Siedlce_i', 'Siedlce_o')",10
-1081,"('Białogard_o', 'Szczecinek_i')",10
-1082,"('Solec Kujawski_o', 'Bydgoszcz Wschód_i')",10
-1083,"('Tuchów_i', 'Tuchów_o')",10
-1084,"('Jarosław_o', 'Radymno_i')",10
-1085,"('Myszków_o', 'Zawiercie_i')",10
-1086,"('Pyskowice_o', 'Gliwice_i')",10
-1087,"('Lubartów_o', 'Parczew_i')",10
-1088,"('Ozorków_o', 'Zgierz_i')",10
-1089,"('Rybnik_o', 'Kuźnia Raciborska_i')",10
-1090,"('Tczew_o', 'Laskowice Pomorskie_i')",10
-1091,"('Lubliniec_o', 'Pyskowice_i')",10
-1092,"('Lipka Krajeńska_o', 'Złotów_i')",10
-1093,"('Legnica_i', 'Legnica_o')",10
-1094,"('Rudnik nad Sanem_i', 'Rudnik nad Sanem_o')",10
-1095,"('Szamotuły_o', 'Wronki_i')",10
-1096,"('Chabówka Stadion_o', 'Maków Podhalański_i')",10
-1097,"('Stary Sącz_i', 'Stary Sącz_o')",10
-1098,"('Zawiercie_o', 'Warszawa Zachodnia_i')",10
-1099,"('Leżajsk_o', 'Przeworsk_i')",10
-1100,"('Opoczno Południe_o', 'Włoszczowa Północ_i')",10
-1101,"('Wrocław Główny_o', 'Jaworzyna Śląska_i')",10
-1102,"('Pabianice_o', 'Łódź Chojny_i')",10
-1103,"('Małkinia_o', 'Łochów_i')",10
-1104,"('Kraśnik_o', 'Zaklików_i')",10
-1105,"('Przemyśl Główny_i', 'Przemyśl Główny_o')",10
-1106,"('Zbąszynek_o', 'Świebodzin_i')",10
-1107,"('Warszawa Zachodnia (Peron 9)_o', 'Warszawa Służewiec_i')",10
-1108,"('Żory_o', 'Czechowice-Dziedzice_i')",10
-1109,"('Sanok_o', 'Zagórz_i')",10
-1110,"('Piwniczna Zdrój_o', 'Łomnica Zdrój_i')",10
-1111,"('Krzeszowice_i', 'Krzeszowice_o')",10
-1112,"('Jaworzno Szczakowa_i', 'Jaworzno Szczakowa_o')",10
-1113,"('Kędzierzyn Koźle_o', 'Racibórz_i')",10
-1114,"('Oborniki Wielkopolskie Miasto_o', 'Rogoźno Wielkopolskie_i')",10
-1115,"('Runowo Pomorskie_i', 'Runowo Pomorskie_o')",10
-1116,"('Nowy Tomyśl_o', 'Opalenica_i')",10
-1117,"('Gorzkowice_o', 'Piotrków Trybunalski_i')",10
-1118,"('Sochaczew_o', 'Łowicz Główny_i')",10
-1119,"('Radom Główny_o', 'Przysucha_i')",10
-1120,"('Olsztyn Zachodni_o', 'Olsztyn Główny_i')",10
-1121,"('Warszawa Służewiec_o', 'Piaseczno_i')",10
-1122,"('Chorzów Batory_o', 'Zabrze_i')",10
-1123,"('Warszawa Zachodnia_o', 'Częstochowa Stradom_i')",10
-1124,"('Łódź Retkinia_i', 'Łódź Retkinia_o')",10
-1125,"('Gorlice Zagórzany_o', 'Bogoniowice Ciężkowice_i')",10
-1126,"('Wodzisław Śląski_o', 'Chałupki_i')",10
-1127,"('Stargard_o', 'Szczecin Dąbie_i')",10
-1128,"('Nałęczów_o', 'Lublin Zachodni_i')",10
-1129,"('Kalisz_o', 'Sieradz_i')",10
-1130,"('Kutno_o', 'Łęczyca_i')",10
-1131,"('Biłgoraj_o', 'Tereszpol Biłgorajski_i')",10
-1132,"('Wrocław Główny_o', 'Wrocław Mikołajów_i')",10
-1133,"('Skwierzyna_i', 'Skwierzyna_o')",10
-1134,"('Zaklików_i', 'Zaklików_o')",10
-1135,"('Malbork_i', 'Malbork_o')",10
-1136,"('Opole Główne_o', 'Lubliniec_i')",10
-1137,"('Olesno Śląskie_o', 'Kluczbork_i')",10
-1138,"('Pruszcz Gdański_i', 'Pruszcz Gdański_o')",10
-1139,"('Hrubieszów Miasto_i', 'Hrubieszów Miasto_o')",10
-1140,"('Tczew_o', 'Smętowo_i')",10
-1141,"('Warszawa Zachodnia_o', 'Kutno_i')",10
-1142,"('Morąg_o', 'Olsztyn Zachodni_i')",10
-1143,"('Rokitki_i', 'Rokitki_o')",10
-1144,"('Pilawa_o', 'Otwock_i')",10
-1145,"('Łódź Retkinia_o', 'Łódź Chojny_i')",10
-1146,"('Nowy Targ_o', 'Poronin_i')",10
-1147,"('Sędziszów Małopolski_i', 'Sędziszów Małopolski_o')",10
-1148,"('Ostrów Wielkopolski_o', 'Twardogóra_i')",10
-1149,"('Chociwel_i', 'Chociwel_o')",10
-1150,"('Wróblik Szlachecki_o', 'Zarszyn_i')",10
-1151,"('Grodzisk Mazowiecki_o', 'Opoczno Południe_i')",10
-1152,"('Warka_o', 'Piaseczno_i')",10
-1153,"('Biłgoraj_i', 'Biłgoraj_o')",10
-1154,"('Słupca_o', 'Września_i')",10
-1155,"('Lipka Krajeńska_o', 'Chojnice_i')",10
-1156,"('Wyrzysk Osiek_o', 'Nakło nad Notecią_i')",10
-1157,"('Łowicz Główny_o', 'Sochaczew_i')",10
-1158,"('Żyrardów_o', 'Grodzisk Mazowiecki_i')",10
-1159,"('Brodnica_o', 'Rypin_i')",10
-1160,"('Warszawa Wschodnia_o', 'Działdowo_i')",10
-1161,"('Inowrocław Rąbinek_o', 'Piotrków Kujawski_i')",10
-1162,"('Chełm Miasto_o', 'Chełm_i')",10
-1163,"('Wałcz_o', 'Tuczno Krajeńskie_i')",10
-1164,"('Chorzów Batory_i', 'Chorzów Batory_o')",10
-1165,"('Brzeg_o', 'Wrocław Główny_i')",10
-1166,"('Zbąszyń_i', 'Zbąszyń_o')",10
-1167,"('Warszawa Zachodnia_o', 'Grodzisk Mazowiecki_i')",10
-1168,"('Pilawa_o', 'Warszawa Wschodnia_i')",10
-1169,"('Wrocław Główny_i', 'Wrocław Główny_o')",10
-1170,"('Zielona Góra Główna_i', 'Zielona Góra Główna_o')",10
-1171,"('Kraków Główny_o', 'Oświęcim_i')",10
-1172,"('Konin_i', 'Konin_o')",10
-1173,"('Trzcianka_i', 'Trzcianka_o')",10
-1174,"('Zawiercie_o', 'Warszawa Gdańska_i')",10
-1175,"('Wrocław Główny_o', 'Brzeg_i')",10
-1176,"('Chojna_o', 'Gryfino_i')",10
-1177,"('Nowa Ruda_i', 'Nowa Ruda_o')",10
-1178,"('Łochów_o', 'Tłuszcz_i')",10
-1179,"('Międzyrzec Podlaski_i', 'Międzyrzec Podlaski_o')",10
-1180,"('Radymno_o', 'Przemyśl Zasanie_i')",10
-1181,"('Ciechanów_o', 'Nasielsk_i')",10
-1182,"('Zduńska Wola_i', 'Zduńska Wola_o')",10
-1183,"('Oborniki Śląskie_o', 'Wrocław Główny_i')",10
-1184,"('Bielsk Podlaski_o', 'Hajnówka_i')",10
-1185,"('Kłodzko Główne_o', 'Kłodzko Miasto_i')",10
-1186,"('Zwierzyniec_o', 'Szczebrzeszyn_i')",10
-1187,"('Zawiercie_i', 'Zawiercie_o')",10
-1188,"('Nowe Drezdenko_i', 'Nowe Drezdenko_o')",10
-1189,"('Poznań Główny_o', 'Konin_i')",10
-1190,"('Ostróda_o', 'Iława Główna_i')",10
-1191,"('Czyżew_o', 'Małkinia_i')",10
-1192,"('Trzcianka_o', 'Piła Główna_i')",10
-1193,"('Stalowa Wola Rozwadów_o', 'Sandomierz_i')",10
-1194,"('Jabłonowo Pomorskie_o', 'Iława Główna_i')",10
-1195,"('Miechów_o', 'Częstochowa Stradom_i')",10
-1196,"('Tomaszów Mazowiecki_o', 'Łódź Widzew_i')",10
-1197,"('Ścinawa_o', 'Głogów_i')",10
-1198,"('Łódź Pabianicka_o', 'Łódź Kaliska_i')",10
-1199,"('Wałcz_o', 'Piła Główna_i')",10
-1200,"('Zawada_o', 'Szczebrzeszyn_i')",10
-1201,"('Pelplin_o', 'Smętowo_i')",10
-1202,"('Warszawa Główna_o', 'Warszawa Zachodnia_i')",10
-1203,"('Bogoniowice Ciężkowice_o', 'Bobowa Miasto_i')",10
-1204,"('Bielsk Podlaski_i', 'Bielsk Podlaski_o')",10
-1205,"('Wrocław Główny_o', 'Oława_i')",10
-1206,"('Warszawa Zachodnia_o', 'Warszawa Centralna_i')",10
-1207,"('Pyskowice_i', 'Pyskowice_o')",10
-1208,"('Chojna_o', 'Kostrzyn_i')",10
-1209,"('Bytom Odrzański_o', 'Głogów_i')",10
-1210,"('Nasielsk_i', 'Nasielsk_o')",10
-1211,"('Olsztynek_o', 'Olsztyn Zachodni_i')",10
-1212,"('Łęczyca_o', 'Ozorków_i')",10
-1213,"('Bolesławiec_o', 'Chojnów_i')",10
-1214,"('Września_o', 'Swarzędz_i')",10
-1215,"('Trawniki_o', 'Świdnik Miasto_i')",10
-1216,"('Izbica_o', 'Zawada_i')",10
-1217,"('Tczew_o', 'Starogard Gdański_i')",10
-1218,"('Łódź Chojny_o', 'Łódź Retkinia_i')",10
-1219,"('Sławno_i', 'Sławno_o')",10
-1220,"('Łąg_o', 'Czarna Woda_i')",10
-1221,"('Bochnia_o', 'Kraków Główny_i')",10
-1222,"('Międzyrzec Podlaski_o', 'Łuków_i')",10
-1223,"('Stary Sącz_o', 'Nowy Sącz_i')",10
-1224,"('Bardo Śląskie_o', 'Kłodzko Główne_i')",10
-1225,"('Zbąszynek_o', 'Babimost_i')",10
-1226,"('Bobowa Miasto_o', 'Stróże_i')",10
-1227,"('Przemyśl Główny_o', 'Jarosław_i')",10
-1228,"('Łódź\xa0Żabiniec_o', 'Zgierz_i')",10
-1229,"('Warszawa Gdańska_o', 'Żyrardów_i')",10
-1230,"('Gostynin_o', 'Płock_i')",10
-1231,"('Rytro_o', 'Stary Sącz_i')",10
-1232,"('Chrzanów Śródmieście_o', 'Oświęcim_i')",10
-1233,"('Babimost_o', 'Zbąszynek_i')",10
-1234,"('Skwierzyna_o', 'Gorzów Wielkopolski_i')",10
-1235,"('Sucha Beskidzka Zamek_o', 'Maków Podhalański_i')",10
-1236,"('Nowy Dwór Mazowiecki_i', 'Nowy Dwór Mazowiecki_o')",10
-1237,"('Pelplin_i', 'Pelplin_o')",10
-1238,"('Toruń Miasto_i', 'Toruń Miasto_o')",10
-1239,"('Mława_o', 'Działdowo_i')",10
-1240,"('Gorzów Wielkopolski_i', 'Gorzów Wielkopolski_o')",10
-1241,"('Chodzież_o', 'Rogoźno Wielkopolskie_i')",10
-1242,"('Nasielsk_o', 'Ciechanów_i')",10
-1243,"('Ziębice_o', 'Kamieniec Ząbkowicki_i')",10
-1244,"('Włoszczowa Północ_o', 'Miechów_i')",10
-1245,"('Łódź Dąbrowa_o', 'Łódź Widzew_i')",10
-1246,"('Wrocław Główny_o', 'Opole Główne_i')",10
-1247,"('Krzepice_o', 'Wieluń_i')",10
-1248,"('Olesno Śląskie_i', 'Olesno Śląskie_o')",10
-1249,"('Suwałki_o', 'Trakiszki_i')",10
-1250,"('Czechowice-Dziedzice_i', 'Czechowice-Dziedzice_o')",10
-1251,"('Nowa Dęba_o', 'Kolbuszowa_i')",10
-1252,"('Łapy_o', 'Szepietowo_i')",10
-1253,"('Tarnów_o', 'Kraków Główny_i')",10
-1254,"('Biała Podlaska_i', 'Biała Podlaska_o')",10
-1255,"('Bielsko-Biała Główna_o', 'Czechowice-Dziedzice_i')",10
-1256,"('Kaliska_i', 'Kaliska_o')",10
-1257,"('Trawniki_o', 'Rejowiec_i')",10
-1258,"('Słupsk_o', 'Ustka_i')",10
-1259,"('Radom Gołębiów_o', 'Radom Główny_i')",10
-1260,"('Oborniki Śląskie_i', 'Oborniki Śląskie_o')",10
-1261,"('Starachowice Wschodnie_o', 'Ostrowiec Świętokrzyski_i')",10
-1262,"('Iława Główna_o', 'Ciechanów_i')",10
-1263,"('Recz Pomorski_o', 'Kalisz Pomorski_i')",10
-1264,"('Legionowo_o', 'Nowy Dwór Mazowiecki_i')",10
-1265,"('Jastrowie_o', 'Piła Główna_i')",10
-1266,"('Świnoujście_i', 'Świnoujście_o')",10
-1267,"('Jarosław_o', 'Przemyśl Główny_i')",10
-1268,"('Łobez_o', 'Świdwin_i')",10
-1269,"('Łódź Retkinia_o', 'Pabianice_i')",10
-1270,"('Świdnik Miasto_i', 'Świdnik Miasto_o')",10
-1271,"('Kostrzyn_o', 'Mieszkowice_i')",10
-1272,"('Inowrocław_o', 'Gniezno_i')",10
-1273,"('Działdowo_o', 'Warszawa Gdańska_i')",10
-1274,"('Legnica_o', 'Wrocław Główny_i')",10
-1275,"('Warszawa Służewiec_i', 'Warszawa Służewiec_o')",10
-1276,"('Katowice_o', 'Zabrze_i')",10
-1277,"('Bydgoszcz Leśna_o', 'Bydgoszcz Główna_i')",10
-1278,"('Wróblik Szlachecki_i', 'Wróblik Szlachecki_o')",10
-1279,"('Wałcz_i', 'Wałcz_o')",10
-1280,"('Krajenka_o', 'Złotów_i')",10
-1281,"('Konin_o', 'Koło_i')",10
-1282,"('Włoszczowa_o', 'Koniecpol_i')",10
-1283,"('Trawniki_o', 'Krasnystaw Miasto_i')",10
-1284,"('Opoczno Południe_o', 'Grodzisk Mazowiecki_i')",10
-1285,"('Wieleń_o', 'Krzyż_i')",10
-1286,"('Ostrzeszów_i', 'Ostrzeszów_o')",10
-1287,"('Szczecinek_o', 'Jastrowie_i')",10
-1288,"('Toruń Główny_o', 'Inowrocław_i')",10
-1289,"('Włoszczowa_o', 'Zawiercie_i')",10
-1290,"('Jelenia Góra_i', 'Jelenia Góra_o')",10
-1291,"('Kłodzko Miasto_o', 'Kłodzko Główne_i')",10
-1292,"('Siedlce Zachodnie_i', 'Siedlce Zachodnie_o')",10
-1293,"('Bochnia_o', 'Kraków Płaszów_i')",10
-1294,"('Mogilno_o', 'Inowrocław Rąbinek_i')",10
-1295,"('Bogoniowice Ciężkowice_o', 'Gorlice Zagórzany_i')",10
-1296,"('Nakło nad Notecią_o', 'Wyrzysk Osiek_i')",10
-1297,"('Sanok_i', 'Sanok_o')",10
-1298,"('Tereszpol Biłgorajski_o', 'Biłgoraj_i')",10
-1299,"('Opole Główne_o', 'Wrocław Główny_i')",10
-1300,"('Biała Piska_o', 'Ełk_i')",10
-1301,"('Ostrów Wielkopolski_o', 'Kalisz_i')",10
-1302,"('Dąbrowa Białostocka_o', 'Augustów_i')",10
-1303,"('Piotrków Kujawski_i', 'Piotrków Kujawski_o')",10
-1304,"('Białogard_o', 'Koszalin_i')",10
-1305,"('Wrocław Leśnica_o', 'Środa Śląska_i')",10
-1306,"('Szczecin Główny_o', 'Szczecin Dąbie_i')",10
-1307,"('Działdowo_o', 'Iława Główna_i')",10
-1308,"('Chojnice_o', 'Lipka Krajeńska_i')",10
-1309,"('Mońki_o', 'Białystok Zielone Wzgórza_i')",10
-1310,"('Pleszew_i', 'Pleszew_o')",10
-1311,"('Nowa Dęba_i', 'Nowa Dęba_o')",10
-1312,"('Wałbrzych Główny_o', 'Jedlina-Zdrój_i')",10
-1313,"('Kielce_o', 'Włoszczowa_i')",10
-1314,"('Jarosław_i', 'Jarosław_o')",10
-1315,"('Wrocław Nadodrze_o', 'Oleśnica Rataje_i')",10
-1316,"('Zbąszyń_o', 'Nowy Tomyśl_i')",10
-1317,"('Kołobrzeg_o', 'Koszalin_i')",10
-1318,"('Kalwaria Zebrzydowska Lanckorona_o', 'Sucha Beskidzka Zamek_i')",10
-1319,"('Tychy_i', 'Tychy_o')",10
-1320,"('Sędzisław_i', 'Sędzisław_o')",10
-1321,"('Środa Śląska_o', 'Legnica_i')",10
-1322,"('Wierchomla Wielka_o', 'Łomnica Zdrój_i')",10
-1323,"('Gdańsk Oliwa_i', 'Gdańsk Oliwa_o')",10
-1324,"('Kalisz_o', 'Pleszew_i')",10
-1325,"('Września_o', 'Słupca_i')",10
-1326,"('Jedlina-Zdrój_i', 'Jedlina-Zdrój_o')",10
-1327,"('Sopot_o', 'Gdańsk Oliwa_i')",10
-1328,"('Łomnica Zdrój_i', 'Łomnica Zdrój_o')",10
-1329,"('Biała Piska_i', 'Biała Piska_o')",10
-1330,"('Częstochowa Stradom_o', 'Miechów_i')",10
-1331,"('Muszyna_o', 'Żegiestów Zdrój_i')",10
-1332,"('Suchedniów_i', 'Suchedniów_o')",10
-1333,"('Legionowo_o', 'Warszawa Gdańska_i')",10
-1334,"('Pisz_i', 'Pisz_o')",10
-1335,"('Inowrocław_o', 'Bydgoszcz Główna_i')",10
-1336,"('Krynica Zdrój_i', 'Krynica Zdrój_o')",10
-1337,"('Sosnowiec Główny_o', 'Katowice_i')",10
-1338,"('Gdańsk Oliwa_o', 'Sopot_i')",10
-1339,"('Toruń Wschodni_i', 'Toruń Wschodni_o')",10
-1340,"('Nowy Sącz_o', 'Stary Sącz_i')",10
-1341,"('Bydgoszcz Główna_o', 'Bydgoszcz Leśna_i')",10
-1342,"('Włocławek_o', 'Aleksandrów Kujawski_i')",10
-1343,"('Gniezno_o', 'Poznań Główny_i')",10
-1344,"('Jędrzejów_o', 'Kielce_i')",10
-1345,"('Mieszkowice_o', 'Kostrzyn_i')",10
-1346,"('Czeremcha_o', 'Nurzec_i')",10
-1347,"('Sochaczew_i', 'Sochaczew_o')",10
-1348,"('Szczecin Dąbie_i', 'Szczecin Dąbie_o')",10
-1349,"('Poznań Główny_o', 'Swarzędz_i')",10
-1350,"('Nowy Dwór Mazowiecki_o', 'Ciechanów_i')",10
-1351,"('Warszawa Gdańska_o', 'Opoczno Południe_i')",10
-1352,"('Tereszpol Biłgorajski_i', 'Tereszpol Biłgorajski_o')",10
-1353,"('Sochaczew_o', 'Warszawa Zachodnia_i')",10
-1354,"('Terespol_o', 'Małaszewicze Przystanek_i')",10
-1355,"('Izbica_o', 'Krasnystaw Miasto_i')",10
-1356,"('Bydgoszcz Wschód_i', 'Bydgoszcz Wschód_o')",10
-1357,"('Chorzów Batory_o', 'Katowice_i')",10
-1358,"('Gdańsk Główny_o', 'Tczew_i')",10
-1359,"('Inowrocław_i', 'Inowrocław_o')",10
-1360,"('Brzeg Dolny_i', 'Brzeg Dolny_o')",10
-1361,"('Zamość_o', 'Zamość Starówka_i')",10
-1362,"('Kraśnik_o', 'Lublin Główny_i')",10
-1363,"('Drzewica_o', 'Tomaszów Mazowiecki_i')",10
-1364,"('Oświęcim_o', 'Kraków Główny_i')",10
-1365,"('Nisko_i', 'Nisko_o')",10
-1366,"('Jahodyn_i', 'Jahodyn_o')",10
-1367,"('Pelplin_o', 'Tczew_i')",10
-1368,"('Koniecpol_o', 'Miechów_i')",10
-1369,"('Nałęczów_o', 'Puławy Miasto_i')",10
-1370,"('Warszawa Wschodnia_o', 'Pilawa_i')",10
-1371,"('Oświęcim_i', 'Oświęcim_o')",10
-1372,"('Sucha Beskidzka Zamek_o', 'Kalwaria Zebrzydowska Lanckorona_i')",10
-1373,"('Pabianice_o', 'Łódź Retkinia_i')",10
-1374,"('Gorzów Wielkopolski_o', 'Witnica_i')",10
-1375,"('Stalowa Wola Charzewice_o', 'Zaklików_i')",10
-1376,"('Wałbrzych Miasto_i', 'Wałbrzych Miasto_o')",10
-1377,"('Gorzów Wielkopolski Wschodni_o', 'Strzelce Krajeńskie Wschód_i')",10
-1378,"('Iława Główna_o', 'Warszawa Wschodnia_i')",10
-1379,"('Byczyna Kluczborska_o', 'Kluczbork_i')",10
-1380,"('Rokitki_o', 'Małomice_i')",10
-1381,"('Elbląg_i', 'Elbląg_o')",10
-1382,"('Krzyż_o', 'Choszczno_i')",10
-1383,"('Kalisz Pomorski_i', 'Kalisz Pomorski_o')",10
-1384,"('Rumia_i', 'Rumia_o')",10
-1385,"('Morąg_i', 'Morąg_o')",10
-1386,"('Łochów_i', 'Łochów_o')",10
-1387,"('Kwidzyn_o', 'Grudziądz_i')",10
-1388,"('Poznań Główny_o', 'Kościan_i')",10
-1389,"('Dębica_i', 'Dębica_o')",10
-1390,"('Łuków_o', 'Radzyń Podlaski_i')",10
-1391,"('Jabłonowo Pomorskie_o', 'Grudziądz_i')",10
-1392,"('Nowe Drezdenko_o', 'Strzelce Krajeńskie Wschód_i')",10
-1393,"('Katowice_i', 'Katowice_o')",10
-1394,"('Ozorków_o', 'Łęczyca_i')",10
-1395,"('Działdowo_o', 'Mława_i')",10
-1396,"('Zamość_o', 'Zawada_i')",10
-1397,"('Tłuszcz_i', 'Tłuszcz_o')",10
-1398,"('Łąg_o', 'Czersk_i')",10
-1399,"('Krosno_o', 'Jedlicze_i')",10
-1400,"('Sztum_i', 'Sztum_o')",10
-1401,"('Iława Główna_o', 'Ostróda_i')",10
-1402,"('Czersk_o', 'Chojnice_i')",10
-1403,"('Węgliniec_i', 'Węgliniec_o')",10
-1404,"('Zbąszyń_o', 'Zbąszynek_i')",10
-1405,"('Świdwin_o', 'Białogard_i')",10
-1406,"('Wrocław Główny_o', 'Legnica_i')",10
-1407,"('Paczków_i', 'Paczków_o')",10
-1408,"('Osowiec_i', 'Osowiec_o')",10
-1409,"('Smętowo_o', 'Tczew_i')",10
-1410,"('Łowicz Główny_o', 'Kutno_i')",10
-1411,"('Radomsko_i', 'Radomsko_o')",10
-1412,"('Sochaczew_o', 'Warszawa Gdańska_i')",10
-1413,"('Kraków Główny_o', 'Bochnia_i')",10
-1414,"('Sędzisław_o', 'Wałbrzych Główny_i')",10
-1415,"('Opole Główne_o', 'Gogolin_i')",10
-1416,"('Petrovice u Karviné_i', 'Petrovice u Karviné_o')",10
-1417,"('Stargard_o', 'Chociwel_i')",10
-1418,"('Zamość Wschód_i', 'Zamość Wschód_o')",10
-1419,"('Hajnówka_o', 'Czeremcha_i')",10
-1420,"('Janowice Wielkie_i', 'Janowice Wielkie_o')",10
-1421,"('Częstochowa_o', 'Radomsko_i')",10
-1422,"('Skarżysko Kościelne_o', 'Starachowice Wschodnie_i')",10
-1423,"('Wronki_o', 'Krzyż_i')",10
-1424,"('Koszalin_o', 'Słupsk_i')",10
-1425,"('Stalowa Wola Rozwadów_o', 'Biłgoraj_i')",10
-1426,"('Opole Główne_o', 'Strzelce Opolskie_i')",10
-1427,"('Racibórz_o', 'Kuźnia Raciborska_i')",10
-1428,"('Wieleń_o', 'Trzcianka_i')",10
-1429,"('Kalisz Pomorski_o', 'Tuczno Krajeńskie_i')",10
-1430,"('Strzelce Opolskie_o', 'Opole Główne_i')",10
-1431,"('Zebrzydowice_o', 'Petrovice u Karviné_i')",10
-1432,"('Włoszczowa_i', 'Włoszczowa_o')",10
-1433,"('Nurzec_i', 'Nurzec_o')",10
-1434,"('Zaklików_o', 'Stalowa Wola Rozwadów_i')",10
-1435,"('Kwidzyn_i', 'Kwidzyn_o')",10
-1436,"('Warszawa Zachodnia_o', 'Kraków Główny_i')",10
-1437,"('Babiak_i', 'Babiak_o')",10
-1438,"('Głogów_i', 'Głogów_o')",10
-1439,"('Kuźnia Raciborska_i', 'Kuźnia Raciborska_o')",10
-1440,"('Radom Gołębiów_i', 'Radom Gołębiów_o')",10
-1441,"('Tarnów_o', 'Tuchów_i')",10
-1442,"('Środa Wielkopolska_o', 'Poznań Główny_i')",10
-1443,"('Warszawa Gdańska_o', 'Działdowo_i')",10
-1444,"('Żagań_o', 'Małomice_i')",10
-1445,"('Frankfurt (Oder)_o', 'Rzepin_i')",10
-1446,"('Łódź Widzew_o', 'Łódź Dąbrowa_i')",10
-1447,"('Leżajsk_i', 'Leżajsk_o')",10
-1448,"('Zawiercie_o', 'Sosnowiec Główny_i')",10
-1449,"('Katowice_o', 'Kraków Główny_i')",10
-1450,"('Łódź Pabianicka_o', 'Łódź Chojny_i')",10
-1451,"('Łódź Widzew_o', 'Piotrków Trybunalski_i')",10
-1452,"('Pasłęk_o', 'Elbląg_i')",10
-1453,"('Łódź Chojny_o', 'Łódź Widzew_i')",10
-1454,"('Legnica_o', 'Chojnów_i')",10
-1455,"('Kalisz_i', 'Kalisz_o')",10
-1456,"('Wieruszów Miasto_i', 'Wieruszów Miasto_o')",10
-1457,"('Zawada_o', 'Zamość_i')",10
-1458,"('Gdynia Główna_i', 'Gdynia Główna_o')",10
-1459,"('Nowy Targ_i', 'Nowy Targ_o')",10
-1460,"('Jasło_i', 'Jasło_o')",10
-1461,"('Złotów_o', 'Lipka Krajeńska_i')",10
-1462,"('Kędzierzyn Koźle_o', 'Gliwice_i')",10
-1463,"('Rybnik_o', 'Tychy_i')",10
-1464,"('Międzyrzecz_o', 'Skwierzyna_i')",10
-1465,"('Głogów_o', 'Ścinawa_i')",10
-1466,"('Szamotuły_i', 'Szamotuły_o')",10
-1467,"('Gdańsk Główny_i', 'Gdańsk Główny_o')",10
-1468,"('Przysucha_o', 'Drzewica_i')",10
-1469,"('Ostrowiec Świętokrzyski_o', 'Starachowice Wschodnie_i')",10
-1470,"('Kędzierzyn Koźle_o', 'Głogówek_i')",10
-1471,"('Kamieniec Ząbkowicki_o', 'Paczków_i')",10
-1472,"('Tczew_o', 'Malbork_i')",10
-1473,"('Warszawa Gdańska_o', 'Zawiercie_i')",10
-1474,"('Nowy Targ_o', 'Zakopane_i')",10
-1475,"('Krzyż_o', 'Wronki_i')",10
-1476,"('Kielce_i', 'Kielce_o')",10
-1477,"('Wrocław Główny_o', 'Oborniki Śląskie_i')",10
-1478,"('Zbąszynek_o', 'Zbąszyń_i')",10
-1479,"('Zakopane_o', 'Poronin_i')",10
-1480,"('Starogard Gdański_i', 'Starogard Gdański_o')",10
-1481,"('Zaklików_o', 'Stalowa Wola Charzewice_i')",10
-1482,"('Wronki_i', 'Wronki_o')",10
-1483,"('Łobez_o', 'Runowo Pomorskie_i')",10
-1484,"('Piotrków Kujawski_o', 'Babiak_i')",10
-1485,"('Mockava_o', 'Trakiszki_i')",10
-1486,"('Opole Główne_o', 'Kędzierzyn Koźle_i')",10
-1487,"('Tczew_o', 'Pelplin_i')",10
-1488,"('Inowrocław_o', 'Mogilno_i')",10
-1489,"('Węgliniec_o', 'Pieńsk_i')",10
-1490,"('Jaworzno Szczakowa_o', 'Zawiercie_i')",10
-1491,"('Bochnia_i', 'Bochnia_o')",10
-1492,"('Gorzów Wielkopolski Wschodni_o', 'Gorzów Wielkopolski_i')",10
-1493,"('Ząbkowice Śląskie_o', 'Kamieniec Ząbkowicki_i')",10
-1494,"('Ziębice_i', 'Ziębice_o')",10
-1495,"('Nasielsk_o', 'Nowy Dwór Mazowiecki_i')",10
-1496,"('Koszalin_o', 'Ustronie Morskie_i')",10
-1497,"('Zarszyn_i', 'Zarszyn_o')",10
-1498,"('Złotów_i', 'Złotów_o')",10
-1499,"('Dorohusk_o', 'Jahodyn_i')",10
-1500,"('Piła Główna_i', 'Piła Główna_o')",10
-1501,"('Żegiestów Zdrój_i', 'Żegiestów Zdrój_o')",10
-1502,"('Czarna Woda_i', 'Czarna Woda_o')",10
-1503,"('Katowice_o', 'Tychy_i')",10
-1504,"('Pasłęk_i', 'Pasłęk_o')",10
-1505,"('Sieradz_o', 'Kalisz_i')",10
-1506,"('Białogard_o', 'Świdwin_i')",10
-1507,"('Olsztyn Główny_o', 'Olsztyn Zachodni_i')",10
-1508,"('Piła Główna_o', 'Wyrzysk Osiek_i')",10
-1509,"('Rogoźno Wielkopolskie_o', 'Chodzież_i')",10
-1510,"('Chodzież_o', 'Piła Główna_i')",10
-1511,"('Kamieniec Ząbkowicki_o', 'Ząbkowice Śląskie_i')",10
-1512,"('Radzyń Podlaski_o', 'Parczew_i')",10
-1513,"('Chojna_o', 'Mieszkowice_i')",10
-1514,"('Gryfino_o', 'Chojna_i')",10
-1515,"('Zgorzelec Miasto_o', 'Zgorzelec_i')",10
-1516,"('Siedlce_o', 'Niemojki_i')",10
-1517,"('Chełm_o', 'Chełm Miasto_i')",10
-1518,"('Leszno_o', 'Rawicz_i')",10
-1519,"('Stargard_o', 'Recz Pomorski_i')",10
-1520,"('Miechów_o', 'Kraków Główny_i')",10
-1521,"('Strzelce Krajeńskie Wschód_i', 'Strzelce Krajeńskie Wschód_o')",10
-1522,"('Chojnice_o', 'Czersk_i')",10
-1523,"('Lębork_o', 'Słupsk_i')",10
-1524,"('Grudziądz_o', 'Jabłonowo Pomorskie_i')",10
-1525,"('Konin_o', 'Kutno_i')",10
-1526,"('Milicz_o', 'Oleśnica Rataje_i')",10
-1527,"('Paczków_o', 'Kamieniec Ząbkowicki_i')",10
-1528,"('Zamość Starówka_o', 'Zamość_i')",10
-1529,"('Bobowa Miasto_o', 'Bogoniowice Ciężkowice_i')",10
-1530,"('Bydgoszcz Główna_o', 'Laskowice Pomorskie_i')",10
-1531,"('Łask_o', 'Zduńska Wola_i')",10
-1532,"('Płock_o', 'Gostynin_i')",10
-1533,"('Warka_o', 'Radom Gołębiów_i')",10
-1534,"('Żyrardów_o', 'Warszawa Zachodnia_i')",10
-1535,"('Siedlce_o', 'Siedlce Zachodnie_i')",10
-1536,"('Gdańsk Oliwa_o', 'Gdańsk Wrzeszcz_i')",10
-1537,"('Konin_o', 'Słupca_i')",10
-1538,"('Trzebinia_o', 'Jaworzno Szczakowa_i')",10
-1539,"('Bydgoszcz Wschód_o', 'Solec Kujawski_i')",10
-1540,"('Bardo Śląskie_o', 'Kamieniec Ząbkowicki_i')",10
-1541,"('Częstochowa Stradom_o', 'Lubliniec_i')",10
-1542,"('Kutno_o', 'Konin_i')",10
-1543,"('Warszawa Centralna_o', 'Warszawa Zachodnia_i')",10
-1544,"('Wysoka Kamieńska_o', 'Międzyzdroje_i')",10
-1545,"('Krzeszowice_o', 'Kraków Główny_i')",10
-1546,"('Muszyna Zdrój_o', 'Krynica Zdrój_i')",10
-1547,"('Chałupki_i', 'Chałupki_o')",10
-1548,"('Strzelin_i', 'Strzelin_o')",10
-1549,"('Tarnobrzeg_i', 'Tarnobrzeg_o')",10
-1550,"('Goleniów_i', 'Goleniów_o')",10
-1551,"('Maków Podhalański_i', 'Maków Podhalański_o')",10
-1552,"('Opalenica_o', 'Nowy Tomyśl_i')",10
-1553,"('Kępno_o', 'Ostrzeszów_i')",10
-1554,"('Leszno_o', 'Wrocław Główny_i')",10
-1555,"('Chojnów_o', 'Legnica_i')",10
-1556,"('Łódź Kaliska_o', 'Łódź Pabianicka_i')",10
-1557,"('Lublin Główny_o', 'Świdnik Miasto_i')",10
-1558,"('Żychlin_i', 'Żychlin_o')",10
-1559,"('Grodzisk Mazowiecki_o', 'Żyrardów_i')",10
-1560,"('Pleszew_o', 'Jarocin_i')",10
-1561,"('Zduńska Wola_o', 'Sieradz_i')",10
-1562,"('Przemyśl Zasanie_o', 'Radymno_i')",10
-1563,"('Ruciane Nida_o', 'Pisz_i')",10
-1564,"('Łuków_o', 'Siedlce_i')",10
-1565,"('Radom Główny_o', 'Pionki Zachodnie_i')",10
-1566,"('Wołomin_o', 'Tłuszcz_i')",10
-1567,"('Warszawa Wschodnia_i', 'Warszawa Wschodnia_o')",10
-1568,"('Ostrów Wielkopolski_i', 'Ostrów Wielkopolski_o')",10
-1569,"('Rzeszów Zachodni_i', 'Rzeszów Zachodni_o')",10
+0,"('Opalenica_o', 'Poznań Główny_i')",10
+1,"('Inowrocław_o', 'Mogilno_i')",10
+2,"('Koszalin_o', 'Sławno_i')",10
+3,"('Opalenica_i', 'Opalenica_o')",10
+4,"('Gostynin_i', 'Gostynin_o')",10
+5,"('Janowice Wielkie_i', 'Janowice Wielkie_o')",10
+6,"('Łowicz Główny_i', 'Łowicz Główny_o')",10
+7,"('Sieradz_o', 'Kalisz_i')",10
+8,"('Łódź Widzew_i', 'Łódź Widzew_o')",10
+9,"('Oleśnica Rataje_i', 'Oleśnica Rataje_o')",10
+10,"('Opalenica_o', 'Nowy Tomyśl_i')",10
+11,"('Jędrzejów_o', 'Sędziszów_i')",10
+12,"('Zarszyn_o', 'Sanok_i')",10
+13,"('Solec Kujawski_o', 'Toruń Główny_i')",10
+14,"('Gdańsk Oliwa_i', 'Gdańsk Oliwa_o')",10
+15,"('Gogolin_i', 'Gogolin_o')",10
+16,"('Suwałki_o', 'Trakiszki_i')",10
+17,"('Lubin_i', 'Lubin_o')",10
+18,"('Szamotuły_i', 'Szamotuły_o')",10
+19,"('Bogoniowice Ciężkowice_i', 'Bogoniowice Ciężkowice_o')",10
+20,"('Wróblik Szlachecki_i', 'Wróblik Szlachecki_o')",10
+21,"('Ciechanów_o', 'Iława Główna_i')",10
+22,"('Biała Podlaska_o', 'Chotyłów_i')",10
+23,"('Sopot_o', 'Gdynia Główna_i')",10
+24,"('Nakło nad Notecią_o', 'Bydgoszcz Główna_i')",10
+25,"('Warszawa Zachodnia_o', 'Kutno_i')",10
+26,"('Działdowo_o', 'Warszawa Gdańska_i')",10
+27,"('Czyżew_i', 'Czyżew_o')",10
+28,"('Łódź Fabryczna_i', 'Łódź Fabryczna_o')",10
+29,"('Tarnów_i', 'Tarnów_o')",10
+30,"('Jelenia Góra_o', 'Janowice Wielkie_i')",10
+31,"('Pasłęk_o', 'Morąg_i')",10
+32,"('Ostróda_o', 'Iława Główna_i')",10
+33,"('Ostrzeszów_o', 'Ostrów Wielkopolski_i')",10
+34,"('Ozorków_i', 'Ozorków_o')",10
+35,"('Oborniki Śląskie_o', 'Wrocław Mikołajów_i')",10
+36,"('Choszczno_o', 'Stargard_i')",10
+37,"('Puławy Miasto_o', 'Dęblin_i')",10
+38,"('Iława Główna_o', 'Prabuty_i')",10
+39,"('Suwałki_i', 'Suwałki_o')",10
+40,"('Słupca_o', 'Września_i')",10
+41,"('Chrzanów Śródmieście_o', 'Oświęcim_i')",10
+42,"('Trzebinia_o', 'Chrzanów Śródmieście_i')",10
+43,"('Puławy Miasto_o', 'Nałęczów_i')",10
+44,"('Dobiegniew_o', 'Krzyż_i')",10
+45,"('Swarzędz_o', 'Września_i')",10
+46,"('Ostróda_o', 'Olsztyn Zachodni_i')",10
+47,"('Ostrów Wielkopolski_o', 'Twardogóra_i')",10
+48,"('Kraków Główny_o', 'Miechów_i')",10
+49,"('Rybnik_o', 'Żory_i')",10
+50,"('Bielsko-Biała Główna_o', 'Czechowice-Dziedzice_i')",10
+51,"('Małkinia_i', 'Małkinia_o')",10
+52,"('Konin_o', 'Słupca_i')",10
+53,"('Bobowa Miasto_i', 'Bobowa Miasto_o')",10
+54,"('Suchedniów_o', 'Skarżysko Kamienna_i')",10
+55,"('Łowicz Główny_o', 'Sochaczew_i')",10
+56,"('Tychy_o', 'Pszczyna_i')",10
+57,"('Legnica_i', 'Legnica_o')",10
+58,"('Działdowo_o', 'Iława Główna_i')",10
+59,"('Opole Główne_o', 'Gliwice_i')",10
+60,"('Świdwin_o', 'Łobez_i')",10
+61,"('Trzcianka_o', 'Wieleń_i')",10
+62,"('Leszno_o', 'Kościan_i')",10
+63,"('Wałbrzych Miasto_o', 'Wałbrzych Główny_i')",10
+64,"('Prabuty_i', 'Prabuty_o')",10
+65,"('Słupsk_i', 'Słupsk_o')",10
+66,"('Kalwaria Zebrzydowska Lanckorona_o', 'Kraków Główny_i')",10
+67,"('Przemyśl Główny_o', 'Przemyśl Zasanie_i')",10
+68,"('Łódź\xa0Żabiniec_o', 'Zgierz_i')",10
+69,"('Strzelce Krajeńskie Wschód_o', 'Gorzów Wielkopolski Wschodni_i')",10
+70,"('Sędziszów_o', 'Jędrzejów_i')",10
+71,"('Bobowa Miasto_o', 'Bogoniowice Ciężkowice_i')",10
+72,"('Trzebinia_o', 'Jaworzno Szczakowa_i')",10
+73,"('Międzyrzec Podlaski_i', 'Międzyrzec Podlaski_o')",10
+74,"('Szczecin Dąbie_i', 'Szczecin Dąbie_o')",10
+75,"('Warszawa Młynów_o', 'Warszawa Gdańska_i')",10
+76,"('Konin_o', 'Kutno_i')",10
+77,"('Słupsk_o', 'Sławno_i')",10
+78,"('Będzin Miasto_i', 'Będzin Miasto_o')",10
+79,"('Świebodzin_o', 'Rzepin_i')",10
+80,"('Kołobrzeg_o', 'Białogard_i')",10
+81,"('Poznań Główny_o', 'Konin_i')",10
+82,"('Suchedniów_i', 'Suchedniów_o')",10
+83,"('Malbork_i', 'Malbork_o')",10
+84,"('Lubliniec_o', 'Częstochowa Stradom_i')",10
+85,"('Łódź Fabryczna_o', 'Łódź Widzew_i')",10
+86,"('Piła Główna_o', 'Wałcz_i')",10
+87,"('Inowrocław_i', 'Inowrocław_o')",10
+88,"('Olsztyn Zachodni_i', 'Olsztyn Zachodni_o')",10
+89,"('Środa Wielkopolska_o', 'Poznań Główny_i')",10
+90,"('Bohumín_i', 'Bohumín_o')",10
+91,"('Warszawa Wschodnia_o', 'Warszawa Centralna_i')",10
+92,"('Jabłonowo Pomorskie_o', 'Iława Główna_i')",10
+93,"('Łuków_o', 'Międzyrzec Podlaski_i')",10
+94,"('Laskowice Pomorskie_o', 'Tczew_i')",10
+95,"('Łask_o', 'Zduńska Wola_i')",10
+96,"('Konin_o', 'Poznań Główny_i')",10
+97,"('Brzesko Okocim_i', 'Brzesko Okocim_o')",10
+98,"('Krzyż_i', 'Krzyż_o')",10
+99,"('Bydgoszcz Główna_o', 'Laskowice Pomorskie_i')",10
+100,"('Wrocław Nadodrze_i', 'Wrocław Nadodrze_o')",10
+101,"('Pruszcz Gdański_o', 'Gdańsk Główny_i')",10
+102,"('Wronki_o', 'Szamotuły_i')",10
+103,"('Sierpc_o', 'Płock_i')",10
+104,"('Toruń Wschodni_o', 'Kowalewo Pomorskie_i')",10
+105,"('Pasłęk_i', 'Pasłęk_o')",10
+106,"('Lublin Główny_i', 'Lublin Główny_o')",10
+107,"('Łódź Widzew_o', 'Łódź Fabryczna_i')",10
+108,"('Olsztyn Zachodni_o', 'Olsztyn Główny_i')",10
+109,"('Gdańsk Oliwa_o', 'Gdańsk Wrzeszcz_i')",10
+110,"('Legionowo_o', 'Warszawa Gdańska_i')",10
+111,"('Wrocław Główny_o', 'Oborniki Śląskie_i')",10
+112,"('Nowy Dwór Mazowiecki_i', 'Nowy Dwór Mazowiecki_o')",10
+113,"('Zielona Góra Główna_o', 'Głogów_i')",10
+114,"('Bydgoszcz Wschód_o', 'Bydgoszcz Leśna_i')",10
+115,"('Zduńska Wola_o', 'Sieradz_i')",10
+116,"('Zagórz_i', 'Zagórz_o')",10
+117,"('Jarosław_i', 'Jarosław_o')",10
+118,"('Stargard_i', 'Stargard_o')",10
+119,"('Mysłowice_o', 'Jaworzno Szczakowa_i')",10
+120,"('Gorzów Wielkopolski Wschodni_i', 'Gorzów Wielkopolski Wschodni_o')",10
+121,"('Żyrardów_o', 'Skierniewice_i')",10
+122,"('Przemyśl Główny_o', 'Mostiska II_i')",10
+123,"('Tarnów_o', 'Tuchów_i')",10
+124,"('Koszalin_o', 'Białogard_i')",10
+125,"('Przeworsk_o', 'Jarosław_i')",10
+126,"('Grajewo_i', 'Grajewo_o')",10
+127,"('Tuczno Krajeńskie_i', 'Tuczno Krajeńskie_o')",10
+128,"('Łochów_i', 'Łochów_o')",10
+129,"('Kołobrzeg_i', 'Kołobrzeg_o')",10
+130,"('Tłuszcz_o', 'Łochów_i')",10
+131,"('Sędziszów_i', 'Sędziszów_o')",10
+132,"('Trawniki_o', 'Rejowiec_i')",10
+133,"('Kraków Płaszów_o', 'Bochnia_i')",10
+134,"('Tychy_o', 'Katowice_i')",10
+135,"('Legionowo_i', 'Legionowo_o')",10
+136,"('Pruszcz Gdański_i', 'Pruszcz Gdański_o')",10
+137,"('Kraków Główny_o', 'Tarnów_i')",10
+138,"('Ełk_o', 'Grajewo_i')",10
+139,"('Katowice_o', 'Tychy_i')",10
+140,"('Dębica_o', 'Tarnów_i')",10
+141,"('Wałbrzych Miasto_i', 'Wałbrzych Miasto_o')",10
+142,"('Babimost_o', 'Zbąszynek_i')",10
+143,"('Wysoka Kamieńska_o', 'Międzyzdroje_i')",10
+144,"('Tuchów_o', 'Tarnów_i')",10
+145,"('Aleksandrów Kujawski_o', 'Toruń Główny_i')",10
+146,"('Racibórz_i', 'Racibórz_o')",10
+147,"('Rumia_i', 'Rumia_o')",10
+148,"('Nałęczów_o', 'Lublin Zachodni_i')",10
+149,"('Wrocław Nadodrze_o', 'Wrocław Mikołajów_i')",10
+150,"('Kalisz_o', 'Ostrów Wielkopolski_i')",10
+151,"('Tczew_o', 'Gdańsk Główny_i')",10
+152,"('Piaseczno_o', 'Warszawa Służewiec_i')",10
+153,"('Kowalewo Pomorskie_i', 'Kowalewo Pomorskie_o')",10
+154,"('Tuczno Krajeńskie_o', 'Wałcz_i')",10
+155,"('Wałcz_i', 'Wałcz_o')",10
+156,"('Płock_o', 'Sierpc_i')",10
+157,"('Dąbrowa Górnicza_i', 'Dąbrowa Górnicza_o')",10
+158,"('Nowy Targ_o', 'Chabówka Stadion_i')",10
+159,"('Łochów_o', 'Małkinia_i')",10
+160,"('Wronki_o', 'Krzyż_i')",10
+161,"('Poznań Główny_o', 'Zbąszynek_i')",10
+162,"('Kraków Płaszów_i', 'Kraków Płaszów_o')",10
+163,"('Sędziszów Małopolski_i', 'Sędziszów Małopolski_o')",10
+164,"('Katowice_o', 'Sosnowiec Główny_i')",10
+165,"('Smętowo_i', 'Smętowo_o')",10
+166,"('Myszków_o', 'Zawiercie_i')",10
+167,"('Stargard_o', 'Choszczno_i')",10
+168,"('Łobez_o', 'Runowo Pomorskie_i')",10
+169,"('Wieleń_i', 'Wieleń_o')",10
+170,"('Choszczno_o', 'Dobiegniew_i')",10
+171,"('Skierniewice_i', 'Skierniewice_o')",10
+172,"('Wysoka Kamieńska_o', 'Goleniów_i')",10
+173,"('Jaworzyna Śląska_i', 'Jaworzyna Śląska_o')",10
+174,"('Żyrardów_i', 'Żyrardów_o')",10
+175,"('Poznań Główny_o', 'Gniezno_i')",10
+176,"('Słupsk_o', 'Lębork_i')",10
+177,"('Trzebinia_o', 'Krzeszowice_i')",10
+178,"('Koluszki_o', 'Łódź Widzew_i')",10
+179,"('Brodnica_o', 'Rypin_i')",10
+180,"('Oborniki Śląskie_i', 'Oborniki Śląskie_o')",10
+181,"('Łódź Kaliska_i', 'Łódź Kaliska_o')",10
+182,"('Ropczyce_i', 'Ropczyce_o')",10
+183,"('Chodzież_i', 'Chodzież_o')",10
+184,"('Szczecinek_o', 'Jastrowie_i')",10
+185,"('Świdnik Miasto_o', 'Lublin Główny_i')",10
+186,"('Wrocław Nadodrze_o', 'Oleśnica Rataje_i')",10
+187,"('Mława_o', 'Ciechanów_i')",10
+188,"('Iława Główna_o', 'Działdowo_i')",10
+189,"('Malbork_o', 'Tczew_i')",10
+190,"('Warka_o', 'Piaseczno_i')",10
+191,"('Czechowice-Dziedzice_o', 'Oświęcim_i')",10
+192,"('Wąbrzeźno_o', 'Jabłonowo Pomorskie_i')",10
+193,"('Osowiec_o', 'Grajewo_i')",10
+194,"('Rejowiec_o', 'Chełm Miasto_i')",10
+195,"('Warszawa Służewiec_i', 'Warszawa Służewiec_o')",10
+196,"('Oborniki Śląskie_o', 'Żmigród_i')",10
+197,"('Pionki Zachodnie_o', 'Radom Główny_i')",10
+198,"('Dęblin_o', 'Pilawa_i')",10
+199,"('Nowa Ruda_i', 'Nowa Ruda_o')",10
+200,"('Olsztyn Zachodni_o', 'Ostróda_i')",10
+201,"('Kielce_o', 'Włoszczowa_i')",10
+202,"('Zbąszynek_o', 'Poznań Główny_i')",10
+203,"('Chałupki_o', 'Bohumín_i')",10
+204,"('Sławno_o', 'Słupsk_i')",10
+205,"('Lublin Zachodni_o', 'Nałęczów_i')",10
+206,"('Chełm_i', 'Chełm_o')",10
+207,"('Chełm Miasto_o', 'Rejowiec_i')",10
+208,"('Lębork_o', 'Słupsk_i')",10
+209,"('Głogów_o', 'Bytom Odrzański_i')",10
+210,"('Tychy_i', 'Tychy_o')",10
+211,"('Nowy Tomyśl_o', 'Opalenica_i')",10
+212,"('Zdzieszowice_i', 'Zdzieszowice_o')",10
+213,"('Międzyrzecz_o', 'Skwierzyna_i')",10
+214,"('Sędziszów Małopolski_o', 'Ropczyce_i')",10
+215,"('Kutno_i', 'Kutno_o')",10
+216,"('Wysoka Kamieńska_i', 'Wysoka Kamieńska_o')",10
+217,"('Ostrów Wielkopolski_o', 'Ostrzeszów_i')",10
+218,"('Warszawa Zachodnia (Peron 9)_o', 'Warszawa Służewiec_i')",10
+219,"('Świdnik Miasto_i', 'Świdnik Miasto_o')",10
+220,"('Ostrów Wielkopolski_i', 'Ostrów Wielkopolski_o')",10
+221,"('Bydgoszcz Główna_o', 'Bydgoszcz Leśna_i')",10
+222,"('Olsztynek_o', 'Olsztyn Zachodni_i')",10
+223,"('Jarosław_o', 'Przeworsk_i')",10
+224,"('Tuchów_i', 'Tuchów_o')",10
+225,"('Sędzisław_i', 'Sędzisław_o')",10
+226,"('Września_o', 'Swarzędz_i')",10
+227,"('Świnoujście_o', 'Międzyzdroje_i')",10
+228,"('Częstochowa_i', 'Częstochowa_o')",10
+229,"('Szepietowo_o', 'Łapy_i')",10
+230,"('Płock_o', 'Gostynin_i')",10
+231,"('Rawicz_i', 'Rawicz_o')",10
+232,"('Wrocław Główny_o', 'Legnica_i')",10
+233,"('Chabówka Stadion_o', 'Nowy Targ_i')",10
+234,"('Zawiercie_o', 'Sosnowiec Główny_i')",10
+235,"('Częstochowa_o', 'Częstochowa Stradom_i')",10
+236,"('Oława_i', 'Oława_o')",10
+237,"('Lubin_o', 'Legnica_i')",10
+238,"('Kraków Główny_o', 'Kraków Płaszów_i')",10
+239,"('Kraków Główny_o', 'Krzeszowice_i')",10
+240,"('Kalwaria Zebrzydowska Lanckorona_o', 'Sucha Beskidzka Zamek_i')",10
+241,"('Mrozy_i', 'Mrozy_o')",10
+242,"('Zgierz_i', 'Zgierz_o')",10
+243,"('Krzepice_o', 'Wieluń_i')",10
+244,"('Wejherowo_i', 'Wejherowo_o')",10
+245,"('Oleśnica Rataje_o', 'Wrocław Nadodrze_i')",10
+246,"('Warszawa Zachodnia_o', 'Grodzisk Mazowiecki_i')",10
+247,"('Swarzędz_o', 'Poznań Główny_i')",10
+248,"('Oława_o', 'Wrocław Główny_i')",10
+249,"('Sędzisław_o', 'Wałbrzych Główny_i')",10
+250,"('Pszczyna_i', 'Pszczyna_o')",10
+251,"('Poznań Główny_o', 'Szamotuły_i')",10
+252,"('Przemyśl Zasanie_i', 'Przemyśl Zasanie_o')",10
+253,"('Iława Główna_i', 'Iława Główna_o')",10
+254,"('Koluszki_o', 'Skierniewice_i')",10
+255,"('Świdwin_o', 'Białogard_i')",10
+256,"('Opoczno Południe_o', 'Warszawa Gdańska_i')",10
+257,"('Wrocław Mikołajów_o', 'Wrocław Nadodrze_i')",10
+258,"('Sulechów_i', 'Sulechów_o')",10
+259,"('Katowice_o', 'Zabrze_i')",10
+260,"('Białogard_o', 'Koszalin_i')",10
+261,"('Kielce_i', 'Kielce_o')",10
+262,"('Kościan_o', 'Poznań Główny_i')",10
+263,"('Sucha Beskidzka Zamek_o', 'Maków Podhalański_i')",10
+264,"('Krzeszowice_o', 'Trzebinia_i')",10
+265,"('Morąg_i', 'Morąg_o')",10
+266,"('Piła Główna_o', 'Jastrowie_i')",10
+267,"('Świebodzin_o', 'Zbąszynek_i')",10
+268,"('Jędrzejów_i', 'Jędrzejów_o')",10
+269,"('Sędziszów Małopolski_o', 'Rzeszów Główny_i')",10
+270,"('Chociwel_o', 'Runowo Pomorskie_i')",10
+271,"('Dębica_i', 'Dębica_o')",10
+272,"('Lubartów_o', 'Lublin Główny_i')",10
+273,"('Słupca_o', 'Konin_i')",10
+274,"('Kutno_o', 'Łowicz Główny_i')",10
+275,"('Brzesko Okocim_o', 'Bochnia_i')",10
+276,"('Sopot_i', 'Sopot_o')",10
+277,"('Wałcz_o', 'Tuczno Krajeńskie_i')",10
+278,"('Maków Podhalański_o', 'Sucha Beskidzka Zamek_i')",10
+279,"('Ostrzeszów_i', 'Ostrzeszów_o')",10
+280,"('Szczecin Dąbie_o', 'Stargard_i')",10
+281,"('Rejowiec_i', 'Rejowiec_o')",10
+282,"('Sucha Beskidzka Zamek_i', 'Sucha Beskidzka Zamek_o')",10
+283,"('Strzelce Krajeńskie Wschód_i', 'Strzelce Krajeńskie Wschód_o')",10
+284,"('Zakopane_i', 'Zakopane_o')",10
+285,"('Warszawa Młynów_o', 'Warszawa Zachodnia (Peron 9)_i')",10
+286,"('Kalisz Pomorski_o', 'Tuczno Krajeńskie_i')",10
+287,"('Warszawa Zachodnia (Peron 9)_o', 'Warszawa Młynów_i')",10
+288,"('Krzyż_o', 'Wronki_i')",10
+289,"('Grybów_o', 'Stróże_i')",10
+290,"('Olsztyn Zachodni_o', 'Olsztynek_i')",10
+291,"('Chorzów Batory_i', 'Chorzów Batory_o')",10
+292,"('Poznań Główny_o', 'Kościan_i')",10
+293,"('Małaszewicze Przystanek_o', 'Terespol_i')",10
+294,"('Toruń Główny_o', 'Solec Kujawski_i')",10
+295,"('Trzcianka_i', 'Trzcianka_o')",10
+296,"('Krosno_i', 'Krosno_o')",10
+297,"('Toruń Główny_o', 'Aleksandrów Kujawski_i')",10
+298,"('Koło_i', 'Koło_o')",10
+299,"('Ostrzeszów_o', 'Kępno_i')",10
+300,"('Mińsk Mazowiecki_o', 'Warszawa Wschodnia_i')",10
+301,"('Przemyśl Główny_i', 'Przemyśl Główny_o')",10
+302,"('Mońki_i', 'Mońki_o')",10
+303,"('Warszawa Młynów_i', 'Warszawa Młynów_o')",10
+304,"('Aleksandrów Kujawski_i', 'Aleksandrów Kujawski_o')",10
+305,"('Świebodzice_o', 'Wałbrzych Miasto_i')",10
+306,"('Kutno_o', 'Koło_i')",10
+307,"('Świebodzice_i', 'Świebodzice_o')",10
+308,"('Brodnica_i', 'Brodnica_o')",10
+309,"('Włoszczowa_i', 'Włoszczowa_o')",10
+310,"('Łódź\xa0Żabiniec_o', 'Łódź Kaliska_i')",10
+311,"('Zbąszynek_o', 'Babimost_i')",10
+312,"('Chodzież_o', 'Rogoźno Wielkopolskie_i')",10
+313,"('Tczew_i', 'Tczew_o')",10
+314,"('Pszczyna_o', 'Czechowice-Dziedzice_i')",10
+315,"('Kutno_o', 'Włocławek_i')",10
+316,"('Iława Główna_o', 'Ostróda_i')",10
+317,"('Działdowo_o', 'Nidzica_i')",10
+318,"('Zgierz_o', 'Ozorków_i')",10
+319,"('Szczecin Główny_o', 'Gryfino_i')",10
+320,"('Nowy Targ_i', 'Nowy Targ_o')",10
+321,"('Gdańsk Główny_i', 'Gdańsk Główny_o')",10
+322,"('Choszczno_i', 'Choszczno_o')",10
+323,"('Wrocław Główny_o', 'Oława_i')",10
+324,"('Ostróda_i', 'Ostróda_o')",10
+325,"('Dobiegniew_i', 'Dobiegniew_o')",10
+326,"('Trawniki_o', 'Świdnik Miasto_i')",10
+327,"('Gostynin_o', 'Płock_i')",10
+328,"('Mogilno_o', 'Gniezno_i')",10
+329,"('Częstochowa_o', 'Myszków_i')",10
+330,"('Kraków Główny_o', 'Kalwaria Zebrzydowska Lanckorona_i')",10
+331,"('Kutno_o', 'Gostynin_i')",10
+332,"('Poznań Główny_o', 'Oborniki Wielkopolskie Miasto_i')",10
+333,"('Mogilno_i', 'Mogilno_o')",10
+334,"('Łańcut_i', 'Łańcut_o')",10
+335,"('Jarocin_o', 'Pleszew_i')",10
+336,"('Jedlina-Zdrój_i', 'Jedlina-Zdrój_o')",10
+337,"('Wrocław Główny_o', 'Jaworzyna Śląska_i')",10
+338,"('Mońki_o', 'Osowiec_i')",10
+339,"('Smętowo_o', 'Tczew_i')",10
+340,"('Wieluń_i', 'Wieluń_o')",10
+341,"('Racibórz_o', 'Chałupki_i')",10
+342,"('Sławno_o', 'Koszalin_i')",10
+343,"('Gdańsk Główny_o', 'Gdańsk Wrzeszcz_i')",10
+344,"('Kalisz Pomorski_i', 'Kalisz Pomorski_o')",10
+345,"('Kielce_o', 'Suchedniów_i')",10
+346,"('Katowice_o', 'Mysłowice_i')",10
+347,"('Bydgoszcz Leśna_i', 'Bydgoszcz Leśna_o')",10
+348,"('Wrocław Główny_i', 'Wrocław Główny_o')",10
+349,"('Wołomin_o', 'Warszawa Wschodnia_i')",10
+350,"('Biała Podlaska_i', 'Biała Podlaska_o')",10
+351,"('Włocławek_i', 'Włocławek_o')",10
+352,"('Łask_i', 'Łask_o')",10
+353,"('Bochnia_o', 'Brzesko Okocim_i')",10
+354,"('Chorzów Batory_o', 'Katowice_i')",10
+355,"('Warszawa Wschodnia_o', 'Otwock_i')",10
+356,"('Nowa Sól_o', 'Bytom Odrzański_i')",10
+357,"('Łowicz Główny_o', 'Kutno_i')",10
+358,"('Chodzież_o', 'Piła Główna_i')",10
+359,"('Bielsk Podlaski_o', 'Białystok Zielone Wzgórza_i')",10
+360,"('Tuchów_o', 'Bogoniowice Ciężkowice_i')",10
+361,"('Tarnów_o', 'Brzesko Okocim_i')",10
+362,"('Mogilno_o', 'Inowrocław_i')",10
+363,"('Kępno_o', 'Wieruszów Miasto_i')",10
+364,"('Zawiercie_o', 'Myszków_i')",10
+365,"('Żmigród_i', 'Żmigród_o')",10
+366,"('Gdańsk Oliwa_o', 'Sopot_i')",10
+367,"('Kościan_o', 'Leszno_i')",10
+368,"('Lębork_o', 'Wejherowo_i')",10
+369,"('Pionki Zachodnie_i', 'Pionki Zachodnie_o')",10
+370,"('Sanok_o', 'Zagórz_i')",10
+371,"('Szamotuły_o', 'Wronki_i')",10
+372,"('Łobez_o', 'Świdwin_i')",10
+373,"('Trzebinia_i', 'Trzebinia_o')",10
+374,"('Sochaczew_o', 'Łowicz Główny_i')",10
+375,"('Zielona Góra Główna_o', 'Sulechów_i')",10
+376,"('Solec Kujawski_o', 'Bydgoszcz Wschód_i')",10
+377,"('Frankfurt (Oder)_o', 'Rzepin_i')",10
+378,"('Laskowice Pomorskie_o', 'Bydgoszcz Główna_i')",10
+379,"('Sosnowiec Główny_i', 'Sosnowiec Główny_o')",10
+380,"('Gorzów Wielkopolski_i', 'Gorzów Wielkopolski_o')",10
+381,"('Wieruszów Miasto_i', 'Wieruszów Miasto_o')",10
+382,"('Chrzanów Śródmieście_o', 'Trzebinia_i')",10
+383,"('Warszawa Wschodnia_o', 'Wołomin_i')",10
+384,"('Głogów_i', 'Głogów_o')",10
+385,"('Rzeszów Główny_o', 'Sędziszów Małopolski_i')",10
+386,"('Brzeg_o', 'Oława_i')",10
+387,"('Warszawa Wschodnia_o', 'Warszawa Gdańska_i')",10
+388,"('Pilawa_i', 'Pilawa_o')",10
+389,"('Dęblin_o', 'Puławy Miasto_i')",10
+390,"('Stargard_o', 'Chociwel_i')",10
+391,"('Sierpc_i', 'Sierpc_o')",10
+392,"('Malbork_o', 'Elbląg_i')",10
+393,"('Czyżew_o', 'Małkinia_i')",10
+394,"('Zielona Góra Główna_i', 'Zielona Góra Główna_o')",10
+395,"('Ropczyce_o', 'Sędziszów Małopolski_i')",10
+396,"('Koło_o', 'Kutno_i')",10
+397,"('Białogard_o', 'Szczecinek_i')",10
+398,"('Małkinia_o', 'Czyżew_i')",10
+399,"('Warszawa Zachodnia_o', 'Opoczno Południe_i')",10
+400,"('Zebrzydowice_o', 'Petrovice u Karviné_i')",10
+401,"('Rzepin_i', 'Rzepin_o')",10
+402,"('Warszawa Gdańska_o', 'Legionowo_i')",10
+403,"('Lublin Zachodni_i', 'Lublin Zachodni_o')",10
+404,"('Łódź Chojny_o', 'Łódź Widzew_i')",10
+405,"('Łobez_i', 'Łobez_o')",10
+406,"('Grajewo_o', 'Osowiec_i')",10
+407,"('Dębica_o', 'Ropczyce_i')",10
+408,"('Elbląg_i', 'Elbląg_o')",10
+409,"('Świdwin_i', 'Świdwin_o')",10
+410,"('Przemyśl Zasanie_o', 'Radymno_i')",10
+411,"('Lublin Główny_o', 'Lublin Zachodni_i')",10
+412,"('Runowo Pomorskie_o', 'Łobez_i')",10
+413,"('Wrocław Mikołajów_i', 'Wrocław Mikołajów_o')",10
+414,"('Gniezno_o', 'Mogilno_i')",10
+415,"('Oleśnica Rataje_o', 'Twardogóra_i')",10
+416,"('Wejherowo_o', 'Lębork_i')",10
+417,"('Szepietowo_o', 'Czyżew_i')",10
+418,"('Warszawa Zachodnia_o', 'Kraków Główny_i')",10
+419,"('Goleniów_o', 'Wysoka Kamieńska_i')",10
+420,"('Pilawa_o', 'Otwock_i')",10
+421,"('Rogoźno Wielkopolskie_i', 'Rogoźno Wielkopolskie_o')",10
+422,"('Poznań Główny_o', 'Środa Wielkopolska_i')",10
+423,"('Mieszkowice_i', 'Mieszkowice_o')",10
+424,"('Głogów_o', 'Zielona Góra Główna_i')",10
+425,"('Myszków_i', 'Myszków_o')",10
+426,"('Oświęcim_o', 'Chrzanów Śródmieście_i')",10
+427,"('Będzin Miasto_o', 'Dąbrowa Górnicza_i')",10
+428,"('Oborniki Wielkopolskie Miasto_i', 'Oborniki Wielkopolskie Miasto_o')",10
+429,"('Pszczyna_o', 'Tychy_i')",10
+430,"('Wyrzysk Osiek_o', 'Nakło nad Notecią_i')",10
+431,"('Warszawa Wschodnia_o', 'Iława Główna_i')",10
+432,"('Warszawa Zachodnia_o', 'Warszawa Główna_i')",10
+433,"('Kępno_i', 'Kępno_o')",10
+434,"('Oświęcim_i', 'Oświęcim_o')",10
+435,"('Miechów_o', 'Kraków Główny_i')",10
+436,"('Gliwice_i', 'Gliwice_o')",10
+437,"('Jędrzejów_o', 'Kielce_i')",10
+438,"('Chałupki_i', 'Chałupki_o')",10
+439,"('Przemyśl Zasanie_o', 'Jarosław_i')",10
+440,"('Białogard_i', 'Białogard_o')",10
+441,"('Wronki_i', 'Wronki_o')",10
+442,"('Swarzędz_i', 'Swarzędz_o')",10
+443,"('Dębica_o', 'Rzeszów Główny_i')",10
+444,"('Trawniki_i', 'Trawniki_o')",10
+445,"('Białogard_o', 'Świdwin_i')",10
+446,"('Lębork_i', 'Lębork_o')",10
+447,"('Maków Podhalański_i', 'Maków Podhalański_o')",10
+448,"('Maków Podhalański_o', 'Chabówka Stadion_i')",10
+449,"('Kędzierzyn Koźle_o', 'Gliwice_i')",10
+450,"('Radymno_o', 'Przemyśl Zasanie_i')",10
+451,"('Wrocław Mikołajów_o', 'Wrocław Główny_i')",10
+452,"('Koło_o', 'Konin_i')",10
+453,"('Stróże_o', 'Bobowa Miasto_i')",10
+454,"('Strzelce Opolskie_o', 'Opole Główne_i')",10
+455,"('Wieleń_o', 'Krzyż_i')",10
+456,"('Szczecinek_o', 'Białogard_i')",10
+457,"('Rogoźno Wielkopolskie_o', 'Chodzież_i')",10
+458,"('Częstochowa Stradom_o', 'Częstochowa_i')",10
+459,"('Wrocław Główny_o', 'Wrocław Mikołajów_i')",10
+460,"('Września_o', 'Słupca_i')",10
+461,"('Środa Wielkopolska_i', 'Środa Wielkopolska_o')",10
+462,"('Gniezno_i', 'Gniezno_o')",10
+463,"('Łęczyca_i', 'Łęczyca_o')",10
+464,"('Otwock_o', 'Warszawa Wschodnia_i')",10
+465,"('Warszawa Zachodnia_o', 'Żyrardów_i')",10
+466,"('Włoszczowa Północ_o', 'Opoczno Południe_i')",10
+467,"('Skarżysko Kamienna_o', 'Radom Główny_i')",10
+468,"('Żory_o', 'Czechowice-Dziedzice_i')",10
+469,"('Dęblin_i', 'Dęblin_o')",10
+470,"('Białystok Zielone Wzgórza_o', 'Białystok_i')",10
+471,"('Sławno_i', 'Sławno_o')",10
+472,"('Rzeszów Główny_o', 'Dębica_i')",10
+473,"('Kętrzyn_o', 'Olsztyn Główny_i')",10
+474,"('Runowo Pomorskie_i', 'Runowo Pomorskie_o')",10
+475,"('Wałbrzych Główny_o', 'Sędzisław_i')",10
+476,"('Jaworzno Szczakowa_o', 'Trzebinia_i')",10
+477,"('Skwierzyna_o', 'Gorzów Wielkopolski_i')",10
+478,"('Warszawa Centralna_i', 'Warszawa Centralna_o')",10
+479,"('Mysłowice_i', 'Mysłowice_o')",10
+480,"('Łódź Widzew_o', 'Łódź Chojny_i')",10
+481,"('Tomaszów Mazowiecki_o', 'Koluszki_i')",10
+482,"('Białystok_o', 'Białystok Zielone Wzgórza_i')",10
+483,"('Ropczyce_o', 'Dębica_i')",10
+484,"('Rybnik_i', 'Rybnik_o')",10
+485,"('Tczew_o', 'Malbork_i')",10
+486,"('Międzyrzec Podlaski_o', 'Biała Podlaska_i')",10
+487,"('Nidzica_o', 'Olsztynek_i')",10
+488,"('Zabrze_i', 'Zabrze_o')",10
+489,"('Szczecinek_i', 'Szczecinek_o')",10
+490,"('Chociwel_i', 'Chociwel_o')",10
+491,"('Krosno_o', 'Krosno Miasto_i')",10
+492,"('Myszków_o', 'Częstochowa_i')",10
+493,"('Skwierzyna_i', 'Skwierzyna_o')",10
+494,"('Nałęczów_i', 'Nałęczów_o')",10
+495,"('Łęczyca_o', 'Kutno_i')",10
+496,"('Jarocin_o', 'Środa Wielkopolska_i')",10
+497,"('Jaworzyna Śląska_o', 'Świebodzice_i')",10
+498,"('Szczecin Dąbie_o', 'Szczecin Główny_i')",10
+499,"('Olsztynek_o', 'Nidzica_i')",10
+500,"('Stróże_i', 'Stróże_o')",10
+501,"('Tomaszów Mazowiecki_i', 'Tomaszów Mazowiecki_o')",10
+502,"('Gdynia Główna_o', 'Rumia_i')",10
+503,"('Białystok Zielone Wzgórza_o', 'Łapy_i')",10
+504,"('Gorzów Wielkopolski Wschodni_o', 'Gorzów Wielkopolski_i')",10
+505,"('Piła Główna_i', 'Piła Główna_o')",10
+506,"('Czechowice-Dziedzice_o', 'Pszczyna_i')",10
+507,"('Zabrze_o', 'Katowice_i')",10
+508,"('Opole Główne_o', 'Gogolin_i')",10
+509,"('Września_i', 'Września_o')",10
+510,"('Kędzierzyn Koźle_i', 'Kędzierzyn Koźle_o')",10
+511,"('Krzyż_o', 'Nowe Drezdenko_i')",10
+512,"('Kraków Główny_i', 'Kraków Główny_o')",10
+513,"('Bydgoszcz Główna_i', 'Bydgoszcz Główna_o')",10
+514,"('Radomsko_o', 'Częstochowa_i')",10
+515,"('Tarnów_o', 'Bochnia_i')",10
+516,"('Czechowice-Dziedzice_i', 'Czechowice-Dziedzice_o')",10
+517,"('Jastrowie_o', 'Szczecinek_i')",10
+518,"('Biała Piska_i', 'Biała Piska_o')",10
+519,"('Gdynia Główna_i', 'Gdynia Główna_o')",10
+520,"('Chojna_o', 'Mieszkowice_i')",10
+521,"('Radomsko_o', 'Piotrków Trybunalski_i')",10
+522,"('Bytom Odrzański_i', 'Bytom Odrzański_o')",10
+523,"('Sopot_o', 'Gdańsk Oliwa_i')",10
+524,"('Opoczno Południe_o', 'Tomaszów Mazowiecki_i')",10
+525,"('Jastrowie_o', 'Piła Główna_i')",10
+526,"('Chotyłów_o', 'Małaszewicze Przystanek_i')",10
+527,"('Otwock_o', 'Pilawa_i')",10
+528,"('Rumia_o', 'Gdynia Główna_i')",10
+529,"('Mockava_o', 'Trakiszki_i')",10
+530,"('Radom Główny_o', 'Warka_i')",10
+531,"('Białystok_i', 'Białystok_o')",10
+532,"('Warszawa Gdańska_o', 'Warszawa Wschodnia_i')",10
+533,"('Dąbrowa Górnicza_o', 'Zawiercie_i')",10
+534,"('Lubartów_i', 'Lubartów_o')",10
+535,"('Nałęczów_o', 'Puławy Miasto_i')",10
+536,"('Przemyśl Zasanie_o', 'Przemyśl Główny_i')",10
+537,"('Świebodzice_o', 'Jaworzyna Śląska_i')",10
+538,"('Łańcut_o', 'Przeworsk_i')",10
+539,"('Jaworzno Szczakowa_i', 'Jaworzno Szczakowa_o')",10
+540,"('Leszno_o', 'Rawicz_i')",10
+541,"('Stargard_o', 'Recz Pomorski_i')",10
+542,"('Zabrze_o', 'Chorzów Batory_i')",10
+543,"('Morąg_o', 'Olsztyn Zachodni_i')",10
+544,"('Jedlicze_o', 'Krosno_i')",10
+545,"('Leszno_i', 'Leszno_o')",10
+546,"('Piotrków Trybunalski_i', 'Piotrków Trybunalski_o')",10
+547,"('Włoszczowa_o', 'Kielce_i')",10
+548,"('Łuków_i', 'Łuków_o')",10
+549,"('Zawiercie_i', 'Zawiercie_o')",10
+550,"('Zbąszyń_o', 'Zbąszynek_i')",10
+551,"('Radymno_o', 'Jarosław_i')",10
+552,"('Nowy Tomyśl_i', 'Nowy Tomyśl_o')",10
+553,"('Runowo Pomorskie_o', 'Chociwel_i')",10
+554,"('Wyrzysk Osiek_i', 'Wyrzysk Osiek_o')",10
+555,"('Jarosław_o', 'Radymno_i')",10
+556,"('Nidzica_o', 'Działdowo_i')",10
+557,"('Jarocin_i', 'Jarocin_o')",10
+558,"('Włocławek_o', 'Aleksandrów Kujawski_i')",10
+559,"('Nowa Sól_o', 'Zielona Góra Główna_i')",10
+560,"('Katowice_i', 'Katowice_o')",10
+561,"('Zduńska Wola_i', 'Zduńska Wola_o')",10
+562,"('Ciechanów_o', 'Nowy Dwór Mazowiecki_i')",10
+563,"('Rawicz_o', 'Żmigród_i')",10
+564,"('Opole Główne_o', 'Strzelce Opolskie_i')",10
+565,"('Iława Główna_o', 'Malbork_i')",10
+566,"('Witnica_i', 'Witnica_o')",10
+567,"('Wróblik Szlachecki_o', 'Zarszyn_i')",10
+568,"('Międzyzdroje_i', 'Międzyzdroje_o')",10
+569,"('Warka_o', 'Radom Główny_i')",10
+570,"('Zbąszynek_o', 'Zbąszyń_i')",10
+571,"('Warszawa Centralna_o', 'Warszawa Wschodnia_i')",10
+572,"('Żyrardów_o', 'Grodzisk Mazowiecki_i')",10
+573,"('Zawiercie_o', 'Włoszczowa Północ_i')",10
+574,"('Świdnik Miasto_o', 'Trawniki_i')",10
+575,"('Malbork_o', 'Iława Główna_i')",10
+576,"('Piaseczno_i', 'Piaseczno_o')",10
+577,"('Nidzica_i', 'Nidzica_o')",10
+578,"('Toruń Miasto_o', 'Toruń Wschodni_i')",10
+579,"('Tłuszcz_o', 'Wołomin_i')",10
+580,"('Zabrze_o', 'Gliwice_i')",10
+581,"('Gliwice_o', 'Kędzierzyn Koźle_i')",10
+582,"('Olsztyn Zachodni_o', 'Morąg_i')",10
+583,"('Wieluń_o', 'Wieruszów Miasto_i')",10
+584,"('Gdańsk Wrzeszcz_o', 'Gdańsk Oliwa_i')",10
+585,"('Wejherowo_o', 'Rumia_i')",10
+586,"('Warszawa Zachodnia_o', 'Sochaczew_i')",10
+587,"('Białystok Zielone Wzgórza_i', 'Białystok Zielone Wzgórza_o')",10
+588,"('Kalisz_o', 'Pleszew_i')",10
+589,"('Brzeg_o', 'Opole Główne_i')",10
+590,"('Osowiec_o', 'Mońki_i')",10
+591,"('Kępno_o', 'Ostrzeszów_i')",10
+592,"('Chełm_o', 'Chełm Miasto_i')",10
+593,"('Piaseczno_o', 'Warka_i')",10
+594,"('Częstochowa Stradom_i', 'Częstochowa Stradom_o')",10
+595,"('Babimost_i', 'Babimost_o')",10
+596,"('Warszawa Zachodnia_i', 'Warszawa Zachodnia_o')",10
+597,"('Sanok_i', 'Sanok_o')",10
+598,"('Białystok Zielone Wzgórza_o', 'Mońki_i')",10
+599,"('Bydgoszcz Wschód_i', 'Bydgoszcz Wschód_o')",10
+600,"('Ostrów Wielkopolski_o', 'Pleszew_i')",10
+601,"('Płock_i', 'Płock_o')",10
+602,"('Janowice Wielkie_o', 'Sędzisław_i')",10
+603,"('Mława_i', 'Mława_o')",10
+604,"('Mińsk Mazowiecki_i', 'Mińsk Mazowiecki_o')",10
+605,"('Legnica_o', 'Lubin_i')",10
+606,"('Zdzieszowice_o', 'Kędzierzyn Koźle_i')",10
+607,"('Wałbrzych Miasto_o', 'Świebodzice_i')",10
+608,"('Janowice Wielkie_o', 'Jelenia Góra_i')",10
+609,"('Frankfurt (Oder)_i', 'Frankfurt (Oder)_o')",10
+610,"('Zbąszyń_i', 'Zbąszyń_o')",10
+611,"('Szczecin Dąbie_o', 'Goleniów_i')",10
+612,"('Konin_o', 'Koło_i')",10
+613,"('Małaszewicze Przystanek_i', 'Małaszewicze Przystanek_o')",10
+614,"('Olsztyn Główny_i', 'Olsztyn Główny_o')",10
+615,"('Wołomin_o', 'Tłuszcz_i')",10
+616,"('Mysłowice_o', 'Katowice_i')",10
+617,"('Szczecin Główny_i', 'Szczecin Główny_o')",10
+618,"('Kraków Główny_o', 'Katowice_i')",10
+619,"('Augustów_o', 'Suwałki_i')",10
+620,"('Puławy Miasto_i', 'Puławy Miasto_o')",10
+621,"('Słupca_i', 'Słupca_o')",10
+622,"('Szamotuły_o', 'Poznań Główny_i')",10
+623,"('Skierniewice_o', 'Żyrardów_i')",10
+624,"('Warszawa Zachodnia_o', 'Warszawa Centralna_i')",10
+625,"('Piotrków Trybunalski_o', 'Koluszki_i')",10
+626,"('Grodzisk Mazowiecki_i', 'Grodzisk Mazowiecki_o')",10
+627,"('Chabówka Stadion_i', 'Chabówka Stadion_o')",10
+628,"('Jedlina-Zdrój_o', 'Wałbrzych Główny_i')",10
+629,"('Toruń Główny_o', 'Toruń Miasto_i')",10
+630,"('Recz Pomorski_o', 'Kalisz Pomorski_i')",10
+631,"('Gogolin_o', 'Zdzieszowice_i')",10
+632,"('Poznań Główny_i', 'Poznań Główny_o')",10
+633,"('Sędziszów_o', 'Miechów_i')",10
+634,"('Terespol_i', 'Terespol_o')",10
+635,"('Opole Główne_o', 'Lubliniec_i')",10
+636,"('Kowalewo Pomorskie_o', 'Wąbrzeźno_i')",10
+637,"('Mockava_i', 'Mockava_o')",10
+638,"('Małkinia_o', 'Łochów_i')",10
+639,"('Opoczno Południe_o', 'Włoszczowa Północ_i')",10
+640,"('Petrovice u Karviné_i', 'Petrovice u Karviné_o')",10
+641,"('Nowa Sól_i', 'Nowa Sól_o')",10
+642,"('Gdańsk Wrzeszcz_o', 'Gdańsk Główny_i')",10
+643,"('Międzyzdroje_o', 'Świnoujście_i')",10
+644,"('Rumia_o', 'Wejherowo_i')",10
+645,"('Szepietowo_i', 'Szepietowo_o')",10
+646,"('Pilawa_o', 'Dęblin_i')",10
+647,"('Rzepin_o', 'Kostrzyn_i')",10
+648,"('Nowy Tomyśl_o', 'Zbąszyń_i')",10
+649,"('Żmigród_o', 'Oborniki Śląskie_i')",10
+650,"('Skierniewice_o', 'Koluszki_i')",10
+651,"('Krzeszowice_i', 'Krzeszowice_o')",10
+652,"('Poznań Główny_o', 'Swarzędz_i')",10
+653,"('Łódź Widzew_o', 'Piotrków Trybunalski_i')",10
+654,"('Goleniów_o', 'Szczecin Dąbie_i')",10
+655,"('Tarnów_o', 'Dębica_i')",10
+656,"('Żyrardów_o', 'Warszawa Zachodnia_i')",10
+657,"('Chociwel_o', 'Stargard_i')",10
+658,"('Działdowo_i', 'Działdowo_o')",10
+659,"('Nakło nad Notecią_i', 'Nakło nad Notecią_o')",10
+660,"('Gliwice_o', 'Zabrze_i')",10
+661,"('Łańcut_o', 'Rzeszów Główny_i')",10
+662,"('Zielona Góra Główna_o', 'Rzepin_i')",10
+663,"('Włoszczowa Północ_o', 'Miechów_i')",10
+664,"('Włoszczowa Północ_i', 'Włoszczowa Północ_o')",10
+665,"('Zarszyn_i', 'Zarszyn_o')",10
+666,"('Pleszew_i', 'Pleszew_o')",10
+667,"('Wałbrzych Główny_i', 'Wałbrzych Główny_o')",10
+668,"('Kraków Płaszów_o', 'Kraków Główny_i')",10
+669,"('Szczecin Główny_o', 'Szczecin Dąbie_i')",10
+670,"('Aleksandrów Kujawski_o', 'Włocławek_i')",10
+671,"('Głogów_o', 'Lubin_i')",10
+672,"('Stróże_o', 'Grybów_i')",10
+673,"('Kalwaria Zebrzydowska Lanckorona_i', 'Kalwaria Zebrzydowska Lanckorona_o')",10
+674,"('Augustów_i', 'Augustów_o')",10
+675,"('Elbląg_o', 'Pasłęk_i')",10
+676,"('Gdynia Główna_o', 'Sopot_i')",10
+677,"('Bydgoszcz Leśna_o', 'Bydgoszcz Wschód_i')",10
+678,"('Koszalin_i', 'Koszalin_o')",10
+679,"('Łódź Kaliska_o', 'Łódź Chojny_i')",10
+680,"('Przeworsk_o', 'Łańcut_i')",10
+681,"('Bochnia_i', 'Bochnia_o')",10
+682,"('Warszawa Główna_i', 'Warszawa Główna_o')",10
+683,"('Lublin Zachodni_o', 'Lublin Główny_i')",10
+684,"('Warszawa Gdańska_o', 'Warszawa Młynów_i')",10
+685,"('Dąbrowa Górnicza_o', 'Będzin Miasto_i')",10
+686,"('Sulechów_o', 'Zielona Góra Główna_i')",10
+687,"('Suchedniów_o', 'Kielce_i')",10
+688,"('Toruń Główny_i', 'Toruń Główny_o')",10
+689,"('Wyrzysk Osiek_o', 'Piła Główna_i')",10
+690,"('Warszawa Zachodnia (Peron 9)_i', 'Warszawa Zachodnia (Peron 9)_o')",10
+691,"('Przeworsk_i', 'Przeworsk_o')",10
+692,"('Legionowo_o', 'Nowy Dwór Mazowiecki_i')",10
+693,"('Otwock_i', 'Otwock_o')",10
+694,"('Chojna_o', 'Gryfino_i')",10
+695,"('Warka_i', 'Warka_o')",10
+696,"('Bogoniowice Ciężkowice_o', 'Tuchów_i')",10
+697,"('Czyżew_o', 'Szepietowo_i')",10
+698,"('Bobowa Miasto_o', 'Stróże_i')",10
+699,"('Gniezno_o', 'Poznań Główny_i')",10
+700,"('Mrozy_o', 'Mińsk Mazowiecki_i')",10
+701,"('Goleniów_i', 'Goleniów_o')",10
+702,"('Oborniki Wielkopolskie Miasto_o', 'Poznań Główny_i')",10
+703,"('Zbąszyń_o', 'Nowy Tomyśl_i')",10
+704,"('Łódź Kaliska_o', 'Łódź\xa0Żabiniec_i')",10
+705,"('Brzeg_i', 'Brzeg_o')",10
+706,"('Ozorków_o', 'Łęczyca_i')",10
+707,"('Konin_i', 'Konin_o')",10
+708,"('Ełk_i', 'Ełk_o')",10
+709,"('Piotrków Trybunalski_o', 'Radomsko_i')",10
+710,"('Kutno_o', 'Konin_i')",10
+711,"('Chełm Miasto_o', 'Chełm_i')",10
+712,"('Grodzisk Mazowiecki_o', 'Warszawa Zachodnia_i')",10
+713,"('Zebrzydowice_i', 'Zebrzydowice_o')",10
+714,"('Radymno_i', 'Radymno_o')",10
+715,"('Chabówka Stadion_o', 'Maków Podhalański_i')",10
+716,"('Krzeszowice_o', 'Kraków Główny_i')",10
+717,"('Częstochowa_o', 'Radomsko_i')",10
+718,"('Kętrzyn_i', 'Kętrzyn_o')",10
+719,"('Laskowice Pomorskie_i', 'Laskowice Pomorskie_o')",10
+720,"('Skarżysko Kamienna_o', 'Suchedniów_i')",10
+721,"('Radom Główny_o', 'Skarżysko Kamienna_i')",10
+722,"('Tczew_o', 'Laskowice Pomorskie_i')",10
+723,"('Bydgoszcz Wschód_o', 'Solec Kujawski_i')",10
+724,"('Międzyzdroje_o', 'Wysoka Kamieńska_i')",10
+725,"('Toruń Miasto_i', 'Toruń Miasto_o')",10
+726,"('Rzepin_o', 'Zielona Góra Główna_i')",10
+727,"('Osowiec_i', 'Osowiec_o')",10
+728,"('Olsztynek_i', 'Olsztynek_o')",10
+729,"('Warszawa Służewiec_o', 'Piaseczno_i')",10
+730,"('Dobiegniew_o', 'Choszczno_i')",10
+731,"('Bydgoszcz Główna_o', 'Inowrocław_i')",10
+732,"('Bytom Odrzański_o', 'Nowa Sól_i')",10
+733,"('Gryfino_o', 'Chojna_i')",10
+734,"('Chełm Miasto_i', 'Chełm Miasto_o')",10
+735,"('Jedlicze_i', 'Jedlicze_o')",10
+736,"('Prabuty_o', 'Malbork_i')",10
+737,"('Zbąszynek_i', 'Zbąszynek_o')",10
+738,"('Chrzanów Śródmieście_i', 'Chrzanów Śródmieście_o')",10
+739,"('Radomsko_i', 'Radomsko_o')",10
+740,"('Sędzisław_o', 'Janowice Wielkie_i')",10
+741,"('Sosnowiec Główny_o', 'Będzin Miasto_i')",10
+742,"('Gdańsk Główny_o', 'Tczew_i')",10
+743,"('Lubin_o', 'Głogów_i')",10
+744,"('Wałbrzych Główny_o', 'Wałbrzych Miasto_i')",10
+745,"('Jelenia Góra_i', 'Jelenia Góra_o')",10
+746,"('Lubliniec_i', 'Lubliniec_o')",10
+747,"('Recz Pomorski_i', 'Recz Pomorski_o')",10
+748,"('Piła Główna_o', 'Chodzież_i')",10
+749,"('Rogoźno Wielkopolskie_o', 'Oborniki Wielkopolskie Miasto_i')",10
+750,"('Gorzów Wielkopolski_o', 'Skwierzyna_i')",10
+751,"('Sochaczew_i', 'Sochaczew_o')",10
+752,"('Gliwice_o', 'Strzelce Opolskie_i')",10
+753,"('Łapy_i', 'Łapy_o')",10
+754,"('Toruń Wschodni_i', 'Toruń Wschodni_o')",10
+755,"('Żory_i', 'Żory_o')",10
+756,"('Tarnów_o', 'Kraków Główny_i')",10
+757,"('Jaworzno Szczakowa_o', 'Mysłowice_i')",10
+758,"('Będzin Miasto_o', 'Sosnowiec Główny_i')",10
+759,"('Środa Wielkopolska_o', 'Jarocin_i')",10
+760,"('Radom Główny_i', 'Radom Główny_o')",10
+761,"('Łódź Chojny_i', 'Łódź Chojny_o')",10
+762,"('Twardogóra_i', 'Twardogóra_o')",10
+763,"('Gryfino_o', 'Szczecin Główny_i')",10
+764,"('Solec Kujawski_i', 'Solec Kujawski_o')",10
+765,"('Bochnia_o', 'Tarnów_i')",10
+766,"('Kielce_o', 'Jędrzejów_i')",10
+767,"('Warszawa Centralna_o', 'Warszawa Zachodnia_i')",10
+768,"('Jahodyn_i', 'Jahodyn_o')",10
+769,"('Tuczno Krajeńskie_o', 'Kalisz Pomorski_i')",10
+770,"('Nowe Drezdenko_i', 'Nowe Drezdenko_o')",10
+771,"('Wąbrzeźno_i', 'Wąbrzeźno_o')",10
+772,"('Jarosław_o', 'Przemyśl Zasanie_i')",10
+773,"('Wołomin_i', 'Wołomin_o')",10
+774,"('Kościan_i', 'Kościan_o')",10
+775,"('Twardogóra_o', 'Oleśnica Rataje_i')",10
+776,"('Rzeszów Główny_o', 'Łańcut_i')",10
+777,"('Nowy Targ_o', 'Zakopane_i')",10
+778,"('Rawicz_o', 'Leszno_i')",10
+779,"('Strzelce Opolskie_i', 'Strzelce Opolskie_o')",10
+780,"('Łódź Widzew_o', 'Koluszki_i')",10
+781,"('Krzepice_i', 'Krzepice_o')",10
+782,"('Opoczno Południe_i', 'Opoczno Południe_o')",10
+783,"('Bogoniowice Ciężkowice_o', 'Bobowa Miasto_i')",10
+784,"('Ciechanów_i', 'Ciechanów_o')",10
+785,"('Krzyż_o', 'Dobiegniew_i')",10
+786,"('Nowy Dwór Mazowiecki_o', 'Legionowo_i')",10
+787,"('Opole Główne_i', 'Opole Główne_o')",10
+788,"('Międzyrzecz_i', 'Międzyrzecz_o')",10
+789,"('Chotyłów_i', 'Chotyłów_o')",10
+790,"('Warszawa Wschodnia_i', 'Warszawa Wschodnia_o')",10
+791,"('Warszawa Służewiec_o', 'Warszawa Zachodnia (Peron 9)_i')",10
+792,"('Skarżysko Kamienna_i', 'Skarżysko Kamienna_o')",10
+793,"('Kalisz_i', 'Kalisz_o')",10
+794,"('Sucha Beskidzka Zamek_o', 'Kalwaria Zebrzydowska Lanckorona_i')",10
+795,"('Pleszew_o', 'Ostrów Wielkopolski_i')",10
+796,"('Ciechanów_o', 'Mława_i')",10
+797,"('Miechów_o', 'Sędziszów_i')",10
+798,"('Rypin_o', 'Sierpc_i')",10
+799,"('Pleszew_o', 'Jarocin_i')",10
+800,"('Wrocław Główny_o', 'Opole Główne_i')",10
+801,"('Mieszkowice_o', 'Kostrzyn_i')",10
+802,"('Oborniki Wielkopolskie Miasto_o', 'Rogoźno Wielkopolskie_i')",10
+803,"('Gdańsk Wrzeszcz_i', 'Gdańsk Wrzeszcz_o')",10
+804,"('Jastrowie_i', 'Jastrowie_o')",10
+805,"('Zawiercie_o', 'Dąbrowa Górnicza_i')",10
+806,"('Łochów_o', 'Tłuszcz_i')",10
+807,"('Świebodzin_i', 'Świebodzin_o')",10
+808,"('Sochaczew_o', 'Warszawa Zachodnia_i')",10
+809,"('Rejowiec_o', 'Trawniki_i')",10
+810,"('Łódź Chojny_o', 'Łódź Kaliska_i')",10
+811,"('Świnoujście_i', 'Świnoujście_o')",10
+812,"('Kostrzyn_i', 'Kostrzyn_o')",10
+813,"('Zawiercie_o', 'Włoszczowa_i')",10
+814,"('Sosnowiec Główny_o', 'Katowice_i')",10
+815,"('Trakiszki_i', 'Trakiszki_o')",10
+816,"('Sieradz_i', 'Sieradz_o')",10
+817,"('Jabłonowo Pomorskie_o', 'Brodnica_i')",10
+818,"('Jabłonowo Pomorskie_i', 'Jabłonowo Pomorskie_o')",10
+819,"('Warszawa Gdańska_i', 'Warszawa Gdańska_o')",10
+820,"('Łapy_o', 'Szepietowo_i')",10
+821,"('Włocławek_o', 'Kutno_i')",10
+822,"('Rzepin_o', 'Frankfurt (Oder)_i')",10
+823,"('Krosno Miasto_o', 'Wróblik Szlachecki_i')",10
+824,"('Legionowo_o', 'Warszawa Wschodnia_i')",10
+825,"('Mława_o', 'Działdowo_i')",10
+826,"('Brzesko Okocim_o', 'Tarnów_i')",10
+827,"('Kostrzyn_o', 'Rzepin_i')",10
+828,"('Chojna_i', 'Chojna_o')",10
+829,"('Koluszki_o', 'Piotrków Trybunalski_i')",10
+830,"('Miechów_i', 'Miechów_o')",10
+831,"('Mońki_o', 'Białystok Zielone Wzgórza_i')",10
+832,"('Oława_o', 'Brzeg_i')",10
+833,"('Olsztyn Główny_o', 'Olsztyn Zachodni_i')",10
+834,"('Babimost_o', 'Sulechów_i')",10
+835,"('Witnica_o', 'Kostrzyn_i')",10
+836,"('Bielsk Podlaski_i', 'Bielsk Podlaski_o')",10
+837,"('Rzepin_o', 'Świebodzin_i')",10
+838,"('Koluszki_i', 'Koluszki_o')",10
+839,"('Tłuszcz_i', 'Tłuszcz_o')",10
+840,"('Działdowo_o', 'Mława_i')",10
+841,"('Inowrocław_o', 'Bydgoszcz Główna_i')",10
+842,"('Krosno Miasto_i', 'Krosno Miasto_o')",10
+843,"('Lublin Główny_o', 'Świdnik Miasto_i')",10
+844,"('Tczew_o', 'Pruszcz Gdański_i')",10
+845,"('Grodzisk Mazowiecki_o', 'Żyrardów_i')",10
+846,"('Stargard_o', 'Szczecin Dąbie_i')",10
+847,"('Gliwice_o', 'Opole Główne_i')",10
+848,"('Warszawa Gdańska_o', 'Żyrardów_i')",10
+849,"('Mostiska II_i', 'Mostiska II_o')",10
+850,"('Kostrzyn_o', 'Chojna_i')",10
+851,"('Sulechów_o', 'Babimost_i')",10
+852,"('Rzeszów Główny_i', 'Rzeszów Główny_o')",10
+853,"('Wieruszów Miasto_o', 'Kępno_i')",10
+854,"('Trakiszki_o', 'Mockava_i')",10
+855,"('Zielona Góra Główna_o', 'Nowa Sól_i')",10
+856,"('Biała Piska_o', 'Ełk_i')",10
+857,"('Nowy Dwór Mazowiecki_o', 'Ciechanów_i')",10
+858,"('Gorzów Wielkopolski_o', 'Witnica_i')",10
+859,"('Gryfino_i', 'Gryfino_o')",10
+860,"('Nowa Ruda_o', 'Jedlina-Zdrój_i')",10
+861,"('Poznań Główny_o', 'Opalenica_i')",10
+862,"('Żmigród_o', 'Rawicz_i')",10
+863,"('Grybów_i', 'Grybów_o')",10
+864,"('Opole Główne_o', 'Brzeg_i')",10
+865,"('Bydgoszcz Leśna_o', 'Bydgoszcz Główna_i')",10
+866,"('Łódź\xa0Żabiniec_i', 'Łódź\xa0Żabiniec_o')",10
+867,"('Łapy_o', 'Białystok Zielone Wzgórza_i')",10
+868,"('Bochnia_o', 'Kraków Płaszów_i')",10
+869,"('Rypin_i', 'Rypin_o')",10
+870,"('Nowe Drezdenko_o', 'Strzelce Krajeńskie Wschód_i')",10
+871,"('Zbąszynek_o', 'Świebodzin_i')",10
+872,"('Czechowice-Dziedzice_o', 'Zebrzydowice_i')",10
+873,"('Bielsko-Biała Główna_i', 'Bielsko-Biała Główna_o')",10
+874,"('Oborniki Śląskie_o', 'Wrocław Główny_i')",10

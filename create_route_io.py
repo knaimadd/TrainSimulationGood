@@ -19,8 +19,8 @@ stoptimes = pd.read_csv('inputs/stop_times.txt')
 replace_spaces(stops)
 replace_spaces(stoptimes)
 stoptimes = stoptimes[stoptimes['trip_id'].str.startswith('2024-03-11')]
-stoptimes = stoptimes[stoptimes['departure_time'] < '24:00']
-#stoptimes = stoptimes[stoptimes['departure_time'] >'10:00']
+stoptimes = stoptimes[stoptimes['departure_time'] < '15:00']
+stoptimes = stoptimes[stoptimes['departure_time'] >'12:00']
 trip_ids = stoptimes['trip_id'].unique()
 
 stoptimes = pd.merge(stoptimes,stops,on="stop_id",how="left").drop(["stop_lon","stop_lat","stop_IBNR"],axis=1)

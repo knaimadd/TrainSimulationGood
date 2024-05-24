@@ -1,34 +1,4 @@
 Station Name,Travel Time
-Olsztyn Główny_i,0
-Olsztyn Główny_o,3
-Olsztyn Zachodni_i,2
-Olsztyn Zachodni_o,27
-Ostróda_i,1
-Ostróda_o,20
-Iława Główna_i,20
-Iława Główna_o,19
-Prabuty_i,1
-Prabuty_o,20
-Malbork_i,1
-Malbork_o,12
-Tczew_i,8
-Tczew_o,18
-Gdańsk Główny_i,3
-Gdańsk Główny_o,4
-Gdańsk Wrzeszcz_i,1
-Gdańsk Wrzeszcz_o,3
-Gdańsk Oliwa_i,1
-Gdańsk Oliwa_o,3
-Sopot_i,2
-Sopot_o,8
-Gdynia Główna_i,3
-Gdynia Główna_o,10
-Rumia_i,1
-Rumia_o,12
-Wejherowo_i,3
-Wejherowo_o,28
-Lębork_i,3
-Lębork_o,55
 Słupsk_i,1
 Słupsk_o,16
 Sławno_i,1
@@ -46,8 +16,4 @@ Runowo Pomorskie_o,11
 Chociwel_i,1
 Chociwel_o,17
 Stargard_i,2
-Stargard_o,20
-Szczecin Dąbie_i,1
-Szczecin Dąbie_o,14
-Szczecin Główny_i,11
-Szczecin Główny_o,732
+Stargard_o,1227

@@ -1,14 +1,4 @@
 Station Name,Travel Time
-Warszawa Główna_i,0
-Warszawa Główna_o,2
-Warszawa Zachodnia_i,2
-Warszawa Zachodnia_o,29
-Sochaczew_i,1
-Sochaczew_o,13
-Łowicz Główny_i,1
-Łowicz Główny_o,21
-Kutno_i,1
-Kutno_o,31
 Włocławek_i,1
 Włocławek_o,19
 Aleksandrów Kujawski_i,1
@@ -22,4 +12,4 @@ Bydgoszcz Wschód_o,3
 Bydgoszcz Leśna_i,1
 Bydgoszcz Leśna_o,5
 Bydgoszcz Główna_i,0
-Bydgoszcz Główna_o,1020
+Bydgoszcz Główna_o,1202

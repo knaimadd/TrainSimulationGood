@@ -1,12 +1,4 @@
 Station Name,Travel Time
-Przemyśl Główny_i,5
-Przemyśl Główny_o,3
-Przemyśl Zasanie_i,1
-Przemyśl Zasanie_o,21
-Jarosław_i,1
-Jarosław_o,9
-Przeworsk_i,1
-Przeworsk_o,12
 Łańcut_i,1
 Łańcut_o,10
 Rzeszów Główny_i,3
@@ -28,16 +20,4 @@ Trzebinia_o,3
 Chrzanów Śródmieście_i,1
 Chrzanów Śródmieście_o,14
 Oświęcim_i,2
-Oświęcim_o,20
-Czechowice-Dziedzice_i,1
-Czechowice-Dziedzice_o,31
-Żory_i,1
-Żory_o,10
-Rybnik_i,1
-Rybnik_o,13
-Wodzisław Śląski_i,1
-Wodzisław Śląski_o,17
-Chałupki_i,1
-Chałupki_o,6
-Bohumín_i,0
-Bohumín_o,1118
+Oświęcim_o,1211

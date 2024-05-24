@@ -1,34 +1,4 @@
 Station Name,Travel Time
-Lublin Główny_i,0
-Lublin Główny_o,28
-Kraśnik_i,1
-Kraśnik_o,29
-Zaklików_i,1
-Zaklików_o,15
-Stalowa Wola Rozwadów_i,22
-Stalowa Wola Rozwadów_o,3
-Stalowa Wola Centrum_i,1
-Stalowa Wola Centrum_o,8
-Nisko_i,1
-Nisko_o,9
-Rudnik nad Sanem_i,1
-Rudnik nad Sanem_o,16
-Nowa Sarzyna_i,1
-Nowa Sarzyna_o,8
-Leżajsk_i,2
-Leżajsk_o,34
-Łańcut_i,1
-Łańcut_o,11
-Rzeszów Główny_i,6
-Rzeszów Główny_o,22
-Dębica_i,2
-Dębica_o,15
-Tarnów_i,2
-Tarnów_o,18
-Bochnia_i,1
-Bochnia_o,19
-Kraków Płaszów_i,1
-Kraków Płaszów_o,5
 Kraków Główny_i,21
 Kraków Główny_o,52
 Katowice_i,3
@@ -38,20 +8,4 @@ Zabrze_o,7
 Gliwice_i,8
 Gliwice_o,44
 Opole Główne_i,5
-Opole Główne_o,48
-Wrocław Główny_i,22
-Wrocław Główny_o,52
-Legnica_i,2
-Legnica_o,23
-Rokitki_i,8
-Rokitki_o,39
-Małomice_i,1
-Małomice_o,10
-Żagań_i,1
-Żagań_o,12
-Żary_i,1
-Żary_o,27
-Nowogród Osiedle_i,1
-Nowogród Osiedle_o,34
-Zielona Góra Główna_i,0
-Zielona Góra Główna_o,706
+Opole Główne_o,1154

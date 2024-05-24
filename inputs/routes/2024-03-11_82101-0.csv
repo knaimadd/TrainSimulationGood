@@ -1,6 +1,4 @@
 Station Name,Travel Time
-Szczecin Główny_i,34
-Szczecin Główny_o,16
 Szczecin Dąbie_i,1
 Szczecin Dąbie_o,25
 Stargard_i,1
@@ -12,52 +10,4 @@ Kalisz Pomorski_o,18
 Tuczno Krajeńskie_i,1
 Tuczno Krajeńskie_o,23
 Wałcz_i,1
-Wałcz_o,30
-Piła Główna_i,25
-Piła Główna_o,30
-Wyrzysk Osiek_i,1
-Wyrzysk Osiek_o,15
-Nakło nad Notecią_i,1
-Nakło nad Notecią_o,23
-Bydgoszcz Główna_i,4
-Bydgoszcz Główna_o,4
-Bydgoszcz Leśna_i,1
-Bydgoszcz Leśna_o,3
-Bydgoszcz Wschód_i,1
-Bydgoszcz Wschód_o,8
-Solec Kujawski_i,1
-Solec Kujawski_o,18
-Toruń Główny_i,2
-Toruń Główny_o,11
-Aleksandrów Kujawski_i,1
-Aleksandrów Kujawski_o,19
-Włocławek_i,1
-Włocławek_o,33
-Kutno_i,11
-Kutno_o,20
-Łowicz Główny_i,1
-Łowicz Główny_o,12
-Sochaczew_i,1
-Sochaczew_o,27
-Warszawa Zachodnia_i,2
-Warszawa Zachodnia_o,5
-Warszawa Centralna_i,18
-Warszawa Centralna_o,6
-Warszawa Wschodnia_i,3
-Warszawa Wschodnia_o,19
-Otwock_i,1
-Otwock_o,13
-Pilawa_i,1
-Pilawa_o,13
-Sobolew_i,1
-Sobolew_o,11
-Dęblin_i,1
-Dęblin_o,12
-Puławy Miasto_i,2
-Puławy Miasto_o,10
-Nałęczów_i,1
-Nałęczów_o,12
-Lublin Zachodni_i,2
-Lublin Zachodni_o,4
-Lublin Główny_i,0
-Lublin Główny_o,1109
+Wałcz_o,1159

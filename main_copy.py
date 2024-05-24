@@ -68,6 +68,8 @@ class TrainSimulation:
         cap = {}
         for i in range(len(df['Edge'])):
             edge = eval(df['Edge'][i])
+            if (edge[0].endswith(('_i', '_o'))) and (edge[0][:-2] != edge[1][:-2]):
+                edge = (edge[0][:-2], edge[1][:-2])
             inv = (edge[1], edge[0])
             if inv in cap:
                 cap[inv] = min(df['Capacity'][i], 0)
@@ -80,6 +82,8 @@ class TrainSimulation:
         cap = {}
         for i in range(len(df['Edge'])):
             edge = eval(df['Edge'][i])
+            if (edge[0].endswith(('_i', '_o'))) and (edge[0][:-2] != edge[1][:-2]):
+                edge = (edge[0][:-2], edge[1][:-2])
             inv = (edge[1], edge[0])
             if inv in cap:
                 cap[inv] = min(df['Capacity'][i], cap[inv])
@@ -128,6 +132,9 @@ class TrainSimulation:
         next_station_index = np.ceil(self.step_positions[train_number][self.current_steps[train_number]])
         prev_station = self.trains[train_number]['Station Name'][prev_station_index]
         next_station = self.trains[train_number]['Station Name'][next_station_index]
+        if prev_station[:-2] != next_station[:-2]:
+            prev_station = prev_station[:-2]
+            next_station = next_station[:-2]
         return (prev_station,next_station)
     
     def next_occupied_edge(self, train_number):
@@ -135,6 +142,9 @@ class TrainSimulation:
         next_station_index = np.ceil(self.step_positions[train_number][self.current_steps[train_number]+1])
         prev_station = self.trains[train_number]['Station Name'][prev_station_index]
         next_station = self.trains[train_number]['Station Name'][next_station_index]
+        if prev_station[:-2] != next_station[:-2]:
+            prev_station = prev_station[:-2]
+            next_station = next_station[:-2]
         return (prev_station,next_station)
 
     def occupy_edge(self, train_number, edge):
@@ -355,7 +365,7 @@ def create_anim(A,stops,id_capacities):
     return B
 
 if __name__ == '__main__':
-    n = 10
+    """n = 10
     X = pd.read_csv('traces/AF.csv', index_col=False)
     #X = pd.read_csv('traces/katowice_poznan.csv')
     #multiply(X, n)
@@ -368,9 +378,16 @@ if __name__ == '__main__':
     trains = [X,Y,Z]
     A = TrainSimulation(trains,n,cap)
     A.simulation()
-    sim_positions = A.positions
+    sim_positions = A.positions"""
 
-    B = create_anim(A,pd.read_csv('inputs/stops0.txt'),pd.read_csv('inputs/id_capacities0.csv'))
+
+    trip_ids = pd.read_csv('inputs/generated_trip.csv')
+    trains = [pd.read_csv(f'inputs/routes/{trip_ids.iloc[i][0]}.csv') for i in range(len(trip_ids))]
+    n=1
+    A = TrainSimulation(trains,n, pd.read_csv('inputs/capacities_estimated.csv'))
+    A.simulation()
+
+    print(A.count_edge)
+    B = create_anim(A,pd.concat([pd.read_csv('inputs/stops.txt'), pd.read_csv('inputs/stops_io.txt')]),pd.read_csv('inputs/id_capacities.csv'))
     save_anim(B.animate(), fps=30)
-
 

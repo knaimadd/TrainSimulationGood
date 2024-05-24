@@ -1,22 +1,4 @@
 Station Name,Travel Time
-Olsztyn Główny_i,0
-Olsztyn Główny_o,3
-Olsztyn Zachodni_i,1
-Olsztyn Zachodni_o,18
-Olsztynek_i,1
-Olsztynek_o,19
-Nidzica_i,1
-Nidzica_o,15
-Działdowo_i,1
-Działdowo_o,9
-Mława_i,1
-Mława_o,14
-Ciechanów_i,1
-Ciechanów_o,27
-Nowy Dwór Mazowiecki_i,1
-Nowy Dwór Mazowiecki_o,8
-Legionowo_i,1
-Legionowo_o,11
 Warszawa Gdańska_i,19
 Warszawa Gdańska_o,4
 Warszawa Młynów_i,1
@@ -36,12 +18,4 @@ Skarżysko Kamienna_o,7
 Suchedniów_i,0
 Suchedniów_o,25
 Kielce_i,3
-Kielce_o,31
-Jędrzejów_i,1
-Jędrzejów_o,13
-Sędziszów_i,1
-Sędziszów_o,16
-Miechów_i,1
-Miechów_o,40
-Kraków Główny_i,0
-Kraków Główny_o,952
+Kielce_o,1206

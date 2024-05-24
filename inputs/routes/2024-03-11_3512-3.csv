@@ -1,10 +1,4 @@
 Station Name,Travel Time
-Kraków Główny_i,0
-Kraków Główny_o,16
-Krzeszowice_i,2
-Krzeszowice_o,7
-Trzebinia_i,1
-Trzebinia_o,8
 Jaworzno Szczakowa_i,2
 Jaworzno Szczakowa_o,10
 Mysłowice_i,1
@@ -24,38 +18,4 @@ Brzeg_o,7
 Oława_i,1
 Oława_o,20
 Wrocław Główny_i,19
-Wrocław Główny_o,15
-Oborniki Śląskie_i,2
-Oborniki Śląskie_o,10
-Żmigród_i,2
-Żmigród_o,8
-Rawicz_i,2
-Rawicz_o,15
-Leszno_i,1
-Leszno_o,13
-Kościan_i,2
-Kościan_o,22
-Poznań Główny_i,18
-Poznań Główny_o,27
-Gniezno_i,1
-Gniezno_o,15
-Mogilno_i,1
-Mogilno_o,15
-Inowrocław_i,4
-Inowrocław_o,26
-Bydgoszcz Główna_i,3
-Bydgoszcz Główna_o,28
-Laskowice Pomorskie_i,1
-Laskowice Pomorskie_o,40
-Tczew_i,1
-Tczew_o,15
-Gdańsk Główny_i,4
-Gdańsk Główny_o,3
-Gdańsk Wrzeszcz_i,2
-Gdańsk Wrzeszcz_o,3
-Gdańsk Oliwa_i,1
-Gdańsk Oliwa_o,3
-Sopot_i,2
-Sopot_o,7
-Gdynia Główna_i,0
-Gdynia Główna_o,1127
+Wrocław Główny_o,1201

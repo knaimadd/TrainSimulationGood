@@ -1,20 +1,4 @@
 Station Name,Travel Time
-Warszawa Wschodnia_i,15
-Warszawa Wschodnia_o,8
-Warszawa Gdańska_i,15
-Warszawa Gdańska_o,4
-Warszawa Młynów_i,1
-Warszawa Młynów_o,2
-Warszawa Zachodnia (Peron 9)_i,1
-Warszawa Zachodnia (Peron 9)_o,8
-Warszawa Służewiec_i,1
-Warszawa Służewiec_o,7
-Piaseczno_i,1
-Piaseczno_o,13
-Warka_i,1
-Warka_o,23
-Radom Główny_i,2
-Radom Główny_o,27
 Skarżysko Kamienna_i,2
 Skarżysko Kamienna_o,7
 Suchedniów_i,1
@@ -28,4 +12,4 @@ Sędziszów_o,16
 Miechów_i,1
 Miechów_o,30
 Kraków Główny_i,0
-Kraków Główny_o,949
+Kraków Główny_o,1201

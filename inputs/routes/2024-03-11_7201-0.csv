@@ -1,18 +1,4 @@
 Station Name,Travel Time
-Zielona Góra Główna_i,0
-Zielona Góra Główna_o,34
-Nowogród Osiedle_i,1
-Nowogród Osiedle_o,29
-Żary_i,4
-Żary_o,13
-Żagań_i,1
-Żagań_o,10
-Małomice_i,1
-Małomice_o,32
-Rokitki_i,1
-Rokitki_o,22
-Legnica_i,1
-Legnica_o,51
 Wrocław Główny_i,25
 Wrocław Główny_o,46
 Opole Główne_i,3
@@ -20,38 +6,4 @@ Opole Główne_o,46
 Gliwice_i,2
 Gliwice_o,6
 Zabrze_i,1
-Zabrze_o,15
-Katowice_i,8
-Katowice_o,54
-Kraków Główny_i,10
-Kraków Główny_o,5
-Kraków Płaszów_i,1
-Kraków Płaszów_o,19
-Bochnia_i,1
-Bochnia_o,19
-Tarnów_i,2
-Tarnów_o,16
-Dębica_i,1
-Dębica_o,23
-Rzeszów Główny_i,3
-Rzeszów Główny_o,11
-Łańcut_i,1
-Łańcut_o,33
-Leżajsk_i,1
-Leżajsk_o,8
-Nowa Sarzyna_i,1
-Nowa Sarzyna_o,15
-Rudnik nad Sanem_i,1
-Rudnik nad Sanem_o,12
-Nisko_i,1
-Nisko_o,8
-Stalowa Wola Centrum_i,1
-Stalowa Wola Centrum_o,3
-Stalowa Wola Rozwadów_i,15
-Stalowa Wola Rozwadów_o,16
-Zaklików_i,1
-Zaklików_o,22
-Kraśnik_i,1
-Kraśnik_o,27
-Lublin Główny_i,0
-Lublin Główny_o,908
+Zabrze_o,1232

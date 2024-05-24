@@ -1,26 +1,4 @@
 Station Name,Travel Time
-Przemyśl Główny_i,5
-Przemyśl Główny_o,3
-Przemyśl Zasanie_i,1
-Przemyśl Zasanie_o,13
-Radymno_i,1
-Radymno_o,8
-Jarosław_i,1
-Jarosław_o,9
-Przeworsk_i,1
-Przeworsk_o,13
-Łańcut_i,1
-Łańcut_o,11
-Rzeszów Główny_i,3
-Rzeszów Główny_o,14
-Sędziszów Małopolski_i,1
-Sędziszów Małopolski_o,6
-Ropczyce_i,1
-Ropczyce_o,7
-Dębica_i,1
-Dębica_o,15
-Tarnów_i,2
-Tarnów_o,13
 Brzesko Okocim_i,1
 Brzesko Okocim_o,7
 Bochnia_i,1
@@ -44,42 +22,4 @@ Zabrze_o,6
 Gliwice_i,2
 Gliwice_o,26
 Kędzierzyn Koźle_i,6
-Kędzierzyn Koźle_o,7
-Zdzieszowice_i,2
-Zdzieszowice_o,6
-Gogolin_i,2
-Gogolin_o,11
-Opole Główne_i,6
-Opole Główne_o,20
-Brzeg_i,1
-Brzeg_o,8
-Oława_i,3
-Oława_o,19
-Wrocław Główny_i,17
-Wrocław Główny_o,23
-Brzeg Dolny_i,2
-Brzeg Dolny_o,8
-Wołów_i,3
-Wołów_o,14
-Ścinawa_i,3
-Ścinawa_o,27
-Głogów_i,1
-Głogów_o,13
-Bytom Odrzański_i,3
-Bytom Odrzański_o,7
-Nowa Sól_i,1
-Nowa Sól_o,13
-Zielona Góra Główna_i,2
-Zielona Góra Główna_o,43
-Rzepin_i,6
-Rzepin_o,21
-Kostrzyn_i,1
-Kostrzyn_o,15
-Mieszkowice_i,1
-Mieszkowice_o,14
-Chojna_i,1
-Chojna_o,19
-Gryfino_i,1
-Gryfino_o,20
-Szczecin Główny_i,0
-Szczecin Główny_o,956
+Kędzierzyn Koźle_o,1208
