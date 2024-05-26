@@ -1,4 +1,22 @@
 Station Name,Travel Time
+Gdynia Główna_i,7
+Gdynia Główna_o,7
+Sopot_i,2
+Sopot_o,3
+Gdańsk Oliwa_i,1
+Gdańsk Oliwa_o,3
+Gdańsk Wrzeszcz_i,2
+Gdańsk Wrzeszcz_o,4
+Gdańsk Główny_i,3
+Gdańsk Główny_o,15
+Tczew_i,1
+Tczew_o,64
+Bydgoszcz Główna_i,4
+Bydgoszcz Główna_o,26
+Inowrocław_i,1
+Inowrocław_o,28
+Gniezno_i,1
+Gniezno_o,25
 Poznań Główny_i,6
 Poznań Główny_o,39
 Zbąszynek_i,1
@@ -8,4 +26,4 @@ Zbąszynek_o,14
 Rzepin_i,10
 Rzepin_o,20
 Frankfurt (Oder)_i,0
-Frankfurt (Oder)_o,1200
+Frankfurt (Oder)_o,841

@@ -1,4 +1,14 @@
 Station Name,Travel Time
+Kołobrzeg_i,0
+Kołobrzeg_o,13
+Ustronie Morskie_i,1
+Ustronie Morskie_o,27
+Koszalin_i,1
+Koszalin_o,33
+Sławno_i,1
+Sławno_o,18
+Słupsk_i,1
+Słupsk_o,53
 Lębork_i,4
 Lębork_o,21
 Wejherowo_i,1
@@ -18,4 +28,34 @@ Gdańsk Główny_o,16
 Tczew_i,1
 Tczew_o,11
 Malbork_i,1
-Malbork_o,1241
+Malbork_o,19
+Prabuty_i,1
+Prabuty_o,16
+Iława Główna_i,2
+Iława Główna_o,31
+Działdowo_i,2
+Działdowo_o,9
+Mława_i,1
+Mława_o,15
+Ciechanów_i,2
+Ciechanów_o,28
+Nowy Dwór Mazowiecki_i,1
+Nowy Dwór Mazowiecki_o,9
+Legionowo_i,1
+Legionowo_o,12
+Warszawa Wschodnia_i,3
+Warszawa Wschodnia_o,6
+Warszawa Centralna_i,6
+Warszawa Centralna_o,4
+Warszawa Zachodnia_i,4
+Warszawa Zachodnia_o,30
+Żyrardów_i,2
+Żyrardów_o,12
+Skierniewice_i,2
+Skierniewice_o,19
+Koluszki_i,1
+Koluszki_o,13
+Łódź Widzew_i,2
+Łódź Widzew_o,7
+Łódź Fabryczna_i,32
+Łódź Fabryczna_o,1013

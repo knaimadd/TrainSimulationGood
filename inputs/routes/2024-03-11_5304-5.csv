@@ -1,7 +1,25 @@
 Station Name,Travel Time
+Gdynia Główna_i,0
+Gdynia Główna_o,8
+Sopot_i,1
+Sopot_o,4
+Gdańsk Oliwa_i,1
+Gdańsk Oliwa_o,4
+Gdańsk Wrzeszcz_i,1
+Gdańsk Wrzeszcz_o,4
+Gdańsk Główny_i,2
+Gdańsk Główny_o,14
+Tczew_i,0
+Tczew_o,10
+Malbork_i,0
+Malbork_o,33
+Iława Główna_i,0
+Iława Główna_o,88
 Warszawa Wschodnia_i,3
 Warszawa Wschodnia_o,6
 Warszawa Centralna_i,8
 Warszawa Centralna_o,4
 Warszawa Zachodnia_i,2
-Warszawa Zachodnia_o,1327
+Warszawa Zachodnia_o,135
+Kraków Główny_i,0
+Kraków Główny_o,1033

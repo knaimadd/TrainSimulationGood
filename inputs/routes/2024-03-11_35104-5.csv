@@ -1,4 +1,8 @@
 Station Name,Travel Time
+Zakopane_i,0
+Zakopane_o,6
+Poronin_i,1
+Poronin_o,12
 Nowy Targ_i,2
 Nowy Targ_o,37
 Chabówka Stadion_i,1
@@ -10,4 +14,44 @@ Sucha Beskidzka Zamek_o,31
 Kalwaria Zebrzydowska Lanckorona_i,4
 Kalwaria Zebrzydowska Lanckorona_o,33
 Kraków Główny_i,28
-Kraków Główny_o,1204
+Kraków Główny_o,29
+Miechów_i,3
+Miechów_o,52
+Włoszczowa Północ_i,2
+Włoszczowa Północ_o,28
+Opoczno Południe_i,7
+Opoczno Południe_o,55
+Warszawa Zachodnia_i,6
+Warszawa Zachodnia_o,5
+Warszawa Centralna_i,16
+Warszawa Centralna_o,6
+Warszawa Wschodnia_i,13
+Warszawa Wschodnia_o,13
+Legionowo_i,1
+Legionowo_o,8
+Nowy Dwór Mazowiecki_i,2
+Nowy Dwór Mazowiecki_o,29
+Ciechanów_i,1
+Ciechanów_o,15
+Mława_i,1
+Mława_o,9
+Działdowo_i,1
+Działdowo_o,32
+Iława Główna_i,2
+Iława Główna_o,17
+Prabuty_i,1
+Prabuty_o,20
+Malbork_i,2
+Malbork_o,11
+Tczew_i,2
+Tczew_o,16
+Gdańsk Główny_i,3
+Gdańsk Główny_o,4
+Gdańsk Wrzeszcz_i,2
+Gdańsk Wrzeszcz_o,3
+Gdańsk Oliwa_i,1
+Gdańsk Oliwa_o,4
+Sopot_i,2
+Sopot_o,8
+Gdynia Główna_i,5
+Gdynia Główna_o,1144

@@ -1,4 +1,10 @@
 Station Name,Travel Time
+Piła Główna_i,0
+Piła Główna_o,15
+Chodzież_i,1
+Chodzież_o,17
+Rogoźno Wielkopolskie_i,1
+Rogoźno Wielkopolskie_o,17
 Oborniki Wielkopolskie Miasto_i,1
 Oborniki Wielkopolskie Miasto_o,23
 Poznań Główny_i,17
@@ -16,4 +22,16 @@ Ostrzeszów_o,16
 Kępno_i,1
 Kępno_o,8
 Wieruszów Miasto_i,1
-Wieruszów Miasto_o,1200
+Wieruszów Miasto_o,21
+Wieluń_i,1
+Wieluń_o,26
+Krzepice_i,1
+Krzepice_o,38
+Częstochowa Stradom_i,2
+Częstochowa Stradom_o,28
+Koniecpol_i,1
+Koniecpol_o,35
+Miechów_i,8
+Miechów_o,54
+Kraków Główny_i,0
+Kraków Główny_o,1109

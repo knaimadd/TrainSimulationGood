@@ -1,7 +1,37 @@
 Station Name,Travel Time
+Kraków Główny_i,10
+Kraków Główny_o,15
+Krzeszowice_i,2
+Krzeszowice_o,7
+Trzebinia_i,2
+Trzebinia_o,9
+Jaworzno Szczakowa_i,2
+Jaworzno Szczakowa_o,24
+Zawiercie_i,5
+Zawiercie_o,7
+Myszków_i,6
+Myszków_o,22
+Częstochowa Stradom_i,6
+Częstochowa Stradom_o,20
+Lubliniec_i,2
+Lubliniec_o,18
+Olesno Śląskie_i,1
+Olesno Śląskie_o,14
+Kluczbork_i,6
+Kluczbork_o,11
+Byczyna Kluczborska_i,1
+Byczyna Kluczborska_o,16
+Kępno_i,1
+Kępno_o,12
+Ostrzeszów_i,1
+Ostrzeszów_o,17
+Ostrów Wielkopolski_i,1
+Ostrów Wielkopolski_o,18
+Pleszew_i,1
+Pleszew_o,11
 Jarocin_i,1
 Jarocin_o,19
 Środa Wielkopolska_i,1
 Środa Wielkopolska_o,20
 Poznań Główny_i,0
-Poznań Główny_o,1207
+Poznań Główny_o,736

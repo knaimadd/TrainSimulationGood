@@ -1,4 +1,34 @@
 Station Name,Travel Time
+Gdynia Główna_i,5
+Gdynia Główna_o,7
+Sopot_i,2
+Sopot_o,3
+Gdańsk Oliwa_i,1
+Gdańsk Oliwa_o,4
+Gdańsk Wrzeszcz_i,1
+Gdańsk Wrzeszcz_o,4
+Gdańsk Główny_i,2
+Gdańsk Główny_o,18
+Tczew_i,1
+Tczew_o,12
+Malbork_i,1
+Malbork_o,19
+Elbląg_i,1
+Elbląg_o,17
+Pasłęk_i,1
+Pasłęk_o,32
+Morąg_i,1
+Morąg_o,43
+Olsztyn Zachodni_i,1
+Olsztyn Zachodni_o,3
+Olsztyn Główny_i,25
+Olsztyn Główny_o,34
+Szczytno_i,1
+Szczytno_o,27
+Ruciane Nida_i,1
+Ruciane Nida_o,12
+Pisz_i,1
+Pisz_o,14
 Biała Piska_i,1
 Biała Piska_o,34
 Ełk_i,25
@@ -10,4 +40,32 @@ Osowiec_o,11
 Mońki_i,11
 Mońki_o,28
 Białystok Zielone Wzgórza_i,1
-Białystok Zielone Wzgórza_o,1200
+Białystok Zielone Wzgórza_o,5
+Białystok_i,25
+Białystok_o,5
+Białystok Zielone Wzgórza_i,2
+Białystok Zielone Wzgórza_o,29
+Bielsk Podlaski_i,2
+Bielsk Podlaski_o,21
+Hajnówka_i,2
+Hajnówka_o,18
+Czeremcha_i,2
+Czeremcha_o,13
+Nurzec_i,2
+Nurzec_o,10
+Siemiatycze_i,2
+Siemiatycze_o,7
+Sarnaki_i,2
+Sarnaki_o,10
+Niemojki_i,1
+Niemojki_o,21
+Siedlce_i,32
+Siedlce_o,3
+Siedlce Zachodnie_i,2
+Siedlce Zachodnie_o,17
+Mrozy_i,1
+Mrozy_o,11
+Mińsk Mazowiecki_i,1
+Mińsk Mazowiecki_o,27
+Warszawa Wschodnia_i,28
+Warszawa Wschodnia_o,703

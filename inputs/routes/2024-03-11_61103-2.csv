@@ -1,4 +1,30 @@
 Station Name,Travel Time
+Wrocław Główny_i,0
+Wrocław Główny_o,6
+Wrocław Mikołajów_i,2
+Wrocław Mikołajów_o,4
+Wrocław Nadodrze_i,1
+Wrocław Nadodrze_o,19
+Oleśnica Rataje_i,1
+Oleśnica Rataje_o,16
+Twardogóra_i,1
+Twardogóra_o,32
+Ostrów Wielkopolski_i,1
+Ostrów Wielkopolski_o,16
+Kalisz_i,1
+Kalisz_o,31
+Sieradz_i,5
+Sieradz_o,14
+Zduńska Wola_i,1
+Zduńska Wola_o,8
+Łask_i,1
+Łask_o,10
+Pabianice_i,1
+Pabianice_o,15
+Łódź Chojny_i,1
+Łódź Chojny_o,9
+Łódź Widzew_i,3
+Łódź Widzew_o,16
 Koluszki_i,1
 Koluszki_o,22
 Skierniewice_i,1
@@ -10,4 +36,4 @@ Warszawa Zachodnia_o,5
 Warszawa Centralna_i,7
 Warszawa Centralna_o,6
 Warszawa Wschodnia_i,5
-Warszawa Wschodnia_o,1205
+Warszawa Wschodnia_o,828

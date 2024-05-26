@@ -5,11 +5,12 @@ class TrainSimulationRNG(TrainSimulation):
     def __init__(self, trains, n, capacity_file, likelyhood, intensity):
         super().__init__(trains, n, capacity_file)
         # ten pierwiastek z 3 zupełnie na oko wyznaczony do normowania, trzeba dla innej symulacji sprawdzić czy będzie ok
-        self.likelyhood = [likelyhood*(1-i/len(self.trains))*np.sqrt(3) for i in range(len(self.trains))][::-1]
+        self.likelyhood = [likelyhood*(1-i/len(self.trains))*np.sqrt(10) for i in range(len(self.trains))][::-1]
         self.intensity = intensity
         self.edge_random_delay = []
         self.resistant = []
         self.direct_random = [[0] for i in range(len(self.trains))]
+
 
     def reset(self):
         self.positions = [[0] for i in range(len(self.trains))]
@@ -26,10 +27,11 @@ class TrainSimulationRNG(TrainSimulation):
                 if self.edge_random_delay[i][1] == 0:
                     self.capacities[self.edge_random_delay[i][0]] = self.edge_random_delay[i][2]
                     edges_delays[i] = 0
+                    if self.edge_random_delay[i][0] in self.resistant:
+                        self.resistant.remove(self.edge_random_delay[i][0])
                 else:
                     self.edge_random_delay[i][1] -= 1
             self.edge_random_delay = [self.edge_random_delay[i] for i in np.where(edges_delays)[0]]
-
         not_none_occupied = [x for x in self.occupied_edges if x is not None]
         no_occupied = len(not_none_occupied)
         if no_occupied > 0:
@@ -81,13 +83,13 @@ if __name__ == '__main__':
     #Y = pd.read_csv('traces/BG.csv', index_col=False)
     #Z = pd.read_csv('traces/CH.csv', index_col = False)
 
-    cap = pd.read_csv('inputs/capacities_estimated.csv')
+    cap = pd.read_csv('inputs/capacties_estimated.csv')
     #trains = [X,Y,Z]
     trip_ids = pd.read_csv('inputs/generated_trip.csv')
     trains = [pd.read_csv(f'inputs/routes/{trip_ids.iloc[i][0]}.csv') for i in range(len(trip_ids))]
     A = TrainSimulationRNG(trains, n, cap, 0.3, 20)
 
-    N = 10
+    """N = 10
     m = 0
     delay_times = [[] for i in range(N)]
     delay_random = [[] for i in range(N)]
@@ -111,10 +113,10 @@ if __name__ == '__main__':
             delay_random[i][j].extend([lastRNG]*(m-lengthRNG))
         summed_delays[i] = np.sum(np.array(delay_times[i]), axis=0)
         summed_delays_random[i] = np.sum(np.array(delay_random[i]), axis=0)
-    summed_delays = np.array(summed_delays)
+    summed_delays = np.array(summed_delays)"""
 
     
-    #A.simulation()
+    A.simulation()
 
     #B = create_anim(A,pd.read_csv('inputs/stops_io.txt'),pd.read_csv('inputs/id_capacities.csv'))
     #save_anim(B.animate())

@@ -1,4 +1,34 @@
 Station Name,Travel Time
+Kraków Główny_i,5
+Kraków Główny_o,30
+Miechów_i,1
+Miechów_o,16
+Sędziszów_i,1
+Sędziszów_o,13
+Jędrzejów_i,1
+Jędrzejów_o,31
+Kielce_i,4
+Kielce_o,26
+Suchedniów_i,0
+Suchedniów_o,7
+Skarżysko Kamienna_i,4
+Skarżysko Kamienna_o,26
+Radom Główny_i,7
+Radom Główny_o,4
+Radom Gołębiów_i,0
+Radom Gołębiów_o,19
+Warka_i,1
+Warka_o,14
+Piaseczno_i,1
+Piaseczno_o,7
+Warszawa Służewiec_i,1
+Warszawa Służewiec_o,8
+Warszawa Zachodnia (Peron 9)_i,1
+Warszawa Zachodnia (Peron 9)_o,3
+Warszawa Młynów_i,1
+Warszawa Młynów_o,4
+Warszawa Gdańska_i,14
+Warszawa Gdańska_o,12
 Legionowo_i,2
 Legionowo_o,8
 Nowy Dwór Mazowiecki_i,2
@@ -16,4 +46,4 @@ Olsztynek_o,18
 Olsztyn Zachodni_i,2
 Olsztyn Zachodni_o,3
 Olsztyn Główny_i,0
-Olsztyn Główny_o,1211
+Olsztyn Główny_o,745

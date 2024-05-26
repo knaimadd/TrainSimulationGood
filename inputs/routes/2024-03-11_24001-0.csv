@@ -1,3 +1,63 @@
 Station Name,Travel Time
 Lublin Główny_i,0
-Lublin Główny_o,1431
+Lublin Główny_o,28
+Kraśnik_i,1
+Kraśnik_o,31
+Zaklików_i,1
+Zaklików_o,16
+Stalowa Wola Rozwadów_i,1
+Stalowa Wola Rozwadów_o,3
+Stalowa Wola Centrum_i,1
+Stalowa Wola Centrum_o,7
+Nisko_i,1
+Nisko_o,8
+Rudnik nad Sanem_i,1
+Rudnik nad Sanem_o,13
+Nowa Sarzyna_i,1
+Nowa Sarzyna_o,7
+Leżajsk_i,1
+Leżajsk_o,33
+Łańcut_i,3
+Łańcut_o,10
+Rzeszów Główny_i,14
+Rzeszów Główny_o,14
+Sędziszów Małopolski_i,1
+Sędziszów Małopolski_o,5
+Ropczyce_i,1
+Ropczyce_o,8
+Dębica_i,1
+Dębica_o,19
+Tarnów_i,2
+Tarnów_o,14
+Brzesko Okocim_i,1
+Brzesko Okocim_o,8
+Bochnia_i,1
+Bochnia_o,20
+Kraków Płaszów_i,1
+Kraków Płaszów_o,5
+Kraków Główny_i,19
+Kraków Główny_o,18
+Krzeszowice_i,4
+Krzeszowice_o,8
+Trzebinia_i,1
+Trzebinia_o,9
+Jaworzno Szczakowa_i,1
+Jaworzno Szczakowa_o,9
+Mysłowice_i,3
+Mysłowice_o,10
+Katowice_i,5
+Katowice_o,14
+Zabrze_i,1
+Zabrze_o,7
+Gliwice_i,1
+Gliwice_o,24
+Kędzierzyn Koźle_i,20
+Kędzierzyn Koźle_o,16
+Kuźnia Raciborska_i,1
+Kuźnia Raciborska_o,11
+Racibórz_i,1
+Racibórz_o,13
+Chałupki_i,1
+Chałupki_o,6
+Bohumín_i,0
+Bohumín_o,1431

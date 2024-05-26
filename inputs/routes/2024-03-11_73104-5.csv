@@ -1,4 +1,28 @@
 Station Name,Travel Time
+Zielona Góra Główna_i,0
+Zielona Góra Główna_o,14
+Nowa Sól_i,1
+Nowa Sól_o,7
+Bytom Odrzański_i,1
+Bytom Odrzański_o,15
+Głogów_i,2
+Głogów_o,28
+Lubin_i,2
+Lubin_o,15
+Legnica_i,2
+Legnica_o,40
+Wrocław Główny_i,14
+Wrocław Główny_o,22
+Oława_i,1
+Oława_o,9
+Brzeg_i,1
+Brzeg_o,22
+Opole Główne_i,2
+Opole Główne_o,33
+Lubliniec_i,1
+Lubliniec_o,21
+Częstochowa Stradom_i,2
+Częstochowa Stradom_o,63
 Miechów_i,1
 Miechów_o,30
 Kraków Główny_i,15
@@ -14,4 +38,20 @@ Tarnów_o,19
 Dębica_i,1
 Dębica_o,8
 Ropczyce_i,1
-Ropczyce_o,1243
+Ropczyce_o,6
+Sędziszów Małopolski_i,1
+Sędziszów Małopolski_o,15
+Rzeszów Główny_i,3
+Rzeszów Główny_o,11
+Łańcut_i,1
+Łańcut_o,13
+Przeworsk_i,1
+Przeworsk_o,10
+Jarosław_i,1
+Jarosław_o,9
+Radymno_i,1
+Radymno_o,13
+Przemyśl Zasanie_i,1
+Przemyśl Zasanie_o,3
+Przemyśl Główny_i,5
+Przemyśl Główny_o,722

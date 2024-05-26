@@ -1,4 +1,42 @@
 Station Name,Travel Time
+Kraków Główny_i,11
+Kraków Główny_o,18
+Krzeszowice_i,1
+Krzeszowice_o,9
+Trzebinia_i,2
+Trzebinia_o,10
+Jaworzno Szczakowa_i,1
+Jaworzno Szczakowa_o,9
+Mysłowice_i,3
+Mysłowice_o,10
+Katowice_i,4
+Katowice_o,13
+Zabrze_i,1
+Zabrze_o,6
+Gliwice_i,1
+Gliwice_o,27
+Kędzierzyn Koźle_i,2
+Kędzierzyn Koźle_o,24
+Głogówek_i,1
+Głogówek_o,22
+Prudnik_i,1
+Prudnik_o,30
+Nysa_i,1
+Nysa_o,21
+Otmuchów_i,1
+Otmuchów_o,11
+Paczków_i,1
+Paczków_o,12
+Kamieniec Ząbkowicki_i,1
+Kamieniec Ząbkowicki_o,10
+Bardo Śląskie_i,1
+Bardo Śląskie_o,8
+Kłodzko Główne_i,1
+Kłodzko Główne_o,2
+Kłodzko Miasto_i,8
+Kłodzko Miasto_o,3
+Kłodzko Główne_i,4
+Kłodzko Główne_o,20
 Nowa Ruda_i,1
 Nowa Ruda_o,30
 Jedlina-Zdrój_i,1
@@ -10,4 +48,4 @@ Sędzisław_o,15
 Janowice Wielkie_i,1
 Janowice Wielkie_o,15
 Jelenia Góra_i,0
-Jelenia Góra_o,1212
+Jelenia Góra_o,654

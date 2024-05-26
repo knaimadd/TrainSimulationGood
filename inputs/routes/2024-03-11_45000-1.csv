@@ -1,3 +1,39 @@
 Station Name,Travel Time
+Bohumín_i,0
+Bohumín_o,6
+Chałupki_i,1
+Chałupki_o,17
+Wodzisław Śląski_i,1
+Wodzisław Śląski_o,13
+Rybnik_i,1
+Rybnik_o,29
+Tychy_i,1
+Tychy_o,14
+Katowice_i,9
+Katowice_o,9
+Sosnowiec Główny_i,2
+Sosnowiec Główny_o,10
+Dąbrowa Górnicza_i,2
+Dąbrowa Górnicza_o,16
+Zawiercie_i,4
+Zawiercie_o,117
 Warszawa Gdańska_i,17
-Warszawa Gdańska_o,1342
+Warszawa Gdańska_o,70
+Działdowo_i,1
+Działdowo_o,31
+Iława Główna_i,1
+Iława Główna_o,33
+Malbork_i,1
+Malbork_o,11
+Tczew_i,1
+Tczew_o,15
+Gdańsk Główny_i,3
+Gdańsk Główny_o,4
+Gdańsk Wrzeszcz_i,2
+Gdańsk Wrzeszcz_o,3
+Gdańsk Oliwa_i,1
+Gdańsk Oliwa_o,3
+Sopot_i,2
+Sopot_o,8
+Gdynia Główna_i,5
+Gdynia Główna_o,927

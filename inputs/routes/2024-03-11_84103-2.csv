@@ -1,4 +1,16 @@
 Station Name,Travel Time
+Ustka_i,21
+Ustka_o,14
+Słupsk_i,3
+Słupsk_o,26
+Sławno_i,2
+Sławno_o,24
+Koszalin_i,7
+Koszalin_o,15
+Białogard_i,1
+Białogard_o,56
+Szczecinek_i,9
+Szczecinek_o,36
 Jastrowie_i,1
 Jastrowie_o,29
 Piła Główna_i,7
@@ -10,4 +22,40 @@ Rogoźno Wielkopolskie_o,13
 Oborniki Wielkopolskie Miasto_i,1
 Oborniki Wielkopolskie Miasto_o,24
 Poznań Główny_i,22
-Poznań Główny_o,1233
+Poznań Główny_o,25
+Kościan_i,1
+Kościan_o,15
+Leszno_i,1
+Leszno_o,18
+Rawicz_i,1
+Rawicz_o,10
+Żmigród_i,1
+Żmigród_o,13
+Oborniki Śląskie_i,1
+Oborniki Śląskie_o,13
+Wrocław Mikołajów_i,1
+Wrocław Mikołajów_o,5
+Wrocław Główny_i,11
+Wrocław Główny_o,20
+Oława_i,1
+Oława_o,9
+Brzeg_i,1
+Brzeg_o,23
+Opole Główne_i,2
+Opole Główne_o,12
+Gogolin_i,1
+Gogolin_o,8
+Zdzieszowice_i,1
+Zdzieszowice_o,8
+Kędzierzyn Koźle_i,2
+Kędzierzyn Koźle_o,16
+Kuźnia Raciborska_i,1
+Kuźnia Raciborska_o,23
+Rybnik_i,1
+Rybnik_o,10
+Żory_i,1
+Żory_o,32
+Czechowice-Dziedzice_i,5
+Czechowice-Dziedzice_o,12
+Bielsko-Biała Główna_i,0
+Bielsko-Biała Główna_o,859

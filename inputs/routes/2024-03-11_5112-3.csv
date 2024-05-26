@@ -1,0 +1,35 @@
+Station Name,Travel Time
+Gdynia Główna_i,7
+Gdynia Główna_o,8
+Sopot_i,2
+Sopot_o,3
+Gdańsk Oliwa_i,1
+Gdańsk Oliwa_o,3
+Gdańsk Wrzeszcz_i,2
+Gdańsk Wrzeszcz_o,4
+Gdańsk Główny_i,3
+Gdańsk Główny_o,15
+Tczew_i,1
+Tczew_o,11
+Malbork_i,2
+Malbork_o,19
+Prabuty_i,1
+Prabuty_o,16
+Iława Główna_i,3
+Iława Główna_o,30
+Działdowo_i,2
+Działdowo_o,9
+Mława_i,2
+Mława_o,15
+Ciechanów_i,2
+Ciechanów_o,30
+Nowy Dwór Mazowiecki_i,3
+Nowy Dwór Mazowiecki_o,7
+Legionowo_i,1
+Legionowo_o,12
+Warszawa Wschodnia_i,3
+Warszawa Wschodnia_o,6
+Warszawa Centralna_i,4
+Warszawa Centralna_o,4
+Warszawa Zachodnia_i,6
+Warszawa Zachodnia_o,738

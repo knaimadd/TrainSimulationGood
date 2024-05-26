@@ -1,4 +1,50 @@
 Station Name,Travel Time
+Katowice_i,0
+Katowice_o,6
+Chorzów Batory_i,1
+Chorzów Batory_o,9
+Zabrze_i,1
+Zabrze_o,6
+Gliwice_i,2
+Gliwice_o,10
+Pyskowice_i,1
+Pyskowice_o,16
+Strzelce Opolskie_i,1
+Strzelce Opolskie_o,21
+Opole Główne_i,4
+Opole Główne_o,22
+Brzeg_i,1
+Brzeg_o,9
+Oława_i,2
+Oława_o,21
+Wrocław Główny_i,12
+Wrocław Główny_o,5
+Wrocław Mikołajów_i,1
+Wrocław Mikołajów_o,13
+Oborniki Śląskie_i,1
+Oborniki Śląskie_o,12
+Żmigród_i,1
+Żmigród_o,10
+Rawicz_i,1
+Rawicz_o,18
+Leszno_i,1
+Leszno_o,15
+Kościan_i,1
+Kościan_o,26
+Poznań Główny_i,19
+Poznań Główny_o,27
+Oborniki Wielkopolskie Miasto_i,1
+Oborniki Wielkopolskie Miasto_o,15
+Rogoźno Wielkopolskie_i,1
+Rogoźno Wielkopolskie_o,16
+Chodzież_i,1
+Chodzież_o,16
+Piła Główna_i,1
+Piła Główna_o,24
+Jastrowie_i,1
+Jastrowie_o,28
+Szczecinek_i,1
+Szczecinek_o,59
 Białogard_i,1
 Białogard_o,16
 Koszalin_i,2
@@ -6,4 +52,4 @@ Koszalin_o,23
 Sławno_i,1
 Sławno_o,17
 Słupsk_i,0
-Słupsk_o,1251
+Słupsk_o,504

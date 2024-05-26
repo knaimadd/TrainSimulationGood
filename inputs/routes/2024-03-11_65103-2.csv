@@ -1,4 +1,26 @@
 Station Name,Travel Time
+Wrocław Główny_i,0
+Wrocław Główny_o,5
+Wrocław Mikołajów_i,1
+Wrocław Mikołajów_o,13
+Oborniki Śląskie_i,1
+Oborniki Śląskie_o,12
+Żmigród_i,1
+Żmigród_o,10
+Rawicz_i,1
+Rawicz_o,18
+Leszno_i,1
+Leszno_o,15
+Kościan_i,2
+Kościan_o,25
+Poznań Główny_i,22
+Poznań Główny_o,30
+Gniezno_i,1
+Gniezno_o,17
+Mogilno_i,2
+Mogilno_o,16
+Inowrocław_i,1
+Inowrocław_o,22
 Toruń Główny_i,2
 Toruń Główny_o,3
 Toruń Miasto_i,1
@@ -18,4 +40,4 @@ Ostróda_o,28
 Olsztyn Zachodni_i,2
 Olsztyn Zachodni_o,5
 Olsztyn Główny_i,0
-Olsztyn Główny_o,1213
+Olsztyn Główny_o,833

@@ -1,4 +1,24 @@
 Station Name,Travel Time
+Krynica Zdrój_i,0
+Krynica Zdrój_o,10
+Muszyna Zdrój_i,1
+Muszyna Zdrój_o,2
+Muszyna_i,19
+Muszyna_o,13
+Żegiestów Zdrój_i,1
+Żegiestów Zdrój_o,10
+Wierchomla Wielka_i,1
+Wierchomla Wielka_o,4
+Łomnica Zdrój_i,1
+Łomnica Zdrój_o,4
+Piwniczna Zdrój_i,1
+Piwniczna Zdrój_o,7
+Rytro_i,1
+Rytro_o,8
+Stary Sącz_i,1
+Stary Sącz_o,7
+Nowy Sącz_i,1
+Nowy Sącz_o,28
 Grybów_i,1
 Grybów_o,4
 Stróże_i,1
@@ -12,4 +32,4 @@ Tuchów_o,19
 Tarnów_i,2
 Tarnów_o,63
 Kraków Główny_i,0
-Kraków Główny_o,1228
+Kraków Główny_o,1024

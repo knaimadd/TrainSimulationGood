@@ -384,10 +384,10 @@ if __name__ == '__main__':
     trip_ids = pd.read_csv('inputs/generated_trip.csv')
     trains = [pd.read_csv(f'inputs/routes/{trip_ids.iloc[i][0]}.csv') for i in range(len(trip_ids))]
     n=1
-    A = TrainSimulation(trains,n, pd.read_csv('inputs/capacities_estimated.csv'))
+    A = TrainSimulation(trains,n, pd.read_csv('inputs/capacities.csv'))
     A.simulation()
 
-    print(A.count_edge)
-    B = create_anim(A,pd.concat([pd.read_csv('inputs/stops.txt'), pd.read_csv('inputs/stops_io.txt')]),pd.read_csv('inputs/id_capacities.csv'))
-    save_anim(B.animate(), fps=30)
+    #print(A.count_edge)
+    #B = create_anim(A,pd.concat([pd.read_csv('inputs/stops.txt'), pd.read_csv('inputs/stops_io.txt')]),pd.read_csv('inputs/id_capacities.csv'))
+    #save_anim(B.animate(), fps=30)
 

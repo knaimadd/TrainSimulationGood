@@ -62,7 +62,6 @@ if __name__ == '__main__':
     vals = list(A.max_capacity_counter.values())
     cap = DataFrame({'Edge': edges, 'Capacity': vals})
     cap.to_csv('inputs/capacties_estimated.csv')
-    print(A.count_edge)
 
     
     edges2 = keys_to_ids(edges, stops)

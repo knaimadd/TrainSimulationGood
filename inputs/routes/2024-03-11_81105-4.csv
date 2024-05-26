@@ -1,4 +1,12 @@
 Station Name,Travel Time
+Szczecin Główny_i,39
+Szczecin Główny_o,15
+Szczecin Dąbie_i,1
+Szczecin Dąbie_o,22
+Stargard_i,1
+Stargard_o,18
+Chociwel_i,1
+Chociwel_o,11
 Runowo Pomorskie_i,1
 Runowo Pomorskie_o,9
 Łobez_i,1
@@ -14,4 +22,52 @@ Sławno_o,17
 Słupsk_i,1
 Słupsk_o,48
 Lębork_i,1
-Lębork_o,1210
+Lębork_o,21
+Wejherowo_i,2
+Wejherowo_o,8
+Rumia_i,1
+Rumia_o,9
+Gdynia Główna_i,3
+Gdynia Główna_o,8
+Sopot_i,2
+Sopot_o,3
+Gdańsk Oliwa_i,1
+Gdańsk Oliwa_o,3
+Gdańsk Wrzeszcz_i,1
+Gdańsk Wrzeszcz_o,4
+Gdańsk Główny_i,3
+Gdańsk Główny_o,18
+Tczew_i,1
+Tczew_o,13
+Malbork_i,5
+Malbork_o,20
+Elbląg_i,7
+Elbląg_o,18
+Pasłęk_i,9
+Pasłęk_o,23
+Morąg_i,1
+Morąg_o,36
+Olsztyn Zachodni_i,1
+Olsztyn Zachodni_o,3
+Olsztyn Główny_i,26
+Olsztyn Główny_o,34
+Szczytno_i,2
+Szczytno_o,28
+Ruciane Nida_i,2
+Ruciane Nida_o,12
+Pisz_i,2
+Pisz_o,14
+Biała Piska_i,2
+Biała Piska_o,36
+Ełk_i,25
+Ełk_o,18
+Grajewo_i,1
+Grajewo_o,17
+Osowiec_i,1
+Osowiec_o,11
+Mońki_i,1
+Mońki_o,29
+Białystok Zielone Wzgórza_i,1
+Białystok Zielone Wzgórza_o,4
+Białystok_i,0
+Białystok_o,1022

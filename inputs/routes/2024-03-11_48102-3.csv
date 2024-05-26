@@ -1,4 +1,32 @@
 Station Name,Travel Time
+Bielsko-Biała Główna_i,0
+Bielsko-Biała Główna_o,10
+Czechowice-Dziedzice_i,1
+Czechowice-Dziedzice_o,32
+Żory_i,1
+Żory_o,11
+Rybnik_i,3
+Rybnik_o,21
+Kuźnia Raciborska_i,2
+Kuźnia Raciborska_o,16
+Kędzierzyn Koźle_i,2
+Kędzierzyn Koźle_o,8
+Zdzieszowice_i,1
+Zdzieszowice_o,7
+Gogolin_i,1
+Gogolin_o,12
+Opole Główne_i,3
+Opole Główne_o,22
+Brzeg_i,1
+Brzeg_o,9
+Oława_i,1
+Oława_o,21
+Wrocław Główny_i,14
+Wrocław Główny_o,5
+Wrocław Mikołajów_i,1
+Wrocław Mikołajów_o,13
+Oborniki Śląskie_i,2
+Oborniki Śląskie_o,12
 Żmigród_i,2
 Żmigród_o,10
 Rawicz_i,2
@@ -16,4 +44,18 @@ Rogoźno Wielkopolskie_o,16
 Chodzież_i,1
 Chodzież_o,16
 Piła Główna_i,2
-Piła Główna_o,1204
+Piła Główna_o,27
+Jastrowie_i,1
+Jastrowie_o,29
+Szczecinek_i,1
+Szczecinek_o,57
+Białogard_i,15
+Białogard_o,16
+Koszalin_i,1
+Koszalin_o,23
+Sławno_i,1
+Sławno_o,17
+Słupsk_i,4
+Słupsk_o,13
+Ustka_i,23
+Ustka_o,807

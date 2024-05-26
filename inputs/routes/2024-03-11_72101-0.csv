@@ -1,4 +1,48 @@
 Station Name,Travel Time
+Zielona Góra Główna_i,0
+Zielona Góra Główna_o,17
+Sulechów_i,1
+Sulechów_o,10
+Babimost_i,1
+Babimost_o,7
+Zbąszynek_i,19
+Zbąszynek_o,7
+Zbąszyń_i,1
+Zbąszyń_o,9
+Nowy Tomyśl_i,1
+Nowy Tomyśl_o,11
+Opalenica_i,2
+Opalenica_o,24
+Poznań Główny_i,22
+Poznań Główny_o,11
+Swarzędz_i,1
+Swarzędz_o,19
+Września_i,1
+Września_o,12
+Słupca_i,1
+Słupca_o,14
+Konin_i,2
+Konin_o,15
+Koło_i,1
+Koło_o,22
+Kutno_i,1
+Kutno_o,20
+Łowicz Główny_i,1
+Łowicz Główny_o,14
+Sochaczew_i,1
+Sochaczew_o,30
+Warszawa Zachodnia_i,4
+Warszawa Zachodnia_o,5
+Warszawa Centralna_i,12
+Warszawa Centralna_o,6
+Warszawa Wschodnia_i,3
+Warszawa Wschodnia_o,19
+Otwock_i,1
+Otwock_o,13
+Pilawa_i,1
+Pilawa_o,21
+Dęblin_i,1
+Dęblin_o,11
 Puławy Miasto_i,1
 Puławy Miasto_o,11
 Nałęczów_i,1
@@ -6,4 +50,4 @@ Nałęczów_o,12
 Lublin Zachodni_i,1
 Lublin Zachodni_o,4
 Lublin Główny_i,0
-Lublin Główny_o,1206
+Lublin Główny_o,520

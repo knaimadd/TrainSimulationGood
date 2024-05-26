@@ -1,4 +1,36 @@
 Station Name,Travel Time
+Gdynia Główna_i,5
+Gdynia Główna_o,9
+Sopot_i,2
+Sopot_o,4
+Gdańsk Oliwa_i,1
+Gdańsk Oliwa_o,4
+Gdańsk Wrzeszcz_i,1
+Gdańsk Wrzeszcz_o,5
+Gdańsk Główny_i,3
+Gdańsk Główny_o,25
+Tczew_i,19
+Tczew_o,21
+Starogard Gdański_i,1
+Starogard Gdański_o,19
+Kaliska_i,1
+Kaliska_o,8
+Czarna Woda_i,1
+Czarna Woda_o,4
+Łąg_i,1
+Łąg_o,7
+Czersk_i,1
+Czersk_o,24
+Chojnice_i,1
+Chojnice_o,23
+Lipka Krajeńska_i,1
+Lipka Krajeńska_o,16
+Złotów_i,1
+Złotów_o,7
+Krajenka_i,1
+Krajenka_o,18
+Piła Główna_i,1
+Piła Główna_o,21
 Trzcianka_i,1
 Trzcianka_o,18
 Wieleń_i,1
@@ -16,4 +48,4 @@ Gorzów Wielkopolski_o,19
 Witnica_i,1
 Witnica_o,17
 Kostrzyn_i,0
-Kostrzyn_o,1211
+Kostrzyn_o,753

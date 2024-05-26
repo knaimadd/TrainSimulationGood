@@ -1,7 +1,37 @@
 Station Name,Travel Time
+Słupsk_i,0
+Słupsk_o,17
+Sławno_i,1
+Sławno_o,40
+Koszalin_i,1
+Koszalin_o,16
+Białogard_i,1
+Białogard_o,55
+Szczecinek_i,1
+Szczecinek_o,28
+Jastrowie_i,1
+Jastrowie_o,28
+Piła Główna_i,1
+Piła Główna_o,15
+Chodzież_i,1
+Chodzież_o,17
+Rogoźno Wielkopolskie_i,1
+Rogoźno Wielkopolskie_o,10
+Oborniki Wielkopolskie Miasto_i,1
+Oborniki Wielkopolskie Miasto_o,26
+Poznań Główny_i,15
+Poznań Główny_o,25
+Kościan_i,1
+Kościan_o,16
+Leszno_i,1
+Leszno_o,18
+Rawicz_i,1
+Rawicz_o,10
+Żmigród_i,1
+Żmigród_o,12
 Oborniki Śląskie_i,1
 Oborniki Śląskie_o,13
 Wrocław Mikołajów_i,1
 Wrocław Mikołajów_o,5
 Wrocław Główny_i,0
-Wrocław Główny_o,1206
+Wrocław Główny_o,603
